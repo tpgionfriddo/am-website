@@ -1,13 +1,13 @@
 {
 	"title": "Ballarat Regional Animal Facility",
 	"featured_image": {
-		"src": "/src/assets/media/2025/05/BRAF_Website02B.png",
+		"src": "/src/assets/media/ballarat-regional-animal-facility/2025/05/BRAF_Website02B.png",
 		"alt": "",
 		"width": 1440,
 		"height": 708
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2025/10/BRAF_Website01TN.png",
+		"src": "/src/assets/media/ballarat-regional-animal-facility/2025/10/BRAF_Website01TN.png",
 		"alt": "",
 		"width": 806,
 		"height": 517
@@ -59,7 +59,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2025/05/BRAF_Website01.png",
+					"src": "/src/assets/media/ballarat-regional-animal-facility/2025/05/BRAF_Website01.png",
 					"alt": "",
 					"width": 1320,
 					"height": 743
@@ -70,7 +70,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2025/06/BRAF_Website06.png",
+					"src": "/src/assets/media/ballarat-regional-animal-facility/2025/06/BRAF_Website06.png",
 					"alt": "",
 					"width": 1013,
 					"height": 570
@@ -81,7 +81,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2025/06/BRAF_Website07.png",
+					"src": "/src/assets/media/ballarat-regional-animal-facility/2025/06/BRAF_Website07.png",
 					"alt": "",
 					"width": 1564,
 					"height": 880
@@ -92,7 +92,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2025/06/BRAF_Website05C.png",
+					"src": "/src/assets/media/ballarat-regional-animal-facility/2025/06/BRAF_Website05C.png",
 					"alt": "",
 					"width": 1138,
 					"height": 640
@@ -103,7 +103,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2025/06/BRAF_Website04C.png",
+					"src": "/src/assets/media/ballarat-regional-animal-facility/2025/06/BRAF_Website04C.png",
 					"alt": "",
 					"width": 1138,
 					"height": 640
@@ -114,7 +114,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2025/06/BRAF_Website03C.png",
+					"src": "/src/assets/media/ballarat-regional-animal-facility/2025/06/BRAF_Website03C.png",
 					"alt": "",
 					"width": 1138,
 					"height": 640

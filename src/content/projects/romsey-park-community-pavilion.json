@@ -1,13 +1,13 @@
 {
 	"title": "Romsey Park Community Pavilion",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/romsey-park.jpg",
+		"src": "/src/assets/media/romsey-park-community-pavilion/2022/11/romsey-park.jpg",
 		"alt": "",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/MG_9936-18-1.png",
+		"src": "/src/assets/media/romsey-park-community-pavilion/2022/11/MG_9936-18-1.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -56,14 +56,14 @@
 						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
 					}
 				],
-				"text": "The pulsing heart of any small community is its social sporting hub so getting it right matters. To Melbourne’s northwest in the Macedon Ranges, the Romsey community had been making do with ageing facilities that were no longer fit-for-purpose. Macedon Ranges Shire Council engaged us to design and deliver the Romsey Sports and Community Pavilion — a structure suitable for hosting a range of sporting codes that would give local sport a new lease on life.\n\nThe project was required to address the diverse needs and aspirations of Romsey’s senior and junior Australian rules football, cricket, tennis and little athletics clubs."
+				"text": "{% regular %}The pulsing heart of any small community is its social sporting hub so getting it right matters. To Melbourne’s northwest in the Macedon Ranges, the Romsey community had been making do with ageing facilities that were no longer fit-for-purpose. Macedon Ranges Shire Council engaged us to design and deliver the Romsey Sports and Community Pavilion — a structure suitable for hosting a range of sporting codes that would give local sport a new lease on life.{% /regular %}\n\n{% regular %}The project was required to address the diverse needs and aspirations of Romsey’s senior and junior Australian rules football, cricket, tennis and little athletics clubs.{% /regular %}"
 			}
 		},
 		{
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1-5.jpg",
+					"src": "/src/assets/media/romsey-park-community-pavilion/2022/11/69A9470-1-5.jpg",
 					"alt": "Romsey Park’s football field with children playing",
 					"width": 1320,
 					"height": 879
@@ -80,7 +80,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1-5.jpg",
+					"src": "/src/assets/media/romsey-park-community-pavilion/2022/11/69A9574-1-5.jpg",
 					"alt": "Romsey Park’s glass doors",
 					"width": 853,
 					"height": 569
@@ -91,9 +91,9 @@
 		{
 			"discriminant": "text_image",
 			"value": {
-				"text": "The pavilion combines highly adaptable change rooms suitable for male, female, children and adult players, a large social space and a covered external area for viewing the action on the field.",
+				"text": "{% regular %}The pavilion combines highly adaptable change rooms suitable for male, female, children and adult players, a large social space and a covered external area for viewing the action on the field.{% /regular %}",
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9660-1-5.jpg",
+					"src": "/src/assets/media/romsey-park-community-pavilion/2022/11/69A9660-1-5.jpg",
 					"alt": "Romsey Park Community Pavilion’s rubber floor interior",
 					"width": 620,
 					"height": 744
@@ -105,7 +105,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-5.jpg",
+					"src": "/src/assets/media/romsey-park-community-pavilion/2022/11/69A9645-1-5.jpg",
 					"alt": "Student’s posing in front of the Romsey Park Community Pavilion entrance",
 					"width": 1320,
 					"height": 880
@@ -116,7 +116,7 @@
 			"discriminant": "text_columns",
 			"value": {
 				"left": "",
-				"right": "Our simple building form, durable yet efficient detailing and comprehensive documentation resulted in a below-budget construction tender, enabling the social space to be increased in scale. This was considered a real win by the various user groups."
+				"right": "{% regular %}Our simple building form, durable yet efficient detailing and comprehensive documentation resulted in a below-budget construction tender, enabling the social space to be increased in scale. This was considered a real win by the various user groups.{% /regular %}"
 			}
 		},
 		{
@@ -125,7 +125,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9325-1-1.png",
+							"src": "/src/assets/media/romsey-park-community-pavilion/2022/11/69A9325-1-1.png",
 							"alt": "Romsey Park Community Pavilion’s facade side view",
 							"width": 962,
 							"height": 641
@@ -133,7 +133,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-12.jpg",
+							"src": "/src/assets/media/romsey-park-community-pavilion/2022/11/69A9496-12.jpg",
 							"alt": "Romsey Park Community Pavilion’s facade",
 							"width": 962,
 							"height": 641
@@ -141,7 +141,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-13.jpg",
+							"src": "/src/assets/media/romsey-park-community-pavilion/2022/11/69A9496-13.jpg",
 							"alt": "Romsey Park’s football field with a view of the pavilion’s entrance",
 							"width": 962,
 							"height": 641
@@ -149,7 +149,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-14.jpg",
+							"src": "/src/assets/media/romsey-park-community-pavilion/2022/11/69A9496-14.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -157,7 +157,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-15.jpg",
+							"src": "/src/assets/media/romsey-park-community-pavilion/2022/11/69A9496-15.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641

@@ -1,7 +1,7 @@
 {
 	"title": "Our Services",
 	"featured_image": {
-		"src": "/src/assets/media/2023/01/Our-Services-banner.png",
+		"src": "/src/assets/media/architectural-services/2023/01/Our-Services-banner.png",
 		"alt": "",
 		"width": 1440,
 		"height": 602
@@ -16,7 +16,7 @@
 			"discriminant": "text_columns",
 			"value": {
 				"left": "### At Architecture Matters, we design buildings that matter for people who matter.",
-				"right": "At Architecture Matters, our skilled team of architects and senior consultants offer a wide range of services across the design spectrum. We take a creatively pragmatic approach to every project, working closely with clients and stakeholders to find opportunities to deliver meaningful benefits beyond the brief."
+				"right": "{% regular %}At Architecture Matters, our skilled team of architects and senior consultants offer a wide range of services across the design spectrum. We take a creatively pragmatic approach to every project, working closely with clients and stakeholders to find opportunities to deliver meaningful benefits beyond the brief.{% /regular %}"
 			}
 		},
 		{
@@ -26,9 +26,9 @@
 				"items": [
 					{
 						"title": "Feasibility",
-						"text": "An effective feasibility study can be the first step in creating lasting organisational change. As architects, we assess what outcomes may be possible within a given budget, timeframe and context. This process forms a realistic vision for new builds, reimagining existing spaces to better suit changing regulations and requirements.\n\nWe have worked with local governments on the feasibility of various municipal projects, outlining the most effective built formats for childcare, aged care, kindergartens and maternal and child health services. In the education sector, our feasibility work has formed the basis of successful funding applications and grants which have secured improved futures for school communities.",
+						"text": "{% regular %}An effective feasibility study can be the first step in creating lasting organisational change. As architects, we assess what outcomes may be possible within a given budget, timeframe and context. This process forms a realistic vision for new builds, reimagining existing spaces to better suit changing regulations and requirements.{% /regular %}\n\n{% regular %}We have worked with local governments on the feasibility of various municipal projects, outlining the most effective built formats for childcare, aged care, kindergartens and maternal and child health services. In the education sector, our feasibility work has formed the basis of successful funding applications and grants which have secured improved futures for school communities.{% /regular %}",
 						"image": {
-							"src": "/src/assets/media/2023/01/69A2478.jpg",
+							"src": "/src/assets/media/architectural-services/2023/01/69A2478.jpg",
 							"alt": "",
 							"width": 800,
 							"height": 533
@@ -36,9 +36,9 @@
 					},
 					{
 						"title": "Masterplanning",
-						"text": "Whether updating an existing precinct or establishing an entirely new one, a sound master plan provides a coordinated way forward. This roadmap becomes an essential reference for all involved, maintaining architectural integrity and cohesion beyond our involvement, on complex projects which may change hands and take years to complete.\n\nTaking a measured approach, we divide large-scale works into defined phases, outlining the necessary framework to realise ambitious visions at a manageable pace for all stakeholders. This adaptive process allows for shifting needs, improving connections to existing buildings, introducing order to largely unplanned developments, and recasting outdated facilities for contemporary use. Being entrusted with developing a client’s long term strategic direction is a deeply fulfilling aspect of our work.",
+						"text": "{% regular %}Whether updating an existing precinct or establishing an entirely new one, a sound master plan provides a coordinated way forward. This roadmap becomes an essential reference for all involved, maintaining architectural integrity and cohesion beyond our involvement, on complex projects which may change hands and take years to complete.{% /regular %}\n\n{% regular %}Taking a measured approach, we divide large-scale works into defined phases, outlining the necessary framework to realise ambitious visions at a manageable pace for all stakeholders. This adaptive process allows for shifting needs, improving connections to existing buildings, introducing order to largely unplanned developments, and recasting outdated facilities for contemporary use. Being entrusted with developing a client’s long term strategic direction is a deeply fulfilling aspect of our work.{% /regular %}",
 						"image": {
-							"src": "/src/assets/media/2023/01/MG_9483.jpg",
+							"src": "/src/assets/media/architectural-services/2023/01/MG_9483.jpg",
 							"alt": "Stonnington Animal Pound surrounded by bushes",
 							"width": 800,
 							"height": 533
@@ -46,9 +46,9 @@
 					},
 					{
 						"title": "Architecture and Interior Design",
-						"text": "Our practice is driven to solve problems and improve lives through good architecture. To do this, we provide a complete and communicative design service, from original concepts through to detailed documentation, project management and delivery. Where possible, we work with clients and stakeholders to further evolve initial briefs, to maximise civic benefit for all end users.\n\nDrawing on broad experience in getting buildings built, our portfolio is a diverse and enduring list of works across residential, commercial, municipal and educational sectors. Our designers take an integrated approach to built form and interiors, ensuring a consistent experience throughout every project.",
+						"text": "{% regular %}Our practice is driven to solve problems and improve lives through good architecture. To do this, we provide a complete and communicative design service, from original concepts through to detailed documentation, project management and delivery. Where possible, we work with clients and stakeholders to further evolve initial briefs, to maximise civic benefit for all end users.{% /regular %}\n\n{% regular %}Drawing on broad experience in getting buildings built, our portfolio is a diverse and enduring list of works across residential, commercial, municipal and educational sectors. Our designers take an integrated approach to built form and interiors, ensuring a consistent experience throughout every project.{% /regular %}",
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9645-1-17-e1673498535237.jpg",
+							"src": "/src/assets/media/architectural-services/2022/11/69A9645-1-17-e1673498535237.jpg",
 							"alt": "",
 							"width": 854,
 							"height": 569

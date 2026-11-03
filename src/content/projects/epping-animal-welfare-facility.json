@@ -1,13 +1,13 @@
 {
 	"title": "Epping Animal Welfare Facility",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/69A9252.jpg",
+		"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9252.jpg",
 		"alt": "",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2023/01/MG_9936-3.png",
+		"src": "/src/assets/media/epping-animal-welfare-facility/2023/01/MG_9936-3.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -64,13 +64,13 @@
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483.jpg",
+					"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9483.jpg",
 					"alt": "Epping Animal Welfare Facility outside view",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-.jpg",
+					"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9318-.jpg",
 					"alt": "",
 					"width": 620,
 					"height": 821
@@ -81,7 +81,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470.jpg",
+					"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9470.jpg",
 					"alt": "Epping Animal Welfare Facility dog accommodation area",
 					"width": 1320,
 					"height": 879
@@ -99,7 +99,7 @@
 			"value": {
 				"text": "On-site vet rooms and housing for dangerous dogs are also integrated throughout the facility. We adopted a flexible, modular-ready design approach that is easily adaptable for potential future expansion. In fact the scope of works was extended just prior to the commencement of construction.\n\nThe building seeks to present the animals housed within a secure but friendly environment to better facilitate their identification and return or potential rehoming. Sophisticated ‘cat condominiums’ and fully sealed dog pens provide healthy and humane accommodation.\n\nCouncil vehicles used for animal collection are securely managed via a large covered yard, including vehicle wash out and staff amenities. The resulting facility is self-reliant and comprehensive, the successful realisation of a complex specialised project brief and program by Architecture Matters.",
 				"image": {
-					"src": "/src/assets/media/2022/11/69A96601.jpg",
+					"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A96601.jpg",
 					"alt": "Epping Animal Welfare Facility housing for dangerous dogs",
 					"width": 620,
 					"height": 744
@@ -111,7 +111,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645.jpg",
+					"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9645.jpg",
 					"alt": "Epping Animal Welfare Facility cat accommodation area",
 					"width": 1320,
 					"height": 880
@@ -124,7 +124,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-58.png",
+							"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9496-58.png",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -132,7 +132,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-5.png",
+							"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9496-5.png",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -140,7 +140,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-60.jpg",
+							"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9496-60.jpg",
 							"alt": "Epping Animal Welfare Facility reception area",
 							"width": 962,
 							"height": 641
@@ -148,7 +148,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-61.jpg",
+							"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9496-61.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -156,7 +156,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-62.jpg",
+							"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9496-62.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -164,7 +164,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-68.jpg",
+							"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9496-68.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -172,7 +172,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-63.jpg",
+							"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9496-63.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -180,7 +180,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-64.jpg",
+							"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9496-64.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -188,7 +188,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-66.jpg",
+							"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9496-66.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -196,7 +196,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-65.jpg",
+							"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9496-65.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -204,7 +204,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-67.jpg",
+							"src": "/src/assets/media/epping-animal-welfare-facility/2022/11/69A9496-67.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641

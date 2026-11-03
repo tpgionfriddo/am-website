@@ -2,7 +2,7 @@
 	"title": "Hill Residence | 200 Houses 2013",
 	"date": "2013-01-19T02:46:08",
 	"featured_image": {
-		"src": "/src/assets/media/2013/01/MH01_all-pics-006-e1671418439562.jpg",
+		"src": "/src/assets/media/hill-residence-200-houses/2013/01/MH01_all-pics-006-e1671418439562.jpg",
 		"alt": "hill residence, a view of the lawn area through the glass walls",
 		"width": 1024,
 		"height": 666
@@ -16,6 +16,6 @@
 		"title": "Hill Residence | 200 Houses 2013",
 		"description": "On a steep slope, this two-storey house at Blairgowrie provides generous ocean views, making Hill Residence an exemplary seaside house in Victoria."
 	},
-	"status": "draft",
-	"content": "This beach house peers over the dunes. A thin strip of publicly owned foreshore separates the house from the beach.\n\n![hill residence living room with fireplace](/src/assets/media/2022/12/MH01_all-pics-023.jpg)\n\n> “We could have elevated the house a few metres higher. But we wouldn’t have gained sea views. It would have simply made the house more prominent amongst the gnarled scrub” says architect Anthony Gionfriddo, who designed this two-storey house at Blairgowrie, a one-and-a-half hour’s drive from Melbourne.\n\nGionfriddo excavated the site, removing fice metres of soil. “It’s a relatively steep slope. I was keen to anchor the house into its coastal setting,” he says.\n\n[Read the full article here](/media/2023/03/200-houses.pdf)"
+	"status": "published",
+	"content": "{% regular %}This beach house peers over the dunes. A thin strip of publicly owned foreshore separates the house from the beach.{% /regular %}\n\n![hill residence living room with fireplace](/src/assets/media/hill-residence-200-houses/2022/12/MH01_all-pics-023.jpg)\n\n> “We could have elevated the house a few metres higher. But we wouldn’t have gained sea views. It would have simply made the house more prominent amongst the gnarled scrub” says architect Anthony Gionfriddo, who designed this two-storey house at Blairgowrie, a one-and-a-half hour’s drive from Melbourne.\n\nGionfriddo excavated the site, removing fice metres of soil. “It’s a relatively steep slope. I was keen to anchor the house into its coastal setting,” he says.\n\n[Read the full article here](/media/2023/03/200-houses.pdf)"
 }

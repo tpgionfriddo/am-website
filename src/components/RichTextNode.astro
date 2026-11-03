@@ -11,4 +11,4 @@ const external = !!href && /^https?:\/\//i.test(href) && !/^https?:\/\/(?:www\.)
 ---
 {typeof node === "string" || typeof node === "number" ? node : Array.isArray(node) ? node.map((child) => <Astro.self node={child} />) : node?.name === "img" ? <Image image={{ src: node.attributes.src, alt: node.attributes.alt }} /> : node?.name === "a" ? (
 	href ? <a href={withBase(href)} target={external ? "_blank" : undefined} rel={external ? "noopener noreferrer" : undefined}>{(node.children || []).map((child: any) => <Astro.self node={child} />)}</a> : (node.children || []).map((child: any) => <Astro.self node={child} />)
-) : node ? <Tag>{(node.children || []).map((child: any) => <Astro.self node={child} />)}</Tag> : null}
+) : node ? <Tag class={node.name === "regular" ? "font-regular" : undefined}>{(node.children || []).map((child: any) => <Astro.self node={child} />)}</Tag> : null}

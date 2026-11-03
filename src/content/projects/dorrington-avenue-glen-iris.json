@@ -1,13 +1,13 @@
 {
 	"title": "Dorrington Avenue, Glen Iris Renovation and Extension",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/69A9252-1-10.jpg",
+		"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9252-1-10.jpg",
 		"alt": "",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/MG_9936-3-1.png",
+		"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/MG_9936-3-1.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -33,7 +33,7 @@
 					},
 					{
 						"label": "Timeframe",
-						"value": "2018-2021"
+						"value": "{% regular %}2018-2021{% /regular %}"
 					},
 					{
 						"label": "Contractor",
@@ -55,13 +55,13 @@
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483-1-13.jpg",
+					"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9483-1-13.jpg",
 					"alt": "",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-1-13.jpg",
+					"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9318-1-13.jpg",
 					"alt": "",
 					"width": 620,
 					"height": 821
@@ -72,7 +72,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1-16.jpg",
+					"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9470-1-16.jpg",
 					"alt": "",
 					"width": 1320,
 					"height": 879
@@ -89,7 +89,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1-16.jpg",
+					"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9574-1-16.jpg",
 					"alt": "",
 					"width": 853,
 					"height": 569
@@ -102,7 +102,7 @@
 			"value": {
 				"text": "At Dorrington Ave, between the clean line of the rear of the retained old house and the swimming pool we set about the true transformation of the property, creating a three-level addition that comfortably works with what was considered worth keeping.\n\nWe excavated out to form a basement level with a cinema room, gym and cellar, linked to the garage and ground floor with a second stairwell.\n\nAt the ground level we added a core of services rooms comprising the laundry, powder room, guest ensuite and a scullery adjoining the light-filled, north-facing kitchen, dining and lounge room. The open-plan living space is bookended by a venetian-plaster wall and fireplace at one end and a vast, clerestory-lit space over the kitchen and dining area at the other. A tall wall of floor-to-ceiling windows looks out over the fully-rebuilt swimming pool and terrace, with bi-fold doors opening onto a new alfresco area, drawing the freshly landscaped back yard into the living spaces and visa-versa.\n\nThe existing first floor bedrooms were updated whilst the existing bathroom was lavishly remodelled to match the standards elsewhere in the house. A large new rumpus room, main bedroom, dressing room, ensuite and recessed balcony were added across the new building footprint, housed within a series of dramatic gable roofs that tie the old and new structures together to form a coherent whole.\n\nThis is a house reborn, that comfortably melds the old with the new and befits its picturesque setting.",
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9660-1-13.jpg",
+					"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9660-1-13.jpg",
 					"alt": "Glen Iris Residence Kitchen area with a white marbled table top",
 					"width": 620,
 					"height": 744
@@ -114,7 +114,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-16.jpg",
+					"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9645-1-16.jpg",
 					"alt": "",
 					"width": 1320,
 					"height": 880
@@ -127,7 +127,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-2.png",
+							"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9496-2.png",
 							"alt": "",
 							"width": 465,
 							"height": 641
@@ -135,7 +135,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-4.png",
+							"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9496-4.png",
 							"alt": "Ceiling details",
 							"width": 465,
 							"height": 641
@@ -143,7 +143,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-5-3.png",
+							"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9496-5-3.png",
 							"alt": "",
 							"width": 465,
 							"height": 641
@@ -151,7 +151,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-7.png",
+							"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9496-7.png",
 							"alt": "Glen Iris Residence bedroom",
 							"width": 218,
 							"height": 300
@@ -159,7 +159,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-8.png",
+							"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9496-8.png",
 							"alt": "Bathroom tub",
 							"width": 465,
 							"height": 641
@@ -167,7 +167,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-9.png",
+							"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9496-9.png",
 							"alt": "",
 							"width": 465,
 							"height": 641
@@ -175,7 +175,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-10.png",
+							"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9496-10.png",
 							"alt": "",
 							"width": 465,
 							"height": 641
@@ -183,7 +183,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-11.png",
+							"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9496-11.png",
 							"alt": "Glen Iris Residence play area in the attic",
 							"width": 465,
 							"height": 641
@@ -191,7 +191,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-12.png",
+							"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9496-12.png",
 							"alt": "",
 							"width": 465,
 							"height": 641
@@ -199,7 +199,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-13.png",
+							"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9496-13.png",
 							"alt": "entrance lobby of the Glen Iris Residence",
 							"width": 465,
 							"height": 641
@@ -207,7 +207,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-3-1.png",
+							"src": "/src/assets/media/dorrington-avenue-glen-iris/2022/11/69A9496-3-1.png",
 							"alt": "facade of Glen Iris Residence",
 							"width": 962,
 							"height": 641

@@ -34,45 +34,27 @@ $$(".menu-toggle").forEach((btn) =>
 	}),
 );
 
-// ---- slide helpers (jQuery slideUp/slideDown/fadeIn equivalents)
-function slide(el: HTMLElement, open: boolean, ms = 200) {
-	if (open) {
-		el.style.display = "block";
-		const h = el.scrollHeight;
-		el.animate([{ height: "0px", overflow: "hidden" }, { height: `${h}px`, overflow: "hidden" }], { duration: ms });
-	} else if (el.style.display !== "none" && getComputedStyle(el).display !== "none") {
-		const h = el.scrollHeight;
-		el.animate([{ height: `${h}px`, overflow: "hidden" }, { height: "0px", overflow: "hidden" }], { duration: ms }).onfinish = () =>
-			(el.style.display = "none");
-	}
-}
-
 // ---- accordion with linked images
 $$(".accordion-section").forEach((section) => {
 	const buttons = $$<HTMLButtonElement>(".accordion__button", section);
 	const images = $$(".accordion__image", section);
 	buttons.forEach((btn) =>
 		btn.addEventListener("click", () => {
-			const id = btn.dataset.id;
-			images.forEach((img) => {
-				const show = img.id === `accordion-image-${id}`;
-				img.style.transition = "opacity 0.4s";
-				img.style.display = "block";
-				img.style.opacity = show ? "1" : "0";
-				if (!show) setTimeout(() => img.style.opacity === "0" && (img.style.display = "none"), 400);
-			});
-			buttons.forEach((other) => {
-				if (other === btn) return;
-				other.classList.remove("is-active");
-				other.setAttribute("aria-expanded", "false");
-				const c = other.closest(".accordion__item")?.querySelector<HTMLElement>(".accordion__content");
-				if (c) slide(c, false);
-			});
 			const open = !btn.classList.contains("is-active");
-			btn.classList.toggle("is-active", open);
-			btn.setAttribute("aria-expanded", String(open));
-			const content = btn.closest(".accordion__item")?.querySelector<HTMLElement>(".accordion__content");
-			if (content) slide(content, open);
+			buttons.forEach((other) => {
+				const active = other === btn && open;
+				other.classList.toggle("is-active", active);
+				other.setAttribute("aria-expanded", String(active));
+				const item = other.closest(".accordion__item");
+				item?.classList.toggle("is-active", active);
+				const content = item?.querySelector<HTMLElement>(".accordion__content");
+				if (content) content.inert = !active;
+			});
+			if (open) images.forEach((image) => {
+				const active = image.dataset.index === btn.dataset.index;
+				image.classList.toggle("is-active", active);
+				image.setAttribute("aria-hidden", String(!active));
+			});
 		}),
 	);
 });

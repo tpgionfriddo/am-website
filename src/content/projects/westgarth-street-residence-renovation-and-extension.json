@@ -1,13 +1,13 @@
 {
 	"title": "Westgarth Street, Fitzroy Renovation and Extension",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/69A9252-1-14.jpg",
+		"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9252-1-14.jpg",
 		"alt": "",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/MG_9936-12-2.png",
+		"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/MG_9936-12-2.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -43,13 +43,13 @@
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483-1-18.jpg",
+					"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9483-1-18.jpg",
 					"alt": "Westgarth Street Residence view of the lobby to the upstairs",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-1-18.jpg",
+					"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9318-1-18.jpg",
 					"alt": "Westgarth Street Residence’s dining area to the living room",
 					"width": 620,
 					"height": 821
@@ -60,7 +60,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1-21.jpg",
+					"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9470-1-21.jpg",
 					"alt": "Westgarth Street Residence’s L-shaped red couch in the living room",
 					"width": 1320,
 					"height": 879
@@ -77,7 +77,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1-21.jpg",
+					"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9574-1-21.jpg",
 					"alt": "Wide view of the living room to the kitchen",
 					"width": 853,
 					"height": 569
@@ -89,7 +89,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-2-5.jpg",
+					"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9574-2-5.jpg",
 					"alt": "Westgarth Street Residence’s view from the fireplace to the stairs through a glass wall compartment",
 					"width": 853,
 					"height": 569
@@ -101,7 +101,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-21.jpg",
+					"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9645-1-21.jpg",
 					"alt": "Wide angle view of the ground floor",
 					"width": 1320,
 					"height": 880
@@ -114,7 +114,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-52-1.jpg",
+							"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9496-52-1.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -122,7 +122,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-53-1.jpg",
+							"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9496-53-1.jpg",
 							"alt": "lobby view to the stairs",
 							"width": 962,
 							"height": 641
@@ -130,7 +130,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-60-1.jpg",
+							"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9496-60-1.jpg",
 							"alt": "Toilet and bath",
 							"width": 465,
 							"height": 641
@@ -138,7 +138,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-55-1.jpg",
+							"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9496-55-1.jpg",
 							"alt": "Westgarth Street Residence’s study room in the attic",
 							"width": 962,
 							"height": 641
@@ -146,7 +146,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-56-1.jpg",
+							"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9496-56-1.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -154,7 +154,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-61-1.jpg",
+							"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9496-61-1.jpg",
 							"alt": "",
 							"width": 465,
 							"height": 641
@@ -162,7 +162,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-62-2.jpg",
+							"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9496-62-2.jpg",
 							"alt": "",
 							"width": 465,
 							"height": 641
@@ -170,7 +170,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-59-1.jpg",
+							"src": "/src/assets/media/westgarth-street-residence-renovation-and-extension/2022/11/69A9496-59-1.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641

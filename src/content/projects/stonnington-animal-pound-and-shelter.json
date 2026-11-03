@@ -1,13 +1,13 @@
 {
 	"title": "Stonnington Animal Pound and Shelter",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/69A9252-1.jpg",
+		"src": "/src/assets/media/stonnington-animal-pound-and-shelter/2022/11/69A9252-1.jpg",
 		"alt": "",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2023/01/MG_9483-1.png",
+		"src": "/src/assets/media/stonnington-animal-pound-and-shelter/2023/01/MG_9483-1.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -64,7 +64,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2023/01/MG_9466-2-scaled.jpg",
+					"src": "/src/assets/media/stonnington-animal-pound-and-shelter/2023/01/MG_9466-2-scaled.jpg",
 					"alt": "",
 					"width": 2560,
 					"height": 1707
@@ -75,7 +75,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1-1.jpg",
+					"src": "/src/assets/media/stonnington-animal-pound-and-shelter/2022/11/69A9470-1-1.jpg",
 					"alt": "",
 					"width": 1320,
 					"height": 879
@@ -92,7 +92,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1-1.jpg",
+					"src": "/src/assets/media/stonnington-animal-pound-and-shelter/2022/11/69A9574-1-1.jpg",
 					"alt": "Stonnington Pound reception area",
 					"width": 853,
 					"height": 569
@@ -105,7 +105,7 @@
 			"value": {
 				"text": "Rainwater captured in tanks is then reticulated to dog wash facilities and cisterns. A broad range of initiatives minimise energy consuption including sensor controlled low-energy light fittings, cross ventilation, automated air conditioning, high performance thermal insulation, double glazing and shaded windows. These initiatives collectively contribute to a sustainable facility that paves the way for future environmental gains.\n\nAll Council building assets, regardless of their nature, should be robust and low maintenance, yet simultaneously a source of community pride. Our highly-considered aesthetic and practical approach to Stonnington Animal Pound and Shelter achieved this and led to Architecture Matters being commissioned by the City of Whittlesea to provide services for a number of other similar facilities.",
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9660-1-1.jpg",
+					"src": "/src/assets/media/stonnington-animal-pound-and-shelter/2022/11/69A9660-1-1.jpg",
 					"alt": "",
 					"width": 620,
 					"height": 744
@@ -117,7 +117,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-1.jpg",
+					"src": "/src/assets/media/stonnington-animal-pound-and-shelter/2022/11/69A9645-1-1.jpg",
 					"alt": "",
 					"width": 1320,
 					"height": 880
@@ -130,7 +130,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-5.jpg",
+							"src": "/src/assets/media/stonnington-animal-pound-and-shelter/2022/11/69A9574-5.jpg",
 							"alt": "",
 							"width": 961,
 							"height": 641
@@ -138,7 +138,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-4.jpg",
+							"src": "/src/assets/media/stonnington-animal-pound-and-shelter/2022/11/69A9574-4.jpg",
 							"alt": "",
 							"width": 961,
 							"height": 641
@@ -146,7 +146,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-6.jpg",
+							"src": "/src/assets/media/stonnington-animal-pound-and-shelter/2022/11/69A9574-6.jpg",
 							"alt": "",
 							"width": 961,
 							"height": 641
@@ -154,7 +154,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-8.jpg",
+							"src": "/src/assets/media/stonnington-animal-pound-and-shelter/2022/11/69A9574-8.jpg",
 							"alt": "",
 							"width": 961,
 							"height": 641
@@ -162,7 +162,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-9.jpg",
+							"src": "/src/assets/media/stonnington-animal-pound-and-shelter/2022/11/69A9574-9.jpg",
 							"alt": "",
 							"width": 961,
 							"height": 641
@@ -170,7 +170,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-3.png",
+							"src": "/src/assets/media/stonnington-animal-pound-and-shelter/2022/11/69A9574-3.png",
 							"alt": "Stonnington Pound external view",
 							"width": 961,
 							"height": 641

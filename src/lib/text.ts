@@ -17,7 +17,7 @@ export function renderText(text: string | null | undefined, { paragraphs = true 
 			return `<a href="${escape(withBase(safe))}"${external ? ' target="_blank" rel="noopener"' : ""}>${label}</a>`;
 		});
 	const paras = text.trim().split(/\n\s*\n/);
-	const html = paras.map((p) => p.split("\n").map(inline).join("<br />"));
+	const html = paras.map((paragraph) => paragraph.split("\n").map(inline).join("<br />").replace(/\{% regular %\}([\s\S]*?)\{% \/regular %\}/g, '<span class="font-regular">$1</span>'));
 	return paragraphs ? html.map((p) => `<p>${p}</p>`).join("") : html.join("<br /><br />");
 }
 

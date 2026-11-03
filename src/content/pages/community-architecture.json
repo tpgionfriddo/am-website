@@ -1,7 +1,7 @@
 {
 	"title": "Community",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/community.jpg",
+		"src": "/src/assets/media/community-architecture/2022/11/community.jpg",
 		"alt": "",
 		"width": 1440,
 		"height": 601
@@ -16,7 +16,7 @@
 			"discriminant": "text_columns",
 			"value": {
 				"left": "### We revel in designing buildings that facilitate community connection.",
-				"right": "The notion of community is often difficult to pin down but it is never more tangible than it is in places that are designed for us to gather, participate in shared activities and access shared resources.\n\nFrom sports pavilions to libraries and other public buildings, we enjoy getting to know user groups and designing flexible, durable and inclusive buildings that facilitate community interactions."
+				"right": "{% regular %}The notion of community is often difficult to pin down but it is never more tangible than it is in places that are designed for us to gather, participate in shared activities and access shared resources.{% /regular %}\n\n{% regular %}From sports pavilions to libraries and other public buildings, we enjoy getting to know user groups and designing flexible, durable and inclusive buildings that facilitate community interactions.{% /regular %}"
 			}
 		},
 		{
@@ -31,7 +31,7 @@
 				"logos": [
 					{
 						"image": {
-							"src": "/src/assets/media/2024/01/ballarat.png",
+							"src": "/src/assets/media/community-architecture/2024/01/ballarat.png",
 							"alt": "ballarat city council logo",
 							"width": 131,
 							"height": 131
@@ -40,7 +40,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/banyule.png",
+							"src": "/src/assets/media/community-architecture/2022/11/banyule.png",
 							"alt": "banyule city council logo",
 							"width": 131,
 							"height": 131
@@ -49,7 +49,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/Bass-Coast-BW.png",
+							"src": "/src/assets/media/community-architecture/2024/02/Bass-Coast-BW.png",
 							"alt": "Bass Coast Shire Council Logo",
 							"width": 131,
 							"height": 59
@@ -58,7 +58,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/Brimbank-BW.png",
+							"src": "/src/assets/media/community-architecture/2024/02/Brimbank-BW.png",
 							"alt": "Brimbank Council Logo",
 							"width": 94,
 							"height": 131
@@ -67,7 +67,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/casey.png",
+							"src": "/src/assets/media/community-architecture/2022/11/casey.png",
 							"alt": "city of casey logo",
 							"width": 130,
 							"height": 131
@@ -76,7 +76,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/01/glen-eira-2.png",
+							"src": "/src/assets/media/community-architecture/2024/01/glen-eira-2.png",
 							"alt": "glen eira city council logo",
 							"width": 131,
 							"height": 131
@@ -85,7 +85,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/macedon-ranges.png",
+							"src": "/src/assets/media/community-architecture/2022/11/macedon-ranges.png",
 							"alt": "macedon ranges shire council logo",
 							"width": 131,
 							"height": 131
@@ -94,7 +94,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/Melton-BW.png",
+							"src": "/src/assets/media/community-architecture/2024/02/Melton-BW.png",
 							"alt": "Melton Council Logo",
 							"width": 131,
 							"height": 80
@@ -103,7 +103,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/01/merri-bek-1.png",
+							"src": "/src/assets/media/community-architecture/2024/01/merri-bek-1.png",
 							"alt": "merri-bek city council logo",
 							"width": 131,
 							"height": 131
@@ -112,7 +112,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/01/monash-1.png",
+							"src": "/src/assets/media/community-architecture/2024/01/monash-1.png",
 							"alt": "monash city council logo",
 							"width": 131,
 							"height": 131
@@ -121,7 +121,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/01/port-phillip.png",
+							"src": "/src/assets/media/community-architecture/2024/01/port-phillip.png",
 							"alt": "port phillip city council logo",
 							"width": 131,
 							"height": 131
@@ -130,7 +130,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/01/stonnington.png",
+							"src": "/src/assets/media/community-architecture/2024/01/stonnington.png",
 							"alt": "stonnington city council logo",
 							"width": 131,
 							"height": 131
@@ -139,7 +139,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/Wangaratta-BW.jpeg",
+							"src": "/src/assets/media/community-architecture/2024/02/Wangaratta-BW.jpeg",
 							"alt": "Wangaratta Rural City Council Logo",
 							"width": 112,
 							"height": 131
@@ -148,7 +148,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/Whittlesea-BW.png",
+							"src": "/src/assets/media/community-architecture/2024/02/Whittlesea-BW.png",
 							"alt": "Whittlesea Council Logo",
 							"width": 131,
 							"height": 44
@@ -157,7 +157,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/Banyule-6.png",
+							"src": "/src/assets/media/community-architecture/2022/11/Banyule-6.png",
 							"alt": "city of yarra logo",
 							"width": 131,
 							"height": 131

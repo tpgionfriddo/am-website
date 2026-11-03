@@ -1,13 +1,13 @@
 {
 	"title": "Lorraine Avenue, Essendon Residence",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/69A9252-1-13.jpg",
+		"src": "/src/assets/media/essendon-residence/2022/11/69A9252-1-13.jpg",
 		"alt": "",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/MG_9936-16-2.png",
+		"src": "/src/assets/media/essendon-residence/2022/11/MG_9936-16-2.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -51,13 +51,13 @@
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483-1-16.jpg",
+					"src": "/src/assets/media/essendon-residence/2022/11/69A9483-1-16.jpg",
 					"alt": "Essendon Residence’s stone outdoor walls with shiny wooden floor",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-1-16.jpg",
+					"src": "/src/assets/media/essendon-residence/2022/11/69A9318-1-16.jpg",
 					"alt": "",
 					"width": 620,
 					"height": 821
@@ -68,7 +68,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1-19.jpg",
+					"src": "/src/assets/media/essendon-residence/2022/11/69A9470-1-19.jpg",
 					"alt": "Essendon Residence’s lit facade",
 					"width": 1320,
 					"height": 879
@@ -85,7 +85,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1-19.jpg",
+					"src": "/src/assets/media/essendon-residence/2022/11/69A9574-1-19.jpg",
 					"alt": "interior details with vinyl floors",
 					"width": 853,
 					"height": 569
@@ -104,7 +104,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-2-3.jpg",
+					"src": "/src/assets/media/essendon-residence/2022/11/69A9574-2-3.jpg",
 					"alt": "Essendon Residence’s wide view of the dining table to the living room",
 					"width": 853,
 					"height": 569
@@ -116,7 +116,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-19.jpg",
+					"src": "/src/assets/media/essendon-residence/2022/11/69A9645-1-19.jpg",
 					"alt": "",
 					"width": 1320,
 					"height": 880
@@ -129,7 +129,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-37-1.jpg",
+							"src": "/src/assets/media/essendon-residence/2022/11/69A9496-37-1.jpg",
 							"alt": "Essendon Residence’s lobby lit by the ray of sunshine",
 							"width": 465,
 							"height": 641
@@ -137,7 +137,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-38-1.jpg",
+							"src": "/src/assets/media/essendon-residence/2022/11/69A9496-38-1.jpg",
 							"alt": "Bedroom",
 							"width": 962,
 							"height": 641
@@ -145,7 +145,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-39-1.jpg",
+							"src": "/src/assets/media/essendon-residence/2022/11/69A9496-39-1.jpg",
 							"alt": "Bathroom",
 							"width": 962,
 							"height": 641
@@ -153,7 +153,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-40-1.jpg",
+							"src": "/src/assets/media/essendon-residence/2022/11/69A9496-40-1.jpg",
 							"alt": "",
 							"width": 465,
 							"height": 641
@@ -161,7 +161,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-42.jpg",
+							"src": "/src/assets/media/essendon-residence/2022/11/69A9496-42.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -169,7 +169,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-41-1.jpg",
+							"src": "/src/assets/media/essendon-residence/2022/11/69A9496-41-1.jpg",
 							"alt": "",
 							"width": 465,
 							"height": 641
@@ -177,7 +177,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-43.jpg",
+							"src": "/src/assets/media/essendon-residence/2022/11/69A9496-43.jpg",
 							"alt": "Wash and laundry area",
 							"width": 465,
 							"height": 641
@@ -185,7 +185,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-45-1.jpg",
+							"src": "/src/assets/media/essendon-residence/2022/11/69A9496-45-1.jpg",
 							"alt": "Essendon Residence’s al fresco area",
 							"width": 465,
 							"height": 641
@@ -193,7 +193,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-46-1.jpg",
+							"src": "/src/assets/media/essendon-residence/2022/11/69A9496-46-1.jpg",
 							"alt": "Essendon Residence’s patio 2",
 							"width": 465,
 							"height": 641
@@ -201,7 +201,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-47-1.jpg",
+							"src": "/src/assets/media/essendon-residence/2022/11/69A9496-47-1.jpg",
 							"alt": "Essendon Residence’s al fresco area 3",
 							"width": 465,
 							"height": 641
@@ -209,7 +209,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-44-1.jpg",
+							"src": "/src/assets/media/essendon-residence/2022/11/69A9496-44-1.jpg",
 							"alt": "Essendon Residence’s al fresco area 4",
 							"width": 962,
 							"height": 641

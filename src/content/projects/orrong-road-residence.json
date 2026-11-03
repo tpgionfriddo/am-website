@@ -1,13 +1,13 @@
 {
 	"title": "Orrong Road, Elsternwick Renovation and Extension",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/69A9252-1-12.jpg",
+		"src": "/src/assets/media/orrong-road-residence/2022/11/69A9252-1-12.jpg",
 		"alt": "",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/MG_9936-15-2.png",
+		"src": "/src/assets/media/orrong-road-residence/2022/11/MG_9936-15-2.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -43,13 +43,13 @@
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483-1-15.jpg",
+					"src": "/src/assets/media/orrong-road-residence/2022/11/69A9483-1-15.jpg",
 					"alt": "Orrong Road Residence’s narrow lobby to the living area",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-1-15.jpg",
+					"src": "/src/assets/media/orrong-road-residence/2022/11/69A9318-1-15.jpg",
 					"alt": "",
 					"width": 620,
 					"height": 821
@@ -60,7 +60,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1-18.jpg",
+					"src": "/src/assets/media/orrong-road-residence/2022/11/69A9470-1-18.jpg",
 					"alt": "Orrong Road Residence’s living area",
 					"width": 1320,
 					"height": 879
@@ -77,7 +77,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1-18.jpg",
+					"src": "/src/assets/media/orrong-road-residence/2022/11/69A9574-1-18.jpg",
 					"alt": "Orrong Road Residence’s dining area with a view of the kitchen",
 					"width": 853,
 					"height": 569
@@ -89,7 +89,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-2-2.jpg",
+					"src": "/src/assets/media/orrong-road-residence/2022/11/69A9574-2-2.jpg",
 					"alt": "",
 					"width": 853,
 					"height": 569
@@ -101,7 +101,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-18.jpg",
+					"src": "/src/assets/media/orrong-road-residence/2022/11/69A9645-1-18.jpg",
 					"alt": "Hardwood swimming pool deck",
 					"width": 1320,
 					"height": 880
@@ -114,7 +114,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-32-1.jpg",
+							"src": "/src/assets/media/orrong-road-residence/2022/11/69A9496-32-1.jpg",
 							"alt": "Orrong Road Residence’s lit facade",
 							"width": 962,
 							"height": 641
@@ -122,7 +122,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-33-1.jpg",
+							"src": "/src/assets/media/orrong-road-residence/2022/11/69A9496-33-1.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -130,7 +130,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-31-1.jpg",
+							"src": "/src/assets/media/orrong-road-residence/2022/11/69A9496-31-1.jpg",
 							"alt": "Orrong Road Residence’s toilet",
 							"width": 465,
 							"height": 641

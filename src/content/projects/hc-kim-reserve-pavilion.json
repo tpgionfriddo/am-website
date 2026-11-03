@@ -1,13 +1,13 @@
 {
 	"title": "HC Kim Reserve Pavilion",
 	"featured_image": {
-		"src": "/src/assets/media/2025/02/43A0355-1.jpg",
+		"src": "/src/assets/media/hc-kim-reserve-pavilion/2025/02/43A0355-1.jpg",
 		"alt": "",
 		"width": 1500,
 		"height": 739
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2025/02/43A0175_TM.jpg",
+		"src": "/src/assets/media/hc-kim-reserve-pavilion/2025/02/43A0175_TM.jpg",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -58,7 +58,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2025/02/43A0066-1.jpg",
+					"src": "/src/assets/media/hc-kim-reserve-pavilion/2025/02/43A0066-1.jpg",
 					"alt": "",
 					"width": 1320,
 					"height": 880
@@ -76,7 +76,7 @@
 			"value": {
 				"text": "An outdoor viewing area offers a central vantage point for spectators, making it ideal for enjoying local sporting events and recreational activities. The design emphasizes seamless indoor-outdoor flow, fostering a sense of openness and connection to the natural environment.\n\nThis pavilion not only enhances the functionality of HC Kim Reserve but also contributes to the overall sense of community by providing a space for social interaction, sports, and recreation in the heart of Seaholme.",
 				"image": {
-					"src": "/src/assets/media/2025/02/43A0175-1.jpg",
+					"src": "/src/assets/media/hc-kim-reserve-pavilion/2025/02/43A0175-1.jpg",
 					"alt": "",
 					"width": 620,
 					"height": 744
@@ -88,7 +88,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2025/02/43A0017-1.jpg",
+					"src": "/src/assets/media/hc-kim-reserve-pavilion/2025/02/43A0017-1.jpg",
 					"alt": "",
 					"width": 1320,
 					"height": 880
@@ -101,7 +101,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A0051.jpg",
+							"src": "/src/assets/media/hc-kim-reserve-pavilion/2025/02/43A0051.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -109,7 +109,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A0002.jpg",
+							"src": "/src/assets/media/hc-kim-reserve-pavilion/2025/02/43A0002.jpg",
 							"alt": "HC Kim Reserve Pavilion changeroom",
 							"width": 962,
 							"height": 641
@@ -117,7 +117,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A0092.jpg",
+							"src": "/src/assets/media/hc-kim-reserve-pavilion/2025/02/43A0092.jpg",
 							"alt": "HC Kim Reserve Pavilion commercial kitchen and serving area",
 							"width": 962,
 							"height": 641
@@ -125,7 +125,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A0021.jpg",
+							"src": "/src/assets/media/hc-kim-reserve-pavilion/2025/02/43A0021.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -133,7 +133,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A9986.jpg",
+							"src": "/src/assets/media/hc-kim-reserve-pavilion/2025/02/43A9986.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -141,7 +141,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A9955.jpg",
+							"src": "/src/assets/media/hc-kim-reserve-pavilion/2025/02/43A9955.jpg",
 							"alt": "HC Kim Reserve Pavilion changeroom",
 							"width": 962,
 							"height": 641
@@ -149,7 +149,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A0114.jpg",
+							"src": "/src/assets/media/hc-kim-reserve-pavilion/2025/02/43A0114.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -157,7 +157,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A0146.jpg",
+							"src": "/src/assets/media/hc-kim-reserve-pavilion/2025/02/43A0146.jpg",
 							"alt": "HC Kim Reserve Pavilion external view",
 							"width": 962,
 							"height": 641
@@ -165,7 +165,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A0212.jpg",
+							"src": "/src/assets/media/hc-kim-reserve-pavilion/2025/02/43A0212.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641

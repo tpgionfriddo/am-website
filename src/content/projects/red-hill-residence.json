@@ -1,13 +1,13 @@
 {
 	"title": "Donaldson Road, Red Hill Residence",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/69A9252-1-16.jpg",
+		"src": "/src/assets/media/red-hill-residence/2022/11/69A9252-1-16.jpg",
 		"alt": "",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/MG_9936-13-1.png",
+		"src": "/src/assets/media/red-hill-residence/2022/11/MG_9936-13-1.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -47,13 +47,13 @@
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483-1-19.jpg",
+					"src": "/src/assets/media/red-hill-residence/2022/11/69A9483-1-19.jpg",
 					"alt": "Red Hill Residence’s marbled lobby with white walls",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-1-19.jpg",
+					"src": "/src/assets/media/red-hill-residence/2022/11/69A9318-1-19.jpg",
 					"alt": "Colorful abstract painting on the wall",
 					"width": 620,
 					"height": 821
@@ -64,7 +64,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1-22.jpg",
+					"src": "/src/assets/media/red-hill-residence/2022/11/69A9470-1-22.jpg",
 					"alt": "Red Hill Residence’s living room with paintings hung on the wall",
 					"width": 1320,
 					"height": 879
@@ -82,7 +82,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1-22.jpg",
+					"src": "/src/assets/media/red-hill-residence/2022/11/69A9574-1-22.jpg",
 					"alt": "Red Hill Residence’s spacious bathroom with a long narrow bath tub",
 					"width": 853,
 					"height": 569
@@ -100,7 +100,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-2-6.jpg",
+					"src": "/src/assets/media/red-hill-residence/2022/11/69A9574-2-6.jpg",
 					"alt": "View of the Dining area to the kitchen",
 					"width": 853,
 					"height": 569
@@ -112,7 +112,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-22.jpg",
+					"src": "/src/assets/media/red-hill-residence/2022/11/69A9645-1-22.jpg",
 					"alt": "Red Hill Residence’s open pool area with a view of the lit house on a lovely evening",
 					"width": 1320,
 					"height": 880

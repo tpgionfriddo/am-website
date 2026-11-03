@@ -1,13 +1,13 @@
 {
 	"title": "Exford Primary School",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/69A9252-1-6.jpg",
+		"src": "/src/assets/media/exford-primary-school/2022/11/69A9252-1-6.jpg",
 		"alt": "",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/MG_9936-10.png",
+		"src": "/src/assets/media/exford-primary-school/2022/11/MG_9936-10.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -29,7 +29,7 @@
 				"details": [
 					{
 						"label": "Location",
-						"value": "Exford, Victoria"
+						"value": "{% regular %}Exford, Victoria{% /regular %}"
 					},
 					{
 						"label": "Client name",
@@ -37,11 +37,11 @@
 					},
 					{
 						"label": "Value",
-						"value": "$6.24 MIL"
+						"value": "{% regular %}$6.24 MIL{% /regular %}"
 					},
 					{
 						"label": "Timeframe",
-						"value": "2019-2022"
+						"value": "{% regular %}2019-2022{% /regular %}"
 					},
 					{
 						"label": "Contractor",
@@ -63,13 +63,13 @@
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483-1-9.jpg",
+					"src": "/src/assets/media/exford-primary-school/2022/11/69A9483-1-9.jpg",
 					"alt": "Exford Primary School entrance gate",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-1-9.jpg",
+					"src": "/src/assets/media/exford-primary-school/2022/11/69A9318-1-9.jpg",
 					"alt": "Exford Primary School front door",
 					"width": 620,
 					"height": 821
@@ -80,7 +80,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1-12.jpg",
+					"src": "/src/assets/media/exford-primary-school/2022/11/69A9470-1-12.jpg",
 					"alt": "Exford Primary School rainbow mural",
 					"width": 1320,
 					"height": 879
@@ -97,7 +97,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/Sliding1.gif",
+					"src": "/src/assets/media/exford-primary-school/2022/11/Sliding1.gif",
 					"alt": "Exford Primary School blue carpeted classroom",
 					"width": 1200,
 					"height": 800
@@ -110,7 +110,7 @@
 			"value": {
 				"text": "The Stage 1 works were successfully completed in July 2022, and included a new administration building incorporating staff amenities, a formal school entrance, a junior learning base building that accommodates eight general learning areas (GLAs), and student amenities. Extensive landscaping, coordination of infrastructure upgrades and integration with multiple existing relocatable buildings across the school site were also included.\n\nOnce the Stage 1 works were underway and having proved the viability of the comprehensive redevelopment of the school whilst it remained in operation, substantial additional funding was granted to the school to enable the completion of the master plan as a three-stage project delivery to run over subsequent 18-months.",
 				"image": {
-					"src": "/src/assets/media/2022/11/B3A3570.jpg",
+					"src": "/src/assets/media/exford-primary-school/2022/11/B3A3570.jpg",
 					"alt": "Exford Primary School front gate",
 					"width": 630,
 					"height": 744
@@ -122,7 +122,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/Sliding2.gif",
+					"src": "/src/assets/media/exford-primary-school/2022/11/Sliding2.gif",
 					"alt": "Exford Primary School blue carpeted lobby",
 					"width": 1200,
 					"height": 800
@@ -134,7 +134,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-12.jpg",
+					"src": "/src/assets/media/exford-primary-school/2022/11/69A9645-1-12.jpg",
 					"alt": "",
 					"width": 1320,
 					"height": 880
@@ -154,7 +154,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-69.png",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-69.png",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -162,7 +162,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-44.jpg",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-44.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -170,7 +170,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-47.jpg",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-47.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -178,7 +178,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-45.jpg",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-45.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -186,7 +186,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-48.jpg",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-48.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -194,7 +194,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-46.jpg",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-46.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -202,7 +202,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-49.jpg",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-49.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -210,7 +210,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-50.jpg",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-50.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -218,7 +218,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-51.jpg",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-51.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -226,7 +226,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-52.jpg",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-52.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -234,7 +234,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-53.jpg",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-53.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -242,7 +242,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-54.jpg",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-54.jpg",
 							"alt": "Exford Primary School",
 							"width": 962,
 							"height": 641
@@ -250,7 +250,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-55.jpg",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-55.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -258,7 +258,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-56.jpg",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-56.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -266,7 +266,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-57.jpg",
+							"src": "/src/assets/media/exford-primary-school/2022/11/69A9496-57.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641

@@ -1,13 +1,13 @@
 {
 	"title": "Contemporary Eco-Home in Romsey, Victoria",
 	"featured_image": {
-		"src": "/src/assets/media/2025/02/43A1472-2.jpg",
+		"src": "/src/assets/media/contemporary-eco-home-romsey/2025/02/43A1472-2.jpg",
 		"alt": "",
 		"width": 1440,
 		"height": 882
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2025/02/43A1441-TN.jpg",
+		"src": "/src/assets/media/contemporary-eco-home-romsey/2025/02/43A1441-TN.jpg",
 		"alt": "",
 		"width": 774,
 		"height": 515
@@ -33,7 +33,7 @@
 					},
 					{
 						"label": "Timeframe",
-						"value": "2023-2024"
+						"value": "{% regular %}2023-2024{% /regular %}"
 					},
 					{
 						"label": "Contractor",
@@ -55,7 +55,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2025/02/43A1279-1.jpg",
+					"src": "/src/assets/media/contemporary-eco-home-romsey/2025/02/43A1279-1.jpg",
 					"alt": "",
 					"width": 1320,
 					"height": 880
@@ -72,7 +72,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2025/02/43A0884-2.jpg",
+					"src": "/src/assets/media/contemporary-eco-home-romsey/2025/02/43A0884-2.jpg",
 					"alt": "Contemporary Eco-Home in Romsey dining area",
 					"width": 855,
 					"height": 570
@@ -85,7 +85,7 @@
 			"value": {
 				"text": "The heart of the home is an open plan pavilion featuring an expansive open-plan layout that seamlessly integrates the living, dining, and kitchen areas along with a home office that is located adjacent to the front door. Polished concrete floors enhance the living space, creating a sophisticated yet inviting atmosphere perfect for entertaining.\n\nESD is inherent in the DNA of this home which utalises the northern aspect of the site and incorporates double-glazed windows and electric floor heating, ensuring optimal energy efficiency throughout the year. The strategic installation of solar panels with a battery system further reduces the home’s environmental impact while providing significant energy savings.",
 				"image": {
-					"src": "/src/assets/media/2025/02/43A1401-1.jpg",
+					"src": "/src/assets/media/contemporary-eco-home-romsey/2025/02/43A1401-1.jpg",
 					"alt": "",
 					"width": 439,
 					"height": 620
@@ -97,7 +97,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2025/02/43A0709-1.jpg",
+					"src": "/src/assets/media/contemporary-eco-home-romsey/2025/02/43A0709-1.jpg",
 					"alt": "Contemporary Eco-Home in Romsey al fresco area",
 					"width": 1320,
 					"height": 880
@@ -110,7 +110,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A0723.jpg",
+							"src": "/src/assets/media/contemporary-eco-home-romsey/2025/02/43A0723.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -118,7 +118,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A0643.jpg",
+							"src": "/src/assets/media/contemporary-eco-home-romsey/2025/02/43A0643.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -126,7 +126,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A0783.jpg",
+							"src": "/src/assets/media/contemporary-eco-home-romsey/2025/02/43A0783.jpg",
 							"alt": "Contemporary Eco-Home in Romsey kitchen",
 							"width": 962,
 							"height": 641
@@ -134,7 +134,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A0810.jpg",
+							"src": "/src/assets/media/contemporary-eco-home-romsey/2025/02/43A0810.jpg",
 							"alt": "Contemporary Eco-Home in Romsey kitchen",
 							"width": 962,
 							"height": 641
@@ -142,7 +142,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A1084.jpg",
+							"src": "/src/assets/media/contemporary-eco-home-romsey/2025/02/43A1084.jpg",
 							"alt": "Contemporary Eco-Home in Romsey living area",
 							"width": 962,
 							"height": 641
@@ -150,7 +150,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A1174.jpg",
+							"src": "/src/assets/media/contemporary-eco-home-romsey/2025/02/43A1174.jpg",
 							"alt": "Contemporary Eco-Home in Romsey bathroom",
 							"width": 962,
 							"height": 641
@@ -158,7 +158,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A1159.jpg",
+							"src": "/src/assets/media/contemporary-eco-home-romsey/2025/02/43A1159.jpg",
 							"alt": "Contemporary Eco-Home in Romsey laundry",
 							"width": 962,
 							"height": 641
@@ -166,7 +166,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/43A1377.jpg",
+							"src": "/src/assets/media/contemporary-eco-home-romsey/2025/02/43A1377.jpg",
 							"alt": "Contemporary Eco-Home in Romsey al fresco area",
 							"width": 962,
 							"height": 641

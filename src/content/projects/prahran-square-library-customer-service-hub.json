@@ -1,13 +1,13 @@
 {
 	"title": "Prahran Square Library & Customer Service Hub",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/69A9470-1-7.jpg",
+		"src": "/src/assets/media/prahran-square-library-customer-service-hub/2022/11/69A9470-1-7.jpg",
 		"alt": "Prahran Square Library & Customer Service Hub book shelves 2",
 		"width": 1320,
 		"height": 879
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/B3A7148-1.png",
+		"src": "/src/assets/media/prahran-square-library-customer-service-hub/2022/11/B3A7148-1.png",
 		"alt": "",
 		"width": 640,
 		"height": 427
@@ -59,13 +59,13 @@
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483-1-4.jpg",
+					"src": "/src/assets/media/prahran-square-library-customer-service-hub/2022/11/69A9483-1-4.jpg",
 					"alt": "Prahran Square Library & Customer Service Hub bin bags",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-1-4.jpg",
+					"src": "/src/assets/media/prahran-square-library-customer-service-hub/2022/11/69A9318-1-4.jpg",
 					"alt": "Prahran Square Library & Customer Service Hub book shelves",
 					"width": 620,
 					"height": 821
@@ -76,7 +76,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1-7.jpg",
+					"src": "/src/assets/media/prahran-square-library-customer-service-hub/2022/11/69A9470-1-7.jpg",
 					"alt": "Prahran Square Library & Customer Service Hub book shelves 2",
 					"width": 1320,
 					"height": 879
@@ -93,7 +93,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1-7.jpg",
+					"src": "/src/assets/media/prahran-square-library-customer-service-hub/2022/11/69A9574-1-7.jpg",
 					"alt": "Prahran Square Library & Customer Service Hub book shelves 3",
 					"width": 853,
 					"height": 569
@@ -106,7 +106,7 @@
 			"value": {
 				"text": "This dynamic backdrop works seamlessly with furniture repurposed from existing facilities while creating fresh and modern spaces.\n\nBy installing the Council facilities into these public-facing spaces, not only was the perimeter of the square activated, but it increased the engagement of the Council with its community. The temporary library and customer services projects were also seen as an opportunity to trial new operational and workflow structures for council staff and their interactions with the public.\n\nWe successfully incorporated recycled elements from the existing facilities into the new spaces whilst also ensuring minimal changes were made to the buildings’ services, structure or envelopes, providing a highly functional and cost-effective utilisation of otherwise unused space.",
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9660-1-7.jpg",
+					"src": "/src/assets/media/prahran-square-library-customer-service-hub/2022/11/69A9660-1-7.jpg",
 					"alt": "Prahran Square Library & Customer Service Hub study area",
 					"width": 620,
 					"height": 744
@@ -118,7 +118,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-7.jpg",
+					"src": "/src/assets/media/prahran-square-library-customer-service-hub/2022/11/69A9645-1-7.jpg",
 					"alt": "",
 					"width": 1320,
 					"height": 880
@@ -131,7 +131,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9325-1-1.jpg",
+							"src": "/src/assets/media/prahran-square-library-customer-service-hub/2022/11/69A9325-1-1.jpg",
 							"alt": "Prahran Square Library & Customer Service Hub study area 2",
 							"width": 962,
 							"height": 641
@@ -139,7 +139,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-18.jpg",
+							"src": "/src/assets/media/prahran-square-library-customer-service-hub/2022/11/69A9496-18.jpg",
 							"alt": "Prahran Square Library & Customer Service Hub study area 3",
 							"width": 962,
 							"height": 641
@@ -147,7 +147,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-19.jpg",
+							"src": "/src/assets/media/prahran-square-library-customer-service-hub/2022/11/69A9496-19.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641

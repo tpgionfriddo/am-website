@@ -1,13 +1,13 @@
 {
 	"title": "Erskine St Project – North Melbourne",
 	"featured_image": {
-		"src": "/src/assets/media/2025/02/43A7836-1.jpg",
+		"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/02/43A7836-1.jpg",
 		"alt": "",
 		"width": 1440,
 		"height": 856
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2024/02/43A8419.jpg",
+		"src": "/src/assets/media/erskine-st-project-north-melbourne/2024/02/43A8419.jpg",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -58,7 +58,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2025/04/43A8077.jpg",
+					"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A8077.jpg",
 					"alt": "",
 					"width": 1321,
 					"height": 880
@@ -70,7 +70,7 @@
 			"value": {
 				"text": "The latest project involved the addition of two ensuite bathrooms to serve remodelled existing bedrooms, the remodelling of existing bathrooms, laundry/mudroom, kitchen/meals/living and the addition of a small music room that links with a new large family room pavilion. The new additions created a new semi-enclosed courtyard space and resulted in the relocation and expansion of an outdoor living room.\n\nSignificant landscaping works, designed and built by Ben Harris Gardens, including a picturesque water feature and stream with its own sandy beach wrap around the family room, resulting in a vibrant room within the back yard, embraced by greenery and light and with its own internal dynamic created by the sharply vaulting ceiling and highlight windows. The family room opens out onto a north-facing terrace, outdoor living room and gardens beyond, creating a newly generous entertaining zone.\n\nBy separating the new family pavilion from the main living areas by a courtyard space with a glazed perimeter, the additions remain visually connected to the rest of the house and the day-to-day activities within it but sufficiently removed to allow the different family members to find their own space.",
 				"image": {
-					"src": "/src/assets/media/2024/02/43A8536.jpg",
+					"src": "/src/assets/media/erskine-st-project-north-melbourne/2024/02/43A8536.jpg",
 					"alt": "",
 					"width": 581,
 					"height": 820
@@ -83,7 +83,7 @@
 			"value": {
 				"text": "A collaborative and trusting working relationship between the owners, architect and builder, Nick Broadhead, Byde Constructions, enabled practical and beneficial changes to the project design to be identified and pursued during the project’s demolition and construction stages, including a structural element that was too difficult to remove in the 2005 project but which, with the benefit of Nick’s insights, was now able to be removed as part of the latest works.\n\nThe renovated bathroom, laundry and kitchen spaces were designed by Julianne Bull at The Den Interiors and provide warmth and texture to the house.\n\nHaving been entrusted for the second time to create and family’s home, the Erskine St Project stands as a testament to our client’s recognition of Architecture Matters’ commitment to designing houses that can comfortably serve the present whilst also looking to future.",
 				"image": {
-					"src": "/src/assets/media/2024/02/43A8501.jpg",
+					"src": "/src/assets/media/erskine-st-project-north-melbourne/2024/02/43A8501.jpg",
 					"alt": "",
 					"width": 581,
 					"height": 820
@@ -95,7 +95,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2025/04/43A7879.jpg",
+					"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A7879.jpg",
 					"alt": "",
 					"width": 855,
 					"height": 570
@@ -107,7 +107,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2024/02/StudyDoors.gif",
+					"src": "/src/assets/media/erskine-st-project-north-melbourne/2024/02/StudyDoors.gif",
 					"alt": "",
 					"width": 1200,
 					"height": 800
@@ -121,7 +121,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2025/04/43A8575.jpg",
+							"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A8575.jpg",
 							"alt": "North Melbourne Residence",
 							"width": 962,
 							"height": 641
@@ -129,7 +129,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/04/43A8521.jpg",
+							"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A8521.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -137,7 +137,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/04/43A7891.jpg",
+							"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A7891.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -145,7 +145,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/04/43A8223.jpg",
+							"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A8223.jpg",
 							"alt": "",
 							"width": 427,
 							"height": 641
@@ -153,7 +153,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/04/43A8353.jpg",
+							"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A8353.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -161,7 +161,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/04/43A8269.jpg",
+							"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A8269.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -169,7 +169,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/04/43A8312.jpg",
+							"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A8312.jpg",
 							"alt": "",
 							"width": 454,
 							"height": 641
@@ -177,7 +177,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/04/43A8134.jpg",
+							"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A8134.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -185,7 +185,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/04/43A8053.jpg",
+							"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A8053.jpg",
 							"alt": "",
 							"width": 960,
 							"height": 641
@@ -193,7 +193,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/04/43A8065.jpg",
+							"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A8065.jpg",
 							"alt": "",
 							"width": 961,
 							"height": 641
@@ -201,7 +201,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/04/43A8301.jpg",
+							"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A8301.jpg",
 							"alt": "",
 							"width": 427,
 							"height": 641
@@ -209,7 +209,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/04/43A8378.jpg",
+							"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A8378.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -217,7 +217,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/04/43A8561.jpg",
+							"src": "/src/assets/media/erskine-st-project-north-melbourne/2025/04/43A8561.jpg",
 							"alt": "North Melbourne Residence",
 							"width": 962,
 							"height": 641

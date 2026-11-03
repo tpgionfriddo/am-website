@@ -3,10 +3,11 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
-const source = JSON.parse(fs.readFileSync(path.join(root, "content/content.json"), "utf8"));
+const source = JSON.parse(fs.readFileSync(process.env.CONTENT_SOURCE || path.join(root, "content/content.json"), "utf8"));
 const seed = JSON.parse(fs.readFileSync(path.join(root, "seed/seed.json"), "utf8"));
-const output = path.join(root, "src/content");
-const media = new Set();
+const output = process.env.CONTENT_DIRECTORY || path.join(root, "src/content");
+const media = new Map();
+let contentSlug;
 
 function write(relative, value) {
 	const destination = path.join(output, relative);
@@ -16,11 +17,12 @@ function write(relative, value) {
 }
 
 function mediaPath(file) {
-	media.add(file);
 	const relative = file.replace(/^archive\/uploads\//, "");
-	return /\.(?:jpg|jpeg|png|gif|webp|avif|svg)$/i.test(file)
-		? `/src/assets/media/${relative}`
+	const destination = /\.(?:jpg|jpeg|png|gif|webp|avif|svg)$/i.test(file)
+		? `/src/assets/media/${contentSlug}/${relative}`
 		: `/media/${relative}`;
+	media.set(destination, file);
+	return destination;
 }
 
 function resolveFiles(value) {
@@ -53,7 +55,7 @@ function richText(blocks) {
 					if (link?._type === "link") rendered = `[${rendered}](${resolveFiles(link.href)})`;
 				}
 			}
-			return rendered;
+			return span.marks?.includes("regular") ? `{% regular %}${rendered}{% /regular %}` : rendered;
 		}).join("");
 		if (block.listItem) return `${"  ".repeat(Math.max(0, (block.level || 1) - 1))}${block.listItem === "number" ? "1." : "-"} ${text}`;
 		if (/^h[1-6]$/.test(block.style)) return `${"#".repeat(Number(block.style.slice(1)))} ${text}`;
@@ -80,6 +82,7 @@ write("redirects.json", seed.redirects.filter((redirect) => redirect.enabled));
 
 for (const collection of ["pages", "projects", "posts"]) {
 	for (const entry of source[collection]) {
+		contentSlug = entry.slug;
 		const { slug, layout, content, ...rest } = entry;
 		const result = { ...resolveFiles(rest), status: collection === "posts" ? "draft" : "published" };
 		if (layout) result.layout = layout.map((block) => ({ discriminant: block._type, value: fieldValues(block, definitions[block._type].fields) }));
@@ -88,8 +91,7 @@ for (const collection of ["pages", "projects", "posts"]) {
 	}
 }
 
-for (const file of media) {
-	const destination = mediaPath(file);
+for (const [destination, file] of process.env.SKIP_MEDIA_COPY === "1" ? [] : media) {
 	const relative = destination.startsWith("/src/") ? destination.slice(1) : `public${destination}`;
 	const target = path.join(root, relative);
 	fs.mkdirSync(path.dirname(target), { recursive: true });

@@ -1,13 +1,13 @@
 {
 	"title": "Mother Teresa Primary School, Contemporary Library, Learning Street and Classroom Wing",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/MG_5600.jpg",
+		"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-contemporary-library-and-learning-street/2022/11/MG_5600.jpg",
 		"alt": "",
 		"width": 800,
 		"height": 533
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/MG_9936-13.png",
+		"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-contemporary-library-and-learning-street/2022/11/MG_9936-13.png",
 		"alt": "",
 		"width": 790,
 		"height": 532
@@ -63,13 +63,13 @@
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483-1-12.jpg",
+					"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-contemporary-library-and-learning-street/2022/11/69A9483-1-12.jpg",
 					"alt": "Mother Teresa Primary School entrance",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-1-12.jpg",
+					"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-contemporary-library-and-learning-street/2022/11/69A9318-1-12.jpg",
 					"alt": "Mother Teresa Primary School entrance with the soccer field view",
 					"width": 620,
 					"height": 821
@@ -80,7 +80,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/MG_5685.jpg",
+					"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-contemporary-library-and-learning-street/2022/11/MG_5685.jpg",
 					"alt": "",
 					"width": 800,
 					"height": 533
@@ -97,7 +97,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1-15.jpg",
+					"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-contemporary-library-and-learning-street/2022/11/69A9574-1-15.jpg",
 					"alt": "Mother Teresa Primary School",
 					"width": 853,
 					"height": 569
@@ -109,7 +109,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-2-1.jpg",
+					"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-contemporary-library-and-learning-street/2022/11/69A9574-2-1.jpg",
 					"alt": "Mother Teresa Primary School open field",
 					"width": 853,
 					"height": 569
@@ -121,7 +121,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-15.jpg",
+					"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-contemporary-library-and-learning-street/2022/11/69A9645-1-15.jpg",
 					"alt": "Mother Teresa Primary School learning area",
 					"width": 1320,
 					"height": 880
@@ -134,7 +134,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-62-1.jpg",
+							"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-contemporary-library-and-learning-street/2022/11/69A9496-62-1.jpg",
 							"alt": "Mother Teresa Primary School",
 							"width": 962,
 							"height": 641
@@ -142,7 +142,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-64-1.jpg",
+							"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-contemporary-library-and-learning-street/2022/11/69A9496-64-1.jpg",
 							"alt": "Mother Teresa Primary School",
 							"width": 962,
 							"height": 641
@@ -150,7 +150,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-65-1.jpg",
+							"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-contemporary-library-and-learning-street/2022/11/69A9496-65-1.jpg",
 							"alt": "Mother Teresa Primary School",
 							"width": 962,
 							"height": 641
@@ -158,7 +158,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/MG_5501.jpg",
+							"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-contemporary-library-and-learning-street/2022/11/MG_5501.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641

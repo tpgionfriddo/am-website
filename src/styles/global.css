@@ -15,7 +15,46 @@
 
 /* ---- additions for the EmDash port ---- */
 
-body { font-weight: 400; }
+html { scrollbar-gutter: stable; }
+
+.font-regular { font-weight: 400; }
+
+.accordion-section .accordion__images > .accordion__image {
+	display: block;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 240ms ease, visibility 240ms;
+}
+
+.accordion-section .accordion__images > .accordion__image.is-active {
+	opacity: 1;
+	visibility: visible;
+}
+
+.accordion-section .accordion__item .accordion__content {
+	display: grid;
+	grid-template-rows: 0fr;
+	margin: 0;
+	transition: grid-template-rows 240ms ease;
+}
+
+.accordion-section .accordion__item.is-active .accordion__content { grid-template-rows: 1fr; }
+.accordion__panel { min-height: 0; overflow: hidden; }
+.accordion__body { padding-top: 1.875rem; padding-bottom: 1.5625rem; }
+.accordion__body > :last-child { margin-bottom: 0; }
+
+.accordion__button svg,
+.accordion__button.is-active svg { transform: none; transition: none; }
+.accordion__button path { transition: opacity 160ms ease; }
+.accordion__arrow-open,
+.accordion__button.is-active .accordion__arrow-closed { opacity: 0; }
+.accordion__button.is-active .accordion__arrow-open { opacity: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+	.accordion-section .accordion__item .accordion__content,
+	.accordion-section .accordion__images > .accordion__image,
+	.accordion__button path { transition: none; }
+}
 
 /* EmDash <Image> wraps images; keep theme sizing rules working */
 .entry-thumbnail img,

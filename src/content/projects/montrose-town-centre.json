@@ -1,13 +1,13 @@
 {
 	"title": "Montrose Town Centre",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/montrose-town-center.jpg",
+		"src": "/src/assets/media/montrose-town-centre/2022/11/montrose-town-center.jpg",
 		"alt": "Montrose Town Centre’s outdoor bench area",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/MG_9936-19-1.png",
+		"src": "/src/assets/media/montrose-town-centre/2022/11/MG_9936-19-1.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -56,20 +56,20 @@
 						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
 					}
 				],
-				"text": "Montrose Town Centre is a project that demonstrates the cumulative impact of design details, where the whole is greater than the sum of its parts. It collectively delivers a wealth of much needed community services within the one pleasurable environment.\n\nWe were engaged by Yarra Ranges Council to develop a new reception, foyer and library building for Montrose Town Centre. We took a holistic approach considering the neighbouring buildings, the adjacent park and the environmental setting at the foot of the Dandenong Ranges. Our masterplanned design refurbished and linked two free-standing 1980’s Peter Elliott-designed buildings – a community hall and a library/meeting building. We also incorporated a new maternal and child health facility and public toilets. Strategically connecting isolated buildings, we created one dynamic and fit-for-purpose facility that meets the diverse needs of the local community."
+				"text": "{% regular %}Montrose Town Centre is a project that demonstrates the cumulative impact of design details, where the whole is greater than the sum of its parts. It collectively delivers a wealth of much needed community services within the one pleasurable environment.{% /regular %}\n\n{% regular %}We were engaged by Yarra Ranges Council to develop a new reception, foyer and library building for Montrose Town Centre. We took a holistic approach considering the neighbouring buildings, the adjacent park and the environmental setting at the foot of the Dandenong Ranges. Our masterplanned design refurbished and linked two free-standing 1980’s Peter Elliott-designed buildings – a community hall and a library/meeting building. We also incorporated a new maternal and child health facility and public toilets. Strategically connecting isolated buildings, we created one dynamic and fit-for-purpose facility that meets the diverse needs of the local community.{% /regular %}"
 			}
 		},
 		{
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483-1.jpg",
+					"src": "/src/assets/media/montrose-town-centre/2022/11/69A9483-1.jpg",
 					"alt": "",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-1.jpg",
+					"src": "/src/assets/media/montrose-town-centre/2022/11/69A9318-1.jpg",
 					"alt": "Montrose Town Centre’s entrance door",
 					"width": 620,
 					"height": 821
@@ -80,7 +80,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1.jpg",
+					"src": "/src/assets/media/montrose-town-centre/2022/11/69A9470-1.jpg",
 					"alt": "Montrose Town Centre’s panoramic view of the facade",
 					"width": 1320,
 					"height": 879
@@ -97,7 +97,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1.jpg",
+					"src": "/src/assets/media/montrose-town-centre/2022/11/69A9574-1.jpg",
 					"alt": "Montrose Town Centre’s rubber floor interiors",
 					"width": 853,
 					"height": 569
@@ -110,7 +110,7 @@
 			"value": {
 				"text": "The form and scale of the new entry building takes its cues from the geometric play of the original architecture, with the addition of strong geometric patterning to identify the new primary entry to the facility.\n\nWe worked closely with noted sculptor Anton Hasell who developed a cast bronze public art piece that is integrated with the architecture. The columns at the entry are clad with patterning reminiscent of the tree fern trunks commonly found throughout Dandenong Ranges. The artwork incorporates interactive elements such as cast bronze drums that visitors can ‘play’ in passing as well as three cast bronze bells which were set into the foyer wall to provide interest and playfulness to the interior.\n\nIt is this collection of small gestures and details – integrations, combinations, orientations, patterns – that collectively make a big impact. Our design experience means these details do not come at a large cost, yet they lift the mundane into the delightful.",
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9660-1.jpg",
+					"src": "/src/assets/media/montrose-town-centre/2022/11/69A9660-1.jpg",
 					"alt": "bells on the classroom door",
 					"width": 620,
 					"height": 744
@@ -122,7 +122,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1.jpg",
+					"src": "/src/assets/media/montrose-town-centre/2022/11/69A9645-1.jpg",
 					"alt": "Montrose Town Centre’s concierge with a view of the library",
 					"width": 1320,
 					"height": 880
@@ -135,7 +135,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9325-1.png",
+							"src": "/src/assets/media/montrose-town-centre/2022/11/69A9325-1.png",
 							"alt": "Montrose Town Centre interior",
 							"width": 962,
 							"height": 641
@@ -143,7 +143,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-3.jpg",
+							"src": "/src/assets/media/montrose-town-centre/2022/11/69A9496-3.jpg",
 							"alt": "Function room with pink rubber floors and glass walls",
 							"width": 962,
 							"height": 641
@@ -151,7 +151,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-4.jpg",
+							"src": "/src/assets/media/montrose-town-centre/2022/11/69A9496-4.jpg",
 							"alt": "Montrose Town Centre’s theatre hall",
 							"width": 962,
 							"height": 641
@@ -159,7 +159,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-5.jpg",
+							"src": "/src/assets/media/montrose-town-centre/2022/11/69A9496-5.jpg",
 							"alt": "Montrose Town Centre’s concierge table",
 							"width": 962,
 							"height": 641
@@ -167,7 +167,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-6.jpg",
+							"src": "/src/assets/media/montrose-town-centre/2022/11/69A9496-6.jpg",
 							"alt": "Montrose Town Centre’s library with shelves filled with books",
 							"width": 962,
 							"height": 641
@@ -175,7 +175,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-7.jpg",
+							"src": "/src/assets/media/montrose-town-centre/2022/11/69A9496-7.jpg",
 							"alt": "Montrose Town Centre’s library",
 							"width": 962,
 							"height": 641
@@ -183,7 +183,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-8.jpg",
+							"src": "/src/assets/media/montrose-town-centre/2022/11/69A9496-8.jpg",
 							"alt": "Montrose Town Centre’s backdoor garden",
 							"width": 962,
 							"height": 641
@@ -191,7 +191,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-9.jpg",
+							"src": "/src/assets/media/montrose-town-centre/2022/11/69A9496-9.jpg",
 							"alt": "Montrose Town Centre’s entrance door",
 							"width": 962,
 							"height": 641

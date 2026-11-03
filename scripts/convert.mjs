@@ -16,7 +16,7 @@ import path from "node:path";
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const ARCHIVE = path.join(ROOT, "archive");
-const OUT = path.join(ROOT, "content", "content.json");
+const OUT = process.env.CONTENT_OUTPUT || path.join(ROOT, "content", "content.json");
 const SITE = "https://architecturematters.com.au";
 
 const warnings = [];
@@ -144,6 +144,7 @@ function htmlToPT($, root, { allowImages = false, baseStyle = "normal" } = {}) {
 		const tag = node.name;
 		const $n = $(node);
 		if (["script", "style", "iframe", "svg", "noscript", "form", "button"].includes(tag)) return;
+		if (/font-weight:\s*400\b/.test($n.attr("style") || "") && !marks.includes("regular")) marks = [...marks, "regular"];
 		if (tag === "br") {
 			if (!current) start(style);
 			const last = current.children[current.children.length - 1];
@@ -224,10 +225,16 @@ function htmlToPT($, root, { allowImages = false, baseStyle = "normal" } = {}) {
 // HTML -> plain text with [label](url) links and newlines (for repeater "text" sub-fields).
 function htmlToMd($, root) {
 	const out = [];
-	const walk = (node) => {
+	const walk = (node, regular = false) => {
 		if (node.type === "text") return out.push(node.data.replace(/\u00a0/g, " ").replace(/\s+/g, " "));
 		if (node.type !== "tag") return;
 		const $n = $(node);
+		if (!regular && /font-weight:\s*400\b/.test($n.attr("style") || "")) {
+			out.push("{% regular %}");
+			$n.contents().each((_index, child) => walk(child, true));
+			out.push("{% /regular %}");
+			return;
+		}
 		if (node.name === "br") return out.push("\n");
 		if (node.name === "a") {
 			const href = rewriteHref($n.attr("href"));
@@ -236,7 +243,7 @@ function htmlToMd($, root) {
 		}
 		const block = ["p", "div", "li", "h1", "h2", "h3", "h4", "h5", "h6"].includes(node.name);
 		if (block) out.push("\n\n");
-		$n.contents().each((_, c) => walk(c));
+		$n.contents().each((_, c) => walk(c, regular));
 		if (block) out.push("\n\n");
 	};
 	$(root).contents().each((_, c) => walk(c));
@@ -246,6 +253,7 @@ function htmlToMd($, root) {
 		.map((l) => l.trim())
 		.join("\n")
 		.replace(/\n{3,}/g, "\n\n")
+		.replace(/[ \t]+(\{% \/regular %\})(?=\n|$)/g, "$1")
 		.trim();
 }
 

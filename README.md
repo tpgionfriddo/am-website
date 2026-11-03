@@ -21,14 +21,15 @@ production; GitHub Pages cannot run it. Hosted editing would require a separate 
 
 - **Pages:** 10 published pages, with structured sections.
 - **Projects:** 30 published projects, images, project types and display order.
-- **Articles:** 10 recovered articles retained as drafts, excluded from public output.
+- **Articles:** 10 recovered articles published, including category archives and paginated news listings.
 - **Site settings:** contact details, social links, navigation and footer information.
 
-Keep article status set to Draft until publication is approved. Taxonomy choices are in
+Keep new article status set to Draft until publication is approved. Taxonomy choices are in
 src/content/taxonomies.json. All 19 recovered section types have structured editing fields.
-Images selected in Keystatic are stored in src/assets/media and optimized at build time;
+Images selected in Keystatic are stored in src/assets/media under each entry's slug and optimized at build time;
 PDFs are served from public/media. Original width/height metadata is informational; rendered
-image dimensions come from the actual file. After changing content, review both the page
+image dimensions come from the actual file. Keep the slug-scoped asset paths: Keystatic
+uses them to load existing images when editing, not just to display public pages. After changing content, review both the page
 and any project/news lists where it appears.
 
 ## Validate locally
@@ -119,6 +120,7 @@ site is a separate repository and is unchanged.
 - scripts/migrate-static.mjs: one-time conversion; refuses to overwrite existing content.
 - archive/uploads/: ignored local recovery assets, preserved alongside the migrated copies.
 
-The original body default was weight 500 with many inline overrides to 400. Exact per-span
-weight fidelity remains a follow-up; the current port's body override is 400. Do not flatten
-all original typography to 500 when revisiting it.
+The body default is the original weight 500. Recovered inline weight-400 spans are preserved
+with the Regular weight (400) mark in Keystatic rich text. Plain-text fields use paired
+\`{% regular %}\` and \`{% /regular %}\` markers around the original lighter text. Do not apply
+a blanket body-weight override: contact details and unmarked text intentionally remain 500.

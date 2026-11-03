@@ -1,13 +1,13 @@
 {
 	"title": "Sheridan Pavilion",
 	"featured_image": {
-		"src": "/src/assets/media/2023/02/69A9252-1-1.jpg",
+		"src": "/src/assets/media/montrose-town-centre-2/2023/02/69A9252-1-1.jpg",
 		"alt": "",
 		"width": 1500,
 		"height": 739
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2023/02/69A9252-1-1.jpg",
+		"src": "/src/assets/media/montrose-town-centre-2/2023/02/69A9252-1-1.jpg",
 		"alt": "",
 		"width": 1500,
 		"height": 739
@@ -52,20 +52,20 @@
 						"value": "Structural & Civil Engineer – [Adams Consulting Engineers](http://www.adamseng.com.au/)\nServices Engineer – [NJM Design](http://www.njmdesign.com.au/)\nAccess Consultant – Philip Chun and Associates\nQuantity Surveyor – [Prowse Quantity Surveyors](http://www.prowseqs.com.au/)\nBuilding Surveyor – City of Stonnington"
 					}
 				],
-				"text": "Replacing an older building, the Sheridan Pavilion was designed to accommodate AFL and cricket teams, and be a versatile asset suitable for servicing other community groups such as a dog club. For the Sheridan Pavilion we prioritised a flexible and robust design that optimised functionality and accessibility and minimised environmental impact and maintenance requirements. The success of our design approach revolves around the siting of the building and its form.\n\nCommitment to the importance of inclusion through sports, leisure and wellbeing has increased over the last twenty years. At Architecture Matters we have become increasingly specialised in recreation facilities and other public buildings that respect inclusivity through design. New pavilions, replacement of existing pavilions, and the alteration and additions to existing pavilions are a large part of our portfolio."
+				"text": "{% regular %}Replacing an older building, the Sheridan Pavilion was designed to accommodate AFL and cricket teams, and be a versatile asset suitable for servicing other community groups such as a dog club. For the Sheridan Pavilion we prioritised a flexible and robust design that optimised functionality and accessibility and minimised environmental impact and maintenance requirements. The success of our design approach revolves around the siting of the building and its form.{% /regular %}\n\n{% regular %}Commitment to the importance of inclusion through sports, leisure and wellbeing has increased over the last twenty years. At Architecture Matters we have become increasingly specialised in recreation facilities and other public buildings that respect inclusivity through design. New pavilions, replacement of existing pavilions, and the alteration and additions to existing pavilions are a large part of our portfolio.{% /regular %}"
 			}
 		},
 		{
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2023/02/69A9483-1.jpg",
+					"src": "/src/assets/media/montrose-town-centre-2/2023/02/69A9483-1.jpg",
 					"alt": "",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2023/02/69A9318-1.jpg",
+					"src": "/src/assets/media/montrose-town-centre-2/2023/02/69A9318-1.jpg",
 					"alt": "Sheridan Pavilion",
 					"width": 620,
 					"height": 821
@@ -76,7 +76,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2023/02/69A9470-1.jpg",
+					"src": "/src/assets/media/montrose-town-centre-2/2023/02/69A9470-1.jpg",
 					"alt": "Sheridan Pavilion",
 					"width": 1320,
 					"height": 879
@@ -86,14 +86,14 @@
 		{
 			"discriminant": "quote",
 			"value": {
-				"text": "For the Sheridan Pavilion we prioritised a flexible and robust design that optimised functionality and accessibility and minimised environmental impact and maintenance requirements. The success of our design approach revolves around the siting of the building and its form."
+				"text": "{% regular %}For the Sheridan Pavilion we prioritised a flexible and robust design that optimised functionality and accessibility and minimised environmental impact and maintenance requirements. The success of our design approach revolves around the siting of the building and its form.{% /regular %}"
 			}
 		},
 		{
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2023/02/69A9574-1.jpg",
+					"src": "/src/assets/media/montrose-town-centre-2/2023/02/69A9574-1.jpg",
 					"alt": "",
 					"width": 853,
 					"height": 569
@@ -104,9 +104,9 @@
 		{
 			"discriminant": "text_image",
 			"value": {
-				"text": "In planning the location and orientation of the building we carefully considered multiple factors including the existing sports oval to the north, road and carparking infrastructure to the south, high voltage power lines and cricket nets to the other sides. To combat local flood risk we elevated the building on a raised platform, the height of which would both avoid flooding issues and provide the ideal vantage point for viewing sporting teams in action on the oval. We incorporated a wide terrace on three sides of the building to facilitate this interaction between spectator and player.\n\nChange rooms are arrayed along the oval-side of the pavilion where flexible wall panelling allows the rooms to be opened to each other to form a large function space with amenity areas, located to maximise flexibility of the facility. The cantilevered roof form is multi-functional, providing an optimal incline for solar hot water and photovoltaic panels, while also providing a column free, covered viewing platform. This design created further opportunity for natural light filled rooms courtesy of clerestory windows.\n\nThe building has been hailed a great success by its users and its owner, Stonnington Council, as a venue that encourages teamwork and community through functional design.",
+				"text": "{% regular %}In planning the location and orientation of the building we carefully considered multiple factors including the existing sports oval to the north, road and carparking infrastructure to the south, high voltage power lines and cricket nets to the other sides. To combat local flood risk we elevated the building on a raised platform, the height of which would both avoid flooding issues and provide the ideal vantage point for viewing sporting teams in action on the oval. We incorporated a wide terrace on three sides of the building to facilitate this interaction between spectator and player.{% /regular %}\n\n{% regular %}Change rooms are arrayed along the oval-side of the pavilion where flexible wall panelling allows the rooms to be opened to each other to form a large function space with amenity areas, located to maximise flexibility of the facility. The cantilevered roof form is multi-functional, providing an optimal incline for solar hot water and photovoltaic panels, while also providing a column free, covered viewing platform. This design created further opportunity for natural light filled rooms courtesy of clerestory windows.{% /regular %}\n\n{% regular %}The building has been hailed a great success by its users and its owner, Stonnington Council, as a venue that encourages teamwork and community through functional design.{% /regular %}",
 				"image": {
-					"src": "/src/assets/media/2023/02/69A8269-1.jpg",
+					"src": "/src/assets/media/montrose-town-centre-2/2023/02/69A8269-1.jpg",
 					"alt": "Sheridan Pavilion",
 					"width": 620,
 					"height": 744
@@ -118,7 +118,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2023/02/69A9645-1.jpg",
+					"src": "/src/assets/media/montrose-town-centre-2/2023/02/69A9645-1.jpg",
 					"alt": "Sheridan Pavilion changerooms",
 					"width": 1320,
 					"height": 880
@@ -131,7 +131,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2023/02/69A9296.jpg",
+							"src": "/src/assets/media/montrose-town-centre-2/2023/02/69A9296.jpg",
 							"alt": "Sheridan Pavilion changerooms",
 							"width": 962,
 							"height": 641
@@ -139,7 +139,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2023/02/69A9374.jpg",
+							"src": "/src/assets/media/montrose-town-centre-2/2023/02/69A9374.jpg",
 							"alt": "Sheridan Pavilion changerooms",
 							"width": 962,
 							"height": 641
@@ -147,7 +147,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2023/02/69A9329.jpg",
+							"src": "/src/assets/media/montrose-town-centre-2/2023/02/69A9329.jpg",
 							"alt": "",
 							"width": 465,
 							"height": 641
@@ -155,7 +155,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2023/02/69A8412.jpg",
+							"src": "/src/assets/media/montrose-town-centre-2/2023/02/69A8412.jpg",
 							"alt": "Sheridan Pavilion accessibility ramp",
 							"width": 962,
 							"height": 641
@@ -163,7 +163,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2023/02/69A8457.jpg",
+							"src": "/src/assets/media/montrose-town-centre-2/2023/02/69A8457.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -171,7 +171,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2023/02/69A8440.jpg",
+							"src": "/src/assets/media/montrose-town-centre-2/2023/02/69A8440.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641

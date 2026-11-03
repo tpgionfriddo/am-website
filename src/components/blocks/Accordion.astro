@@ -3,6 +3,7 @@ import Image from "../Image.astro";
 import { renderText } from "../../lib/text";
 const { value } = Astro.props;
 const items = (value.items ?? []) as any[];
+const sectionId = `accordion-${crypto.randomUUID()}`;
 ---
 <section class="block block-animate accordion-section">
 	{value.heading && <h2>{value.heading}</h2>}
@@ -10,9 +11,9 @@ const items = (value.items ?? []) as any[];
 		<div class="grid__image">
 			<div class="accordion__images">
 				{
-					items.map((it, i) => (
-						<div id={`accordion-image-${i + 1}`} class="accordion__image" style={i === 0 ? undefined : "display:none"}>
-							{it.image && <Image image={it.image} class="attachment-full size-full" sizes="(min-width: 768px) 50vw, 100vw" />}
+					items.map((item, index) => (
+						<div class:list={["accordion__image", { "is-active": index === 0 }]} data-index={index} aria-hidden={index !== 0}>
+							{item.image && <Image image={item.image} class="attachment-full size-full" sizes="(min-width: 768px) 50vw, 100vw" />}
 						</div>
 					))
 				}
@@ -21,15 +22,20 @@ const items = (value.items ?? []) as any[];
 		<div class="grid__text">
 			<div class="accordion">
 				{
-					items.map((it, i) => (
-						<div class="accordion__item">
+					items.map((item, index) => (
+						<div class:list={["accordion__item", { "is-active": index === 0 }]}>
 							<h4 class="accordion__title">
-								<button type="button" class:list={["accordion__button", { "is-active": i === 0 }]} data-id={`${i + 1}`} aria-expanded={i === 0 ? "true" : "false"}>
-									<span>{it.title}</span>
-									<svg width="25.43" height="18" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M16.4343 0.717285L25.4341 9.71704L16.4343 18.7168" stroke="black" stroke-width="2" /><path d="M25.2384 9.71704L0 9.71704" stroke="black" stroke-width="2" /></svg>
+								<button id={`${sectionId}-button-${index}`} type="button" class:list={["accordion__button", { "is-active": index === 0 }]} data-index={index} aria-controls={`${sectionId}-panel-${index}`} aria-expanded={index === 0 ? "true" : "false"}>
+									<span>{item.title}</span>
+									<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+										<path class="accordion__arrow-closed" d="M3 14H24M15 5L24 14L15 23" stroke="currentColor" stroke-width="2" />
+										<path class="accordion__arrow-open" d="M14 3V24M5 15L14 24L23 15" stroke="currentColor" stroke-width="2" />
+									</svg>
 								</button>
 							</h4>
-							<div class="accordion__content" style={i === 0 ? "display:block" : undefined} set:html={renderText(it.text)} />
+							<div id={`${sectionId}-panel-${index}`} class="accordion__content" role="region" aria-labelledby={`${sectionId}-button-${index}`} inert={index !== 0}>
+								<div class="accordion__panel"><div class="accordion__body" set:html={renderText(item.text)} /></div>
+							</div>
 						</div>
 					))
 				}

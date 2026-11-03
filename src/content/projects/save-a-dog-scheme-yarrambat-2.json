@@ -1,13 +1,13 @@
 {
 	"title": "Save-A-Dog Scheme Animal Shelter Master Plan & Redevelopment",
 	"featured_image": {
-		"src": "/src/assets/media/2023/01/B3A6914.jpg",
+		"src": "/src/assets/media/save-a-dog-scheme-yarrambat-2/2023/01/B3A6914.jpg",
 		"alt": "Save A Dog Scheme dog pens",
 		"width": 900,
 		"height": 600
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2023/01/B3A6914.jpg",
+		"src": "/src/assets/media/save-a-dog-scheme-yarrambat-2/2023/01/B3A6914.jpg",
 		"alt": "",
 		"width": 900,
 		"height": 600
@@ -64,7 +64,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2023/01/69A9470-2.png",
+					"src": "/src/assets/media/save-a-dog-scheme-yarrambat-2/2023/01/69A9470-2.png",
 					"alt": "Save A Dog Scheme dog inside a dog pen",
 					"width": 1320,
 					"height": 879
@@ -75,7 +75,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2023/01/69A9470-1.png",
+					"src": "/src/assets/media/save-a-dog-scheme-yarrambat-2/2023/01/69A9470-1.png",
 					"alt": "Save A Dog Scheme-outdoor dog pens",
 					"width": 1320,
 					"height": 879
@@ -92,7 +92,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2023/01/69A9574-1.png",
+					"src": "/src/assets/media/save-a-dog-scheme-yarrambat-2/2023/01/69A9574-1.png",
 					"alt": "",
 					"width": 853,
 					"height": 569
@@ -105,7 +105,7 @@
 			"value": {
 				"text": "Stage 1 was successfully completed in October 2020. Subsequent stages have been thoroughly planned to resolve issues relating to varying floor levels, inadequate stormwater and sewage drainage, poor ventilation, acoustics and security.\n\nThe completed, specialised, facility will provide a significantly improved and safe setting for animals staff and visitors alike, providing an environment commensurate with the SADS organisation’s mission to rehome companion animals.",
 				"image": {
-					"src": "/src/assets/media/2023/01/69A9660-1.png",
+					"src": "/src/assets/media/save-a-dog-scheme-yarrambat-2/2023/01/69A9660-1.png",
 					"alt": "",
 					"width": 620,
 					"height": 744
@@ -117,7 +117,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2023/01/69A9574-2.png",
+					"src": "/src/assets/media/save-a-dog-scheme-yarrambat-2/2023/01/69A9574-2.png",
 					"alt": "",
 					"width": 853,
 					"height": 569
@@ -129,7 +129,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2023/01/69A9645-1.png",
+					"src": "/src/assets/media/save-a-dog-scheme-yarrambat-2/2023/01/69A9645-1.png",
 					"alt": "",
 					"width": 1320,
 					"height": 880

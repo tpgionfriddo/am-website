@@ -1,13 +1,13 @@
 {
 	"title": "Catholic Education Melbourne, Northern Region Office",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/69A9252-1-17.jpg",
+		"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9252-1-17.jpg",
 		"alt": "",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/MG_9936-12-1.png",
+		"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/MG_9936-12-1.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -63,13 +63,13 @@
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483-1-2.jpg",
+					"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9483-1-2.jpg",
 					"alt": "Catholic Education Melbourne-classrom door",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-1-2.jpg",
+					"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9318-1-2.jpg",
 					"alt": "Catholic Education Melbourne chairs",
 					"width": 620,
 					"height": 821
@@ -80,7 +80,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1-4.jpg",
+					"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9470-1-4.jpg",
 					"alt": "Catholic Education Melbourne wide room with glass windows to see the outside",
 					"width": 1320,
 					"height": 879
@@ -97,7 +97,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1-4.jpg",
+					"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9574-1-4.jpg",
 					"alt": "Catholic Education Melbourne classroom panoramic shot",
 					"width": 853,
 					"height": 569
@@ -110,7 +110,7 @@
 			"value": {
 				"text": "Being an older office building, it did not comply with modern accessibility standards. We added an accessible-compliant toilet and shower facility to the ground floor and completed the preparatory work for the future installation of an accessible-compliant passenger lift.\n\nA modern and calming palette of materials brings the workplace into alignment with The Catholic Education Office’s other office buildings.",
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9660-1-4.jpg",
+					"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9660-1-4.jpg",
 					"alt": "Catholic Education Melbourne classroom with glass walls",
 					"width": 620,
 					"height": 744
@@ -122,7 +122,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-4.jpg",
+					"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9645-1-4.jpg",
 					"alt": "meeting area with glass walls-outside view can be seen",
 					"width": 1320,
 					"height": 880
@@ -135,7 +135,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-44.png",
+							"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9574-44.png",
 							"alt": "",
 							"width": 961,
 							"height": 641
@@ -143,7 +143,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-31.jpg",
+							"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9574-31.jpg",
 							"alt": "Catholic Education Melbourne living area",
 							"width": 961,
 							"height": 641
@@ -151,7 +151,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-32.jpg",
+							"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9574-32.jpg",
 							"alt": "",
 							"width": 961,
 							"height": 641
@@ -159,7 +159,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-33.jpg",
+							"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9574-33.jpg",
 							"alt": "Catholic Education Melbourne classroom 2",
 							"width": 961,
 							"height": 641
@@ -167,7 +167,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-34.jpg",
+							"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9574-34.jpg",
 							"alt": "Catholic Education Melbourne classroom 3",
 							"width": 961,
 							"height": 641
@@ -175,7 +175,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-35.jpg",
+							"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9574-35.jpg",
 							"alt": "",
 							"width": 961,
 							"height": 641
@@ -183,7 +183,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-36.jpg",
+							"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9574-36.jpg",
 							"alt": "",
 							"width": 961,
 							"height": 641
@@ -191,7 +191,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-37.jpg",
+							"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9574-37.jpg",
 							"alt": "",
 							"width": 961,
 							"height": 641
@@ -199,7 +199,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-38.jpg",
+							"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9574-38.jpg",
 							"alt": "",
 							"width": 961,
 							"height": 641
@@ -207,7 +207,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-39.jpg",
+							"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9574-39.jpg",
 							"alt": "",
 							"width": 961,
 							"height": 641
@@ -215,7 +215,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-40.jpg",
+							"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9574-40.jpg",
 							"alt": "",
 							"width": 961,
 							"height": 641
@@ -223,7 +223,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9574-41.jpg",
+							"src": "/src/assets/media/norwood-crescent-office-refurbishment/2022/11/69A9574-41.jpg",
 							"alt": "Catholic Education Melbourne meeting room 2",
 							"width": 961,
 							"height": 641

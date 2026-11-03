@@ -1,13 +1,13 @@
 {
 	"title": "Our Lady of the Way Catholic Primary School, Stages 2-4",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/69A9252-1-5.jpg",
+		"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9252-1-5.jpg",
 		"alt": "Our Lady of the Way Catholic Primary School facade",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/MG_9936-9.png",
+		"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/MG_9936-9.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -67,13 +67,13 @@
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483-1-8.jpg",
+					"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9483-1-8.jpg",
 					"alt": "Our Lady of the Way Catholic Primary School bench in the outdoor field",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-1-8.jpg",
+					"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9318-1-8.jpg",
 					"alt": "Our Lady of the Way Catholic Primary School outdoor area",
 					"width": 620,
 					"height": 821
@@ -84,7 +84,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1-11.jpg",
+					"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9470-1-11.jpg",
 					"alt": "Our Lady of the Way Catholic Primary School wide angle",
 					"width": 1320,
 					"height": 879
@@ -101,7 +101,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1-11.jpg",
+					"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9574-1-11.jpg",
 					"alt": "Our Lady of the Way Catholic Primary School watcher's lounge",
 					"width": 853,
 					"height": 569
@@ -114,7 +114,7 @@
 			"value": {
 				"text": "All classrooms have sliding doors on two sides that when closed form a corner to encourage focused study time, yet when opened they see the hallways shift from thoroughfares to usable breakout spaces. Clean lines, vibrantly coloured finishes and naturally-lit rooms, will create fun and cheerful learning spaces.\n\nOur master plan optimises the footprint with an economically-efficient solution designed to increase the flexibility of the educational offering.\n\nOur Lady of the Way Primary School is a joyful learning environment that has provided the community access to education — what could matter more?",
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9660-1-10.jpg",
+					"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9660-1-10.jpg",
 					"alt": "Our Lady of the Way Catholic Primary School basketball court",
 					"width": 620,
 					"height": 744
@@ -126,7 +126,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-11.jpg",
+					"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9645-1-11.jpg",
 					"alt": "Our Lady of the Way Catholic Primary School library",
 					"width": 1320,
 					"height": 880
@@ -139,7 +139,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-5-2.png",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-5-2.png",
 							"alt": "Our Lady of the Way Catholic Primary School reading area",
 							"width": 962,
 							"height": 641
@@ -147,7 +147,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-20-1.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-20-1.jpg",
 							"alt": "Our Lady of the Way Catholic Primary School classroom 4",
 							"width": 962,
 							"height": 641
@@ -155,7 +155,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-21-1.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-21-1.jpg",
 							"alt": "Our Lady of the Way Catholic Primary School classroom 3",
 							"width": 962,
 							"height": 641
@@ -163,7 +163,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-22.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-22.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -171,7 +171,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-23.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-23.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -179,7 +179,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-24.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-24.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -187,7 +187,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-25.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-25.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -195,7 +195,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-26.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-26.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -203,7 +203,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-27.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-27.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -211,7 +211,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-28.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-28.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -219,7 +219,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-29.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-29.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -227,7 +227,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-30.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-30.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -235,7 +235,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-31.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-31.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -243,7 +243,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-32.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-32.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -251,7 +251,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-33.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-33.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -259,7 +259,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9483-1-8.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9483-1-8.jpg",
 							"alt": "Our Lady of the Way Catholic Primary School bench in the outdoor field",
 							"width": 619,
 							"height": 821
@@ -267,7 +267,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-35.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-35.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -275,7 +275,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-37.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-37.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -283,7 +283,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-36.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-36.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -291,7 +291,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-38.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-38.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -299,7 +299,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-39.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-39.jpg",
 							"alt": "",
 							"width": 768,
 							"height": 512
@@ -307,7 +307,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-40.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-40.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -315,7 +315,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-41.jpg",
+							"src": "/src/assets/media/our-lady-of-the-waywallan-east/2022/11/69A9496-41.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641

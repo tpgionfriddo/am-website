@@ -1,13 +1,13 @@
 {
 	"title": "Mother Teresa Primary School, Senior Leadership Centre",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/69A9252-1-8.jpg",
+		"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-senior-leadership-centre/2022/11/69A9252-1-8.jpg",
 		"alt": "Mother Teresa Primary School facade",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/MG_9936-12.png",
+		"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-senior-leadership-centre/2022/11/MG_9936-12.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -29,7 +29,7 @@
 				"details": [
 					{
 						"label": "Location",
-						"value": "Mt Ridley, Victoria"
+						"value": "{% regular %}Mt Ridley, Victoria{% /regular %}"
 					},
 					{
 						"label": "Client",
@@ -63,13 +63,13 @@
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483-1-11.jpg",
+					"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-senior-leadership-centre/2022/11/69A9483-1-11.jpg",
 					"alt": "Mother Teresa Primary School learning area",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-1-11.jpg",
+					"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-senior-leadership-centre/2022/11/69A9318-1-11.jpg",
 					"alt": "Mother Teresa Primary School",
 					"width": 620,
 					"height": 821
@@ -80,7 +80,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1-14.jpg",
+					"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-senior-leadership-centre/2022/11/69A9470-1-14.jpg",
 					"alt": "Mother Teresa Primary School lounge area",
 					"width": 1320,
 					"height": 879
@@ -97,7 +97,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1-14.jpg",
+					"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-senior-leadership-centre/2022/11/69A9574-1-14.jpg",
 					"alt": "Mother Teresa Primary School pantry with yellow floor",
 					"width": 853,
 					"height": 569
@@ -110,7 +110,7 @@
 			"value": {
 				"text": "This vibrant stand-alone facility is equipped to support a range of learning styles.\n\nWe introduced a new and diverse materials palette to the Centre to create a distinctive identity in contrast to the school’s more homogenous existing buildings. This contributes to the students’ experience and self awareness of their transition to high school, supporting the objective of fostering an independent cohort.\n\nThe Centre was delivered under budget and opened on schedule in January 2017. The changing rhythm of the school’s preferred pedagogical model are well served by this flexible learning space.",
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9660-1-12.jpg",
+					"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-senior-leadership-centre/2022/11/69A9660-1-12.jpg",
 					"alt": "Mother Teresa Primary School toilet",
 					"width": 620,
 					"height": 744
@@ -122,7 +122,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-14.jpg",
+					"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-senior-leadership-centre/2022/11/69A9645-1-14.jpg",
 					"alt": "Mother Teresa Primary School bathroom",
 					"width": 1320,
 					"height": 880
@@ -135,7 +135,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9325-2-1.jpg",
+							"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-senior-leadership-centre/2022/11/69A9325-2-1.jpg",
 							"alt": "Mother Teresa Primary School",
 							"width": 962,
 							"height": 641
@@ -143,7 +143,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-3-1.jpg",
+							"src": "/src/assets/media/mother-teresa-primary-school-craigieburn-senior-leadership-centre/2022/11/69A9496-3-1.jpg",
 							"alt": "Mother Teresa Primary School",
 							"width": 962,
 							"height": 641

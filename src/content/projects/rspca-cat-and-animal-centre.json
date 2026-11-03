@@ -1,13 +1,13 @@
 {
 	"title": "RSPCA Cat & Small Animal Centre – Stages 1 & 2",
 	"featured_image": {
-		"src": "/src/assets/media/2024/02/43A4034-e1707370012678.jpg",
+		"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4034-e1707370012678.jpg",
 		"alt": "RSPCA Cat & Small Animal Centre",
 		"width": 1440,
 		"height": 775
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2024/02/43A4061.jpg",
+		"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4061.jpg",
 		"alt": "",
 		"width": 755,
 		"height": 516
@@ -63,7 +63,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2024/02/43A4006.jpg",
+					"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4006.jpg",
 					"alt": "RSPCA Cat and Small Animal Adoption entrance",
 					"width": 1320,
 					"height": 880
@@ -80,7 +80,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2024/02/43A4625.jpg",
+					"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4625.jpg",
 					"alt": "RSPCA Cat & Small Animal Centre cat condos",
 					"width": 855,
 					"height": 570
@@ -93,7 +93,7 @@
 			"value": {
 				"text": "Some important elements of the final design included delivering separate circulation paths for staff, public and animals and separate operational and mechanical services between animal accommodation and cleaning and food preparation zones, a consequence of which the incidence of transmission of infection across animal populations has been reduced.",
 				"image": {
-					"src": "/src/assets/media/2024/02/43A4250.jpg",
+					"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4250.jpg",
 					"alt": "RSPCA Cat & Small Animal Centre front entrance",
 					"width": 620,
 					"height": 930
@@ -105,7 +105,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2024/02/43A4270.jpg",
+					"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4270.jpg",
 					"alt": "RSPCA Cat & Small Animal Centre view from reception area",
 					"width": 1320,
 					"height": 880
@@ -116,7 +116,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2024/02/43A4209.jpg",
+					"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4209.jpg",
 					"alt": "RSPCA Cat & Small Animal Centre",
 					"width": 1320,
 					"height": 880
@@ -129,7 +129,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/43A4065.jpg",
+							"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4065.jpg",
 							"alt": "RSPCA Cat & Small Animal Centre",
 							"width": 960,
 							"height": 640
@@ -137,7 +137,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/43A4260.jpg",
+							"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4260.jpg",
 							"alt": "RSPCA Cat & Small Animal Centre reception area",
 							"width": 960,
 							"height": 640
@@ -145,7 +145,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/43A4335.jpg",
+							"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4335.jpg",
 							"alt": "RSPCA Cat & Small Animal Centre cat accommodation area",
 							"width": 960,
 							"height": 640
@@ -153,7 +153,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/43A4286.jpg",
+							"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4286.jpg",
 							"alt": "RSPCA Cat & Small Animal Centre cat condos",
 							"width": 960,
 							"height": 640
@@ -161,7 +161,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/43A4301.jpg",
+							"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4301.jpg",
 							"alt": "RSPCA Cat & Small Animal Centre cat condos",
 							"width": 960,
 							"height": 640
@@ -169,7 +169,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/43A4910.jpg",
+							"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4910.jpg",
 							"alt": "RSPCA Cat & Small Animal Centre cat play area",
 							"width": 960,
 							"height": 640
@@ -177,7 +177,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/43A4140.jpg",
+							"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4140.jpg",
 							"alt": "RSPCA Cat & Small Animal Centre view looking into facility",
 							"width": 960,
 							"height": 640
@@ -185,7 +185,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/43A4125.jpg",
+							"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4125.jpg",
 							"alt": "RSPCA Cat & Small Animal Centre external view",
 							"width": 960,
 							"height": 640
@@ -193,7 +193,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/43A4785.jpg",
+							"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4785.jpg",
 							"alt": "RSPCA Cat & Small Animal Centre - The Webb-Hughes Catwalk",
 							"width": 960,
 							"height": 640
@@ -201,7 +201,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/43A4161.jpg",
+							"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4161.jpg",
 							"alt": "RSPCA Cat & Small Animal Centre rear of facility",
 							"width": 960,
 							"height": 640
@@ -209,7 +209,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/43A4775.jpg",
+							"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4775.jpg",
 							"alt": "RSPCA Cat & Small Animal Centre laundry",
 							"width": 960,
 							"height": 640
@@ -217,7 +217,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2024/02/43A4754.jpg",
+							"src": "/src/assets/media/rspca-cat-and-animal-centre/2024/02/43A4754.jpg",
 							"alt": "RSPCA Cat & Small Animal Centre food preparation area",
 							"width": 960,
 							"height": 640

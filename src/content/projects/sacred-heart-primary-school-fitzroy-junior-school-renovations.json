@@ -1,13 +1,13 @@
 {
 	"title": "Sacred Heart School",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/69A9252-1-4.jpg",
+		"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9252-1-4.jpg",
 		"alt": "Sacred Heart School playground",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/MG_9936-3.png",
+		"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/MG_9936-3.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -29,19 +29,19 @@
 				"details": [
 					{
 						"label": "Location",
-						"value": "Fitzroy, Victoria"
+						"value": "{% regular %}Fitzroy, Victoria{% /regular %}"
 					},
 					{
 						"label": "Client name",
-						"value": "Melbourne Archdiocese Catholic Schools (MACS)"
+						"value": "{% regular %}Melbourne Archdiocese Catholic Schools (MACS){% /regular %}"
 					},
 					{
 						"label": "Value",
-						"value": "$1.44 MIL"
+						"value": "{% regular %}$1.44 MIL{% /regular %}"
 					},
 					{
 						"label": "Timeframe",
-						"value": "2020-2022"
+						"value": "{% regular %}2020-2022{% /regular %}"
 					},
 					{
 						"label": "Contractor name",
@@ -63,13 +63,13 @@
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483-1-7.jpg",
+					"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9483-1-7.jpg",
 					"alt": "Sacred Heart School colorful carpeted learning area",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-1-7.jpg",
+					"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9318-1-7.jpg",
 					"alt": "Sacred Heart School open lockers",
 					"width": 620,
 					"height": 821
@@ -80,7 +80,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1-10.jpg",
+					"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9470-1-10.jpg",
 					"alt": "",
 					"width": 1320,
 					"height": 879
@@ -97,7 +97,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1-10.jpg",
+					"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9574-1-10.jpg",
 					"alt": "Sacred Heart Primary School, lockers on the lobby",
 					"width": 853,
 					"height": 569
@@ -110,7 +110,7 @@
 			"value": {
 				"text": "Taking a lead from the school’s stated desire to remove the inflexible and closed-in classroom formats and barbed-wire-topped fencing, we adopted a range of simple architectural approaches. We opened up and connected teaching spaces with large format sliding doors to encourage structured interaction and collaboration between classes and enable team teaching. We decluttered the corridor space to enable teaching spaces to break out into a shared zone. We designed colourful joinery and floor finishes to give spaces their own identities and establish clear paths of travel. We installed new palisade perimeter fencing, replacing the barbed wire fencing and its negative stigma.\n\nThe junior playground was completely rebuilt with colourful and safer surfaces for running and play. The ground floor learning space was opened out into the playground with colourful flooring running from the indoor to the outdoor learning zone, complete with outdoor black/whiteboard. A targeted range of play equipment and other discovery learning-based equipment such as built in musical instruments and a water-play zone add vital multi-purpose use to the playground, so critical due to the school’s spatial restrictions.\n\nThe project was warmly received by the school community and recognised with the award of two commendations in the Association for Learning Environments 2022 Awards Program; Category 6 Modernisation – Small, and Category 7 Small projects under $2 million. Sacred Heart Primary School shows that a design process that includes careful consideration of and consultation with those who use a space, can deliver an impactful building, no matter the budget.",
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9660-1-9.jpg",
+					"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9660-1-9.jpg",
 					"alt": "Sacred Heart School slides at the playground",
 					"width": 620,
 					"height": 744
@@ -122,7 +122,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-10.jpg",
+					"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9645-1-10.jpg",
 					"alt": "The front of Sacred Heart Primary School with trees and green rubber grass",
 					"width": 1320,
 					"height": 880
@@ -135,7 +135,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-5-1.png",
+							"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9496-5-1.png",
 							"alt": "Sacred Heart School indoor to outdoor view",
 							"width": 768,
 							"height": 512
@@ -143,7 +143,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-7-1.jpg",
+							"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9496-7-1.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -151,7 +151,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-8-1.jpg",
+							"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9496-8-1.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -159,7 +159,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-9-1.jpg",
+							"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9496-9-1.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -167,7 +167,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-10-e1673498217499.jpg",
+							"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9496-10-e1673498217499.jpg",
 							"alt": "",
 							"width": 853,
 							"height": 568
@@ -175,7 +175,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-11.jpg",
+							"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9496-11.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -183,7 +183,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-12-1.jpg",
+							"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9496-12-1.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -191,7 +191,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-16-1.jpg",
+							"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9496-16-1.jpg",
 							"alt": "Sacred Heart School stairs",
 							"width": 962,
 							"height": 641
@@ -199,7 +199,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-13-1.jpg",
+							"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9496-13-1.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -207,7 +207,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-15-1.jpg",
+							"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9496-15-1.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -215,7 +215,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-14-1.jpg",
+							"src": "/src/assets/media/sacred-heart-primary-school-fitzroy-junior-school-renovations/2022/11/69A9496-14-1.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641

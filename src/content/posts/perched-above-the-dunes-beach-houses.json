@@ -2,7 +2,7 @@
 	"title": "Perched above the dunes | Beach Houses 2013",
 	"date": "2013-04-10T14:16:01",
 	"featured_image": {
-		"src": "/src/assets/media/2023/01/MH01_all-pics-010.jpg",
+		"src": "/src/assets/media/perched-above-the-dunes-beach-houses/2023/01/MH01_all-pics-010.jpg",
 		"alt": "beach house front surrounded by trees",
 		"width": 1500,
 		"height": 991
@@ -16,6 +16,6 @@
 		"title": "Perched above the dunes | Beach Houses 2013",
 		"description": "Clad in weathered timber and stone, immerse yourself in the breathtaking views of this beach house that peers over the dunes."
 	},
-	"status": "draft",
-	"content": "The materials used for the house are treated quite differently on each level. The lower level is made of reinforced concrete. The upper level comprises a steel frame, expansive tinted glass, timber cladding and stone.\n\n![beach house interiors, marble kitchen table top](/src/assets/media/2013/04/MH01_all-pics-048.jpg)\n\n> “The materials pick up the colours of the surrounds. The limestone was quarried locally. And the western red timber will eventually turn a silvery grey, like the trunks of these trees” says Gionfriddo, pointing to the twisted tea trees.\n\nAs the site was excavated, the entrance to the house is on the first level.\n\n[Read the full article here](/media/2023/03/beach-houses-down-under.pdf)"
+	"status": "published",
+	"content": "{% regular %}The materials used for the house are treated quite differently on each level. The lower level is made of reinforced concrete. The upper level comprises a steel frame, expansive tinted glass, timber cladding and stone.{% /regular %}\n\n![beach house interiors, marble kitchen table top](/src/assets/media/perched-above-the-dunes-beach-houses/2013/04/MH01_all-pics-048.jpg)\n\n> “The materials pick up the colours of the surrounds. The limestone was quarried locally. And the western red timber will eventually turn a silvery grey, like the trunks of these trees” says Gionfriddo, pointing to the twisted tea trees.\n\nAs the site was excavated, the entrance to the house is on the first level.\n\n[Read the full article here](/media/2023/03/beach-houses-down-under.pdf)"
 }

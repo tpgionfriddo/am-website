@@ -13,7 +13,7 @@
 				"slides": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/Slide-image-1-scaled.jpg",
+							"src": "/src/assets/media/home/2022/11/Slide-image-1-scaled.jpg",
 							"alt": "children playing soccer at Romsey Park Community Pavilion field",
 							"width": 2560,
 							"height": 1707
@@ -21,7 +21,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2023/01/MG_9466-1.jpg",
+							"src": "/src/assets/media/home/2023/01/MG_9466-1.jpg",
 							"alt": "Stonnington Animal Pound and Shelter facade",
 							"width": 1920,
 							"height": 1280
@@ -29,7 +29,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2023/01/B3A1170-1-1.jpg",
+							"src": "/src/assets/media/home/2023/01/B3A1170-1-1.jpg",
 							"alt": "Mt Ridley, Victoria - Sacred Heart School open ground",
 							"width": 1920,
 							"height": 1281
@@ -37,7 +37,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2023/01/B3A4252-1.jpg",
+							"src": "/src/assets/media/home/2023/01/B3A4252-1.jpg",
 							"alt": "",
 							"width": 1920,
 							"height": 1281
@@ -45,7 +45,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2023/01/69A01001-scaled.jpg",
+							"src": "/src/assets/media/home/2023/01/69A01001-scaled.jpg",
 							"alt": "",
 							"width": 1870,
 							"height": 2560
@@ -53,7 +53,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2023/02/AM-Dorrington_01.jpg",
+							"src": "/src/assets/media/home/2023/02/AM-Dorrington_01.jpg",
 							"alt": "",
 							"width": 2000,
 							"height": 1334

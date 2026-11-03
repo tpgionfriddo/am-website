@@ -1,7 +1,7 @@
 {
 	"title": "Our Practice",
 	"featured_image": {
-		"src": "/src/assets/media/2023/01/Our-Practice-banner.png",
+		"src": "/src/assets/media/melbourne-based-architects/2023/01/Our-Practice-banner.png",
 		"alt": "school library in black and white with yellow hue",
 		"width": 1440,
 		"height": 601
@@ -24,7 +24,7 @@
 			"value": {
 				"heading": "Our Story",
 				"image": {
-					"src": "/src/assets/media/2023/01/Our-Story-image-2.jpg",
+					"src": "/src/assets/media/melbourne-based-architects/2023/01/Our-Story-image-2.jpg",
 					"alt": "Melbourne-based architects, Anthony Quiqley and Anthony Gionfriddo",
 					"width": 1000,
 					"height": 667
@@ -32,16 +32,16 @@
 				"intro": "Based in West Melbourne, Architecture Matters is an architecture practice directed by Anthony Quigley and Anthony Gionfriddo.",
 				"slides": [
 					{
-						"text": "Our directors first met in 1988 as students of architecture at RMIT, where they shared classes and discovered common ground in their approach. Upon graduating, both gained formative experience in various architecture firms and subsequently went into business for themselves. Anthony Quigley founded Architecture Matters in 2001. Anthony Gionfriddo joined as co-director in 2008 after 10 years as a sole practitioner specialising in residential architecture."
+						"text": "{% regular %}Our directors first met in 1988 as students of architecture at RMIT, where they shared classes and discovered common ground in their approach. Upon graduating, both gained formative experience in various architecture firms and subsequently went into business for themselves. Anthony Quigley founded Architecture Matters in 2001. Anthony Gionfriddo joined as co-director in 2008 after 10 years as a sole practitioner specialising in residential architecture.{% /regular %}"
 					},
 					{
-						"text": "In the 1990s, when the pair began their careers, the architectural profession was in the process of moving from pen drafting into computer aided drafting and building information modelling (BIM) software. Advanced use of BIM technology has become the cornerstone of our project approach, facilitating clear communication and design efficiency."
+						"text": "{% regular %}In the 1990s, when the pair began their careers, the architectural profession was in the process of moving from pen drafting into computer aided drafting and building information modelling (BIM) software. Advanced use of BIM technology has become the cornerstone of our project approach, facilitating clear communication and design efficiency.{% /regular %}"
 					},
 					{
-						"text": "From an initial group of four, in recent years our practice has expanded to a team of 13 – a diverse mix, including project architects, senior consultants, a practice manager, and several architecture graduates. Importantly, our current scale enables Anthony Q and Anthony G to develop projects from beginning to end, allowing both directors to maintain a close connection to the work."
+						"text": "{% regular %}From an initial group of four, in recent years our practice has expanded to a team of 13 – a diverse mix, including project architects, senior consultants, a practice manager, and several architecture graduates. Importantly, our current scale enables Anthony Q and Anthony G to develop projects from beginning to end, allowing both directors to maintain a close connection to the work.{% /regular %}"
 					},
 					{
-						"text": "Architecture Matters seeks simple solutions over grand gestures and efficiency in practice and design. Our portfolio encompasses a range of educational, community specialised and residential projects. Whether family homes, not-for-profit community projects, or larger institutional buildings, our work is characterised by an open, creatively pragmatic design approach centred on client and civic benefit and tangible value."
+						"text": "{% regular %}Architecture Matters seeks simple solutions over grand gestures and efficiency in practice and design. Our portfolio encompasses a range of educational, community specialised and residential projects. Whether family homes, not-for-profit community projects, or larger institutional buildings, our work is characterised by an open, creatively pragmatic design approach centred on client and civic benefit and tangible value.{% /regular %}"
 					}
 				]
 			}
@@ -53,25 +53,25 @@
 				"people": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/12/QUIGLEY-Anthony_270x318px.png",
+							"src": "/src/assets/media/melbourne-based-architects/2022/12/QUIGLEY-Anthony_270x318px.png",
 							"alt": "Melbourne-based architect Anthony Quigley",
 							"width": 540,
 							"height": 636
 						},
 						"name": "Anthony Quigley",
 						"title": "Director, B.Arch. R.A.I.A.",
-						"bio": "Director and Co-founder of Architecture Matters, Anthony Quigley is motivated by designing and delivering buildings that enrich lives and meaningfully contribute to the community. He brings over thirty-five years of experience in the industry to every project.\n\nAnthony is involved in all aspects of the business. Day-to-day he manages and mentors a team of talented all-rounders, ensuring that all projects are well resourced and on-track to meet project deadlines and budgets.\n\nAnthony’s down-to-earth approach means he is not interested in producing egotistical architecture, rather he sees design as an opportunity to creatively solve problems and deliver buildings that improve the everyday lives of the people that use them.\n\n“We create buildings for our clients, not for ourselves.”"
+						"bio": "{% regular %}Director and Co-founder of Architecture Matters, Anthony Quigley is motivated by designing and delivering buildings that enrich lives and meaningfully contribute to the community. He brings over thirty-five years of experience in the industry to every project.{% /regular %}\n\n{% regular %}Anthony is involved in all aspects of the business. Day-to-day he manages and mentors a team of talented all-rounders, ensuring that all projects are well resourced and on-track to meet project deadlines and budgets.{% /regular %}\n\n{% regular %}Anthony’s down-to-earth approach means he is not interested in producing egotistical architecture, rather he sees design as an opportunity to creatively solve problems and deliver buildings that improve the everyday lives of the people that use them.{% /regular %}\n\n{% regular %}“We create buildings for our clients, not for ourselves.”{% /regular %}"
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/12/GIONFRIDDO-Anthony_270x318px_2.png",
+							"src": "/src/assets/media/melbourne-based-architects/2022/12/GIONFRIDDO-Anthony_270x318px_2.png",
 							"alt": "Melbourne-based architects Anthony Gionfriddo",
 							"width": 540,
 							"height": 636
 						},
 						"name": "Anthony Gionfriddo",
 						"title": "Director, B.Arch (Hons), B.A., R.A.I.A.",
-						"bio": "With over 25 years’ experience in residential, commercial and community work, Anthony Gionfriddo approaches every project with pragmatic humility, in pursuit of good, honest design.\n\n“There’s great fulfilment in working in the public sphere, where your work can be visible and make a positive contribution,” says Anthony. “I like being brought into people’s lives, or operating within an organisation’s work life, and trying to be useful – to come up with something that meets a need.”\n\nMerging his practice with Architecture Matters Pty Ltd in 2008, Anthony enjoys the diversity of work in the broad-based practice. He has overseen the design of public buildings, schools, large scale commercial projects as well as some unique works in the not-for-profit sector."
+						"bio": "{% regular %}With over 25 years’ experience in residential, commercial and community work, Anthony Gionfriddo approaches every project with pragmatic humility, in pursuit of good, honest design.{% /regular %}\n\n{% regular %}“There’s great fulfilment in working in the public sphere, where your work can be visible and make a positive contribution,” says Anthony. “I like being brought into people’s lives, or operating within an organisation’s work life, and trying to be useful – to come up with something that meets a need.”{% /regular %}\n\n{% regular %}Merging his practice with Architecture Matters Pty Ltd in 2008, Anthony enjoys the diversity of work in the broad-based practice. He has overseen the design of public buildings, schools, large scale commercial projects as well as some unique works in the not-for-profit sector.{% /regular %}"
 					}
 				]
 			}
@@ -83,7 +83,7 @@
 				"people": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/12/ARALAR-Yvonne_270x318px.png",
+							"src": "/src/assets/media/melbourne-based-architects/2022/12/ARALAR-Yvonne_270x318px.png",
 							"alt": "melbourne-architect Yvonne Aralar",
 							"width": 540,
 							"height": 636
@@ -94,7 +94,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2023/02/DUDDY-Stephen_270x318px.png",
+							"src": "/src/assets/media/melbourne-based-architects/2023/02/DUDDY-Stephen_270x318px.png",
 							"alt": "melbourne-architect-stephen-duddy",
 							"width": 540,
 							"height": 636
@@ -105,7 +105,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/05/FARSHAD-Hosni_540x636px.png",
+							"src": "/src/assets/media/melbourne-based-architects/2025/05/FARSHAD-Hosni_540x636px.png",
 							"alt": "melbourne-architect-hosni-farshad",
 							"width": 540,
 							"height": 634
@@ -116,7 +116,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/05/GEMMELL-Polly_540x634px.png",
+							"src": "/src/assets/media/melbourne-based-architects/2025/05/GEMMELL-Polly_540x634px.png",
 							"alt": "melbourne-architect-polly-gemmell",
 							"width": 540,
 							"height": 634
@@ -127,7 +127,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/02/HALIMI-Morteza_540x636px.png",
+							"src": "/src/assets/media/melbourne-based-architects/2025/02/HALIMI-Morteza_540x636px.png",
 							"alt": "melbourne-architect-morteza-halimi",
 							"width": 540,
 							"height": 636
@@ -138,18 +138,18 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/10/Website-Henry-Luu-03.png",
+							"src": "/src/assets/media/melbourne-based-architects/2025/10/Website-Henry-Luu-03.png",
 							"alt": "melbourne-architect-henry-luu",
 							"width": 540,
 							"height": 636
 						},
 						"name": "Henry Luu",
 						"position": "Graduate of Architecture",
-						"bio": "Henry Luu is a Graduate of Architecture who has been with us since 2021. He regularly works on our local government, education and residential projects. He has a good eye for landscape design and is interested in applying contemporary design approaches. Henry brings a youthful, optimistic outlook to all his projects and will not hesitate to push the boundaries of what is possible. His can-do attitude and entrepreneurial mindset help energise everyone in the office."
+						"bio": "{% regular %}Henry Luu is a Graduate of Architecture who has been with us since 2021. He regularly works on our local government, education and residential projects. He has a good eye for landscape design and is interested in applying contemporary design approaches. Henry brings a youthful, optimistic outlook to all his projects and will not hesitate to push the boundaries of what is possible. His can-do attitude and entrepreneurial mindset help energise everyone in the office.{% /regular %}"
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/12/NASRALLA-Tony_270x318px.png",
+							"src": "/src/assets/media/melbourne-based-architects/2022/12/NASRALLA-Tony_270x318px.png",
 							"alt": "melbourne-architect-antony-nasralla",
 							"width": 540,
 							"height": 636
@@ -160,7 +160,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/12/ROSTAMI-Michael.png",
+							"src": "/src/assets/media/melbourne-based-architects/2022/12/ROSTAMI-Michael.png",
 							"alt": "melbourne-architect-michael-rostami",
 							"width": 540,
 							"height": 636
@@ -171,7 +171,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/12/SINGH-Vijay_270x318px.png",
+							"src": "/src/assets/media/melbourne-based-architects/2022/12/SINGH-Vijay_270x318px.png",
 							"alt": "melbourne-architect-vijay-singh",
 							"width": 540,
 							"height": 636
@@ -182,7 +182,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/12/SMITH-Holly_270x318px.png",
+							"src": "/src/assets/media/melbourne-based-architects/2022/12/SMITH-Holly_270x318px.png",
 							"alt": "melbourne-architect-holly-smith",
 							"width": 540,
 							"height": 636
@@ -193,7 +193,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2025/06/TUCHELT-Franka_540x636px.png",
+							"src": "/src/assets/media/melbourne-based-architects/2025/06/TUCHELT-Franka_540x636px.png",
 							"alt": "melbourne-architect-franka-tuchelt",
 							"width": 540,
 							"height": 634

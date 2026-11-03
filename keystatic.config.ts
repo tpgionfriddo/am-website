@@ -1,4 +1,6 @@
 import { collection, config, fields, singleton } from "@keystatic/core";
+import { mark } from "@keystatic/core/content-components";
+import { createElement } from "react";
 import blockDefinitions from "./src/content/block-schema.json";
 import taxonomies from "./src/content/taxonomies.json";
 
@@ -11,7 +13,9 @@ type FieldDefinition = {
 };
 
 const mediaDirectory = { directory: "src/assets/media", publicPath: "/src/assets/media/" };
-const richText = (label: string) => fields.markdoc.inline({ label, options: { image: mediaDirectory } });
+const richText = (label: string) => fields.markdoc.inline({ label, options: { image: mediaDirectory }, components: {
+	regular: mark({ label: "Regular weight (400)", icon: createElement("span", null, "400"), schema: {}, tag: "span", style: { fontWeight: "400" } }),
+} });
 const image = (label: string) => fields.object({
 	src: fields.image({ label: "Image", ...mediaDirectory }),
 	alt: fields.text({ label: "Alternative text" }),

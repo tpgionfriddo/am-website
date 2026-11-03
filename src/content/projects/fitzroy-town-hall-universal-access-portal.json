@@ -1,13 +1,13 @@
 {
 	"title": "Fitzroy Town Hall – Universal Access Portal",
 	"featured_image": {
-		"src": "/src/assets/media/2022/11/fitzroy-town-hall.jpg",
+		"src": "/src/assets/media/fitzroy-town-hall-universal-access-portal/2022/11/fitzroy-town-hall.jpg",
 		"alt": "",
 		"width": 1440,
 		"height": 709
 	},
 	"thumbnail": {
-		"src": "/src/assets/media/2022/11/MG_9936-15-1.png",
+		"src": "/src/assets/media/fitzroy-town-hall-universal-access-portal/2022/11/MG_9936-15-1.png",
 		"alt": "",
 		"width": 774,
 		"height": 516
@@ -56,20 +56,20 @@
 						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
 					}
 				],
-				"text": "Grand and imposing Victorian public buildings are a legacy of the 19th century. The Fitzroy Town Hall is a fine example, providing residents with a distinct sense of place within this iconic suburb. Nearly two centuries later, this building that is for, and belongs to the community, required upgrading to meet contemporary expectations and regulations.\n\nOur objective was to redefine the building’s magnificent entry thoughtfully and with respect to both its history and its diverse guests – a challenge we met both economically and efficiently. Our design responded architecturally by re-imagining the traditional Town Hall entry portico. Transparency is emphasised through the design and detailing – a subtle analogy to the requirement of local government to act with integrity and transparency."
+				"text": "{% regular %}Grand and imposing Victorian public buildings are a legacy of the 19th century. The Fitzroy Town Hall is a fine example, providing residents with a distinct sense of place within this iconic suburb. Nearly two centuries later, this building that is for, and belongs to the community, required upgrading to meet contemporary expectations and regulations.{% /regular %}\n\n{% regular %}Our objective was to redefine the building’s magnificent entry thoughtfully and with respect to both its history and its diverse guests – a challenge we met both economically and efficiently. Our design responded architecturally by re-imagining the traditional Town Hall entry portico. Transparency is emphasised through the design and detailing – a subtle analogy to the requirement of local government to act with integrity and transparency.{% /regular %}"
 			}
 		},
 		{
 			"discriminant": "image_pair",
 			"value": {
 				"image_left": {
-					"src": "/src/assets/media/2022/11/69A9483-1-5.jpg",
+					"src": "/src/assets/media/fitzroy-town-hall-universal-access-portal/2022/11/69A9483-1-5.jpg",
 					"alt": "Fitzroy Town Hall - Universal Access Portal entrance",
 					"width": 619,
 					"height": 821
 				},
 				"image_right": {
-					"src": "/src/assets/media/2022/11/69A9318-1-5.jpg",
+					"src": "/src/assets/media/fitzroy-town-hall-universal-access-portal/2022/11/69A9318-1-5.jpg",
 					"alt": "",
 					"width": 620,
 					"height": 821
@@ -80,7 +80,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9470-1-8.jpg",
+					"src": "/src/assets/media/fitzroy-town-hall-universal-access-portal/2022/11/69A9470-1-8.jpg",
 					"alt": "",
 					"width": 1320,
 					"height": 879
@@ -97,7 +97,7 @@
 			"discriminant": "image_two_thirds",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9574-1-8.jpg",
+					"src": "/src/assets/media/fitzroy-town-hall-universal-access-portal/2022/11/69A9574-1-8.jpg",
 					"alt": "Fitzroy Town Hall - Universal Access Portal passenger lift and non-fire isolated stairwell",
 					"width": 853,
 					"height": 569
@@ -108,9 +108,9 @@
 		{
 			"discriminant": "text_image",
 			"value": {
-				"text": "The building’s heritage qualities are respected via minimal physical intervention and the juxtaposition of light and contemporary elements. Material selections continue this approach of complementary contrast. Timber wall and ceiling cladding, glass panels, and lightly coloured floor tiles offset the original red brick and ashlar stone. This approach, respectful of balance, was enthusiastically approved by Heritage Victoria.\n\nThis project reflects not only our pragmatically creative approach to solving design and construction problems, but our drive to offer value beyond the brief. This project continues to exceed Council’s and the community’s initial requirements and provides a community asset that will age timelessly for at least another two centuries.",
+				"text": "{% regular %}The building’s heritage qualities are respected via minimal physical intervention and the juxtaposition of light and contemporary elements. Material selections continue this approach of complementary contrast. Timber wall and ceiling cladding, glass panels, and lightly coloured floor tiles offset the original red brick and ashlar stone. This approach, respectful of balance, was enthusiastically approved by Heritage Victoria.{% /regular %}\n\n{% regular %}This project reflects not only our pragmatically creative approach to solving design and construction problems, but our drive to offer value beyond the brief. This project continues to exceed Council’s and the community’s initial requirements and provides a community asset that will age timelessly for at least another two centuries.{% /regular %}",
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9660-1-8.jpg",
+					"src": "/src/assets/media/fitzroy-town-hall-universal-access-portal/2022/11/69A9660-1-8.jpg",
 					"alt": "Fitzroy Town Hall - Timber wall and ceiling cladding, glass panels, and lightly coloured floor tiles",
 					"width": 620,
 					"height": 744
@@ -122,7 +122,7 @@
 			"discriminant": "image_full",
 			"value": {
 				"image": {
-					"src": "/src/assets/media/2022/11/69A9645-1-8.jpg",
+					"src": "/src/assets/media/fitzroy-town-hall-universal-access-portal/2022/11/69A9645-1-8.jpg",
 					"alt": "",
 					"width": 1320,
 					"height": 880
@@ -135,7 +135,7 @@
 				"images": [
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-21.jpg",
+							"src": "/src/assets/media/fitzroy-town-hall-universal-access-portal/2022/11/69A9496-21.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
@@ -143,7 +143,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9325-1-2.jpg",
+							"src": "/src/assets/media/fitzroy-town-hall-universal-access-portal/2022/11/69A9325-1-2.jpg",
 							"alt": "Fitzroy Town Hall bathroom",
 							"width": 962,
 							"height": 641
@@ -151,7 +151,7 @@
 					},
 					{
 						"image": {
-							"src": "/src/assets/media/2022/11/69A9496-20.jpg",
+							"src": "/src/assets/media/fitzroy-town-hall-universal-access-portal/2022/11/69A9496-20.jpg",
 							"alt": "",
 							"width": 962,
 							"height": 641
