@@ -5,6 +5,7 @@ import NewsListView from "../../../views/NewsListView.astro";
 const n = Number(Astro.params.n);
 if (!Number.isInteger(n) || n < 1) return Astro.rewrite("/404");
 if (n === 1) return Astro.redirect("/architectural-news/", 301);
-const { entry: page } = await getEmDashEntry("pages", "architectural-news");
+const { entry: page, cacheHint } = await getEmDashEntry("pages", "architectural-news");
+if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
 ---
 <NewsListView title={page?.data.title ?? "Practice News"} page={n} basePath="/architectural-news/" />
