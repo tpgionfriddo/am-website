@@ -1,6 +1,6 @@
 ---
-import { getSeoMeta } from "emdash";
-import { Blocks } from "emdash/ui";
+import { getSeoMeta } from "../lib/content";
+import Blocks from "../components/Blocks.astro";
 import { blockComponents } from "../components/blocks";
 import Base from "../layouts/Base.astro";
 
@@ -9,10 +9,10 @@ interface Props { page: any; path: string; }
 const { page, path } = Astro.props;
 const seo = getSeoMeta(page, { siteTitle: "Architecture Matters", siteUrl: "https://architecturematters.com.au", path });
 ---
-<Base title={page.data.title} description={seo.description} canonical={seo.canonical} bodyClass="page page-template-template-projects no-thumbnail" content={{ collection: "pages", id: page.data.id, slug: page.id }}>
+<Base title={page.data.title} description={seo.description} canonical={seo.canonical} bodyClass="page page-template-template-projects no-thumbnail">
 	<main id="primary" class="site-main">
 		<section class="our-projects">
-			<div class="container block-animate"><h1 {...page.edit.title}>{page.data.title}</h1></div>
+			<div class="container block-animate"><h1>{page.data.title}</h1></div>
 			<Blocks value={page.data.layout ?? []} components={blockComponents} />
 		</section>
 	</main>

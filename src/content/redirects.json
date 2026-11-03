@@ -1,0 +1,100 @@
+[
+	{
+		"source": "/tag/community",
+		"destination": "/australian-architecture/community-architecture/",
+		"type": 301,
+		"enabled": true,
+		"groupName": "WordPress migration"
+	},
+	{
+		"source": "/tag/educational",
+		"destination": "/australian-architecture/education-architecture/",
+		"type": 301,
+		"enabled": true,
+		"groupName": "WordPress migration"
+	},
+	{
+		"source": "/tag/specialised",
+		"destination": "/australian-architecture/commercial-architecture/",
+		"type": 301,
+		"enabled": true,
+		"groupName": "WordPress migration"
+	},
+	{
+		"source": "/tag/animal-facilities",
+		"destination": "/australian-architecture/commercial-architecture/",
+		"type": 301,
+		"enabled": true,
+		"groupName": "WordPress migration"
+	},
+	{
+		"source": "/tag/residential",
+		"destination": "/australian-architecture/residential-architecture/",
+		"type": 301,
+		"enabled": true,
+		"groupName": "WordPress migration"
+	},
+	{
+		"source": "/tag/[...rest]",
+		"destination": "/australian-architecture/",
+		"type": 301,
+		"enabled": true,
+		"groupName": "WordPress migration"
+	},
+	{
+		"source": "/author/[...rest]",
+		"destination": "/architectural-news/",
+		"type": 301,
+		"enabled": true,
+		"groupName": "WordPress migration"
+	},
+	{
+		"source": "/feed",
+		"destination": "/architectural-news/",
+		"type": 301,
+		"enabled": true,
+		"groupName": "WordPress migration"
+	},
+	{
+		"source": "/our-architects",
+		"destination": "/melbourne-based-architects/",
+		"type": 301,
+		"enabled": true,
+		"groupName": "WordPress migration"
+	},
+	{
+		"source": "/contact",
+		"destination": "/contact-us/",
+		"type": 301,
+		"enabled": true,
+		"groupName": "WordPress migration"
+	},
+	{
+		"source": "/links",
+		"destination": "/",
+		"type": 301,
+		"enabled": true,
+		"groupName": "WordPress migration"
+	},
+	{
+		"source": "/media",
+		"destination": "/",
+		"type": 301,
+		"enabled": true,
+		"groupName": "WordPress migration"
+	},
+	{
+		"source": "/hello-world",
+		"destination": "/",
+		"type": 301,
+		"enabled": true,
+		"groupName": "WordPress migration"
+	},
+	{
+		"source": "/project/norwood-crescentoffice-refurbishment",
+		"destination": "/project/norwood-crescent-office-refurbishment/",
+		"type": 301,
+		"enabled": true,
+		"groupName": "WordPress migration"
+	}
+]

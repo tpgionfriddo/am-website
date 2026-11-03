@@ -1,0 +1,54 @@
+[
+	{
+		"name": "category",
+		"label": "Categories",
+		"terms": [
+			{
+				"slug": "publications",
+				"label": "Publications"
+			},
+			{
+				"slug": "community",
+				"label": "Community"
+			},
+			{
+				"slug": "educational",
+				"label": "Educational"
+			},
+			{
+				"slug": "residential",
+				"label": "Residential"
+			},
+			{
+				"slug": "specialised",
+				"label": "Specialised"
+			}
+		]
+	},
+	{
+		"name": "project_type",
+		"label": "Project types",
+		"terms": [
+			{
+				"slug": "community",
+				"label": "Community"
+			},
+			{
+				"slug": "educational",
+				"label": "Educational"
+			},
+			{
+				"slug": "specialised",
+				"label": "Specialised"
+			},
+			{
+				"slug": "residential",
+				"label": "Residential"
+			},
+			{
+				"slug": "animal-facilities",
+				"label": "Animal Facilities"
+			}
+		]
+	}
+]

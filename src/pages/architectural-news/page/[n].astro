@@ -1,11 +1,11 @@
 ---
-import { getEmDashEntry } from "emdash";
+import { getCollection, getEntry } from "../../../lib/content";
 import NewsListView from "../../../views/NewsListView.astro";
-
-const n = Number(Astro.params.n);
-if (!Number.isInteger(n) || n < 1) return Astro.rewrite("/404");
-if (n === 1) return Astro.redirect("/architectural-news/", 301);
-const { entry: page, cacheHint } = await getEmDashEntry("pages", "architectural-news");
-if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+export async function getStaticPaths() {
+ const posts = await getCollection("posts");
+ const { entry: page } = await getEntry("pages", "architectural-news");
+ return Array.from({ length: Math.max(0, Math.ceil(posts.entries.length / 8) - 1) }, (_unused, index) => ({ params: { n: String(index + 2) }, props: { title: page?.data.title || "Practice News", page: index + 2 } }));
+}
+const { title, page } = Astro.props;
 ---
-<NewsListView title={page?.data.title ?? "Practice News"} page={n} basePath="/architectural-news/" />
+<NewsListView title={title} page={page} basePath="/architectural-news/" />

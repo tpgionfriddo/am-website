@@ -1,0 +1,105 @@
+{
+	"title": "Animal Facilities",
+	"featured_image": {
+		"src": "/src/assets/media/2025/11/B3A6863_AF6.jpg",
+		"alt": "",
+		"width": 1138,
+		"height": 494
+	},
+	"seo": {
+		"title": "Animal Facilities",
+		"description": "Drawing on our proven record of successful and enduring commercial architecture, we recognise the importance of delivering future-focused projects."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "text_columns",
+			"value": {
+				"left": "### We are trusted to design buildings with a range of specialised uses.",
+				"right": "We understand the crucial role for our clients of the buildings and spaces that house the often invisible, yet essential services that underpin their operations and sometimes society and industry in general.\n\nOur work encompasses animal shelters and pound facilities to commercial office space, medical and emergency services facilities.\n\nWe are experts at understanding specialised users and workflows to create efficient, flexible, fit-for-purpose and value-for-money solutions."
+			}
+		},
+		{
+			"discriminant": "project_list",
+			"value": {
+				"project_type": "specialised"
+			}
+		},
+		{
+			"discriminant": "logos",
+			"value": {
+				"logos": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/bendigo.png",
+							"alt": "",
+							"width": 198,
+							"height": 131
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/melbourne-business-school.png",
+							"alt": "",
+							"width": 189,
+							"height": 131
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/05/RSPCA-logo-BW.png",
+							"alt": "RSPCA",
+							"width": 190,
+							"height": 63
+						},
+						"name": "RSPCA"
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/city-of-whittlesea.png",
+							"alt": "Whittlesea City Council Logo",
+							"width": 180,
+							"height": 131
+						},
+						"name": "Whittlesea City Council Logo"
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/city-of-stonnington.png",
+							"alt": "Stonnington City Council Logo",
+							"width": 130,
+							"height": 131
+						},
+						"name": "Stonnington City Council Logo"
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/05/SAVE-A-DOG-BW.png",
+							"alt": "Save-A-Dog Scheme",
+							"width": 131,
+							"height": 90
+						},
+						"name": "Save-A-Dog Scheme"
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/yarra.png",
+							"alt": "Yarra Ranges Council Logo",
+							"width": 148,
+							"height": 131
+						},
+						"name": "Yarra Ranges Council Logo"
+					}
+				]
+			}
+		},
+		{
+			"discriminant": "related_news",
+			"value": {
+				"heading": "Practice News",
+				"count": 3,
+				"category": "specialised"
+			}
+		}
+	]
+}

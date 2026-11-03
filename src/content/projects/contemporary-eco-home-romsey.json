@@ -1,0 +1,179 @@
+{
+	"title": "Contemporary Eco-Home in Romsey, Victoria",
+	"featured_image": {
+		"src": "/src/assets/media/2025/02/43A1472-2.jpg",
+		"alt": "",
+		"width": 1440,
+		"height": 882
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2025/02/43A1441-TN.jpg",
+		"alt": "",
+		"width": 774,
+		"height": 515
+	},
+	"sort_order": 1,
+	"types": [
+		"residential"
+	],
+	"date": "2025-03-12T00:10:49",
+	"seo": {
+		"title": "Contemporary Eco-Home in Romsey, Victoria",
+		"description": "This contemporary residence not only exemplifies a modern aesthetic but also embodies the commitment of Architecture Matters to sustainable living, making the home both style and environmental responsibility."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Client",
+						"value": "Private Residential"
+					},
+					{
+						"label": "Timeframe",
+						"value": "2023-2024"
+					},
+					{
+						"label": "Contractor",
+						"value": "[BLR Provincial Construction](https://www.blrconstruction.com.au/)"
+					},
+					{
+						"label": "Consultant team",
+						"value": "Structural & Civil Engineer – [Adams Consulting Engineers](http://www.adamseng.com.au/)\nBuilding Surveyor – [du Chateau Chun](https://www.duchateauchun.com/)"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					}
+				],
+				"text": "Located some 63 kilometers from Melbourne, this thoughtfully designed two-storey brick veneer home is located in the picturesque town of Romsey, Victoria.\n\nThe contemporary residence not only exemplifies a modern aesthetic but also embodies the commitment of Architecture Matters to sustainable living, making the home both style and environmental responsibility. In this instance the plan is essentially made-up pf two pavilions joined together with an encompassing first floor element providing the master bedroom with the associated amenity."
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2025/02/43A1279-1.jpg",
+					"alt": "",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "A key driver behind the design intent was to create a low-maintenance and hassle-free lifestyle. The home minimises upkeep without compromising on style or functionality."
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2025/02/43A0884-2.jpg",
+					"alt": "Contemporary Eco-Home in Romsey dining area",
+					"width": 855,
+					"height": 570
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "text_image",
+			"value": {
+				"text": "The heart of the home is an open plan pavilion featuring an expansive open-plan layout that seamlessly integrates the living, dining, and kitchen areas along with a home office that is located adjacent to the front door. Polished concrete floors enhance the living space, creating a sophisticated yet inviting atmosphere perfect for entertaining.\n\nESD is inherent in the DNA of this home which utalises the northern aspect of the site and incorporates double-glazed windows and electric floor heating, ensuring optimal energy efficiency throughout the year. The strategic installation of solar panels with a battery system further reduces the home’s environmental impact while providing significant energy savings.",
+				"image": {
+					"src": "/src/assets/media/2025/02/43A1401-1.jpg",
+					"alt": "",
+					"width": 439,
+					"height": 620
+				},
+				"image_side": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2025/02/43A0709-1.jpg",
+					"alt": "Contemporary Eco-Home in Romsey al fresco area",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A0723.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A0643.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A0783.jpg",
+							"alt": "Contemporary Eco-Home in Romsey kitchen",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A0810.jpg",
+							"alt": "Contemporary Eco-Home in Romsey kitchen",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A1084.jpg",
+							"alt": "Contemporary Eco-Home in Romsey living area",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A1174.jpg",
+							"alt": "Contemporary Eco-Home in Romsey bathroom",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A1159.jpg",
+							"alt": "Contemporary Eco-Home in Romsey laundry",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A1377.jpg",
+							"alt": "Contemporary Eco-Home in Romsey al fresco area",
+							"width": 962,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

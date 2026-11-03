@@ -1,0 +1,178 @@
+{
+	"title": "HC Kim Reserve Pavilion",
+	"featured_image": {
+		"src": "/src/assets/media/2025/02/43A0355-1.jpg",
+		"alt": "",
+		"width": 1500,
+		"height": 739
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2025/02/43A0175_TM.jpg",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 0,
+	"types": [
+		"community"
+	],
+	"date": "2025-02-25T06:16:06",
+	"seo": {
+		"title": "HC Kim Reserve Pavilion"
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Location",
+						"value": "Millers Road, Seaholme"
+					},
+					{
+						"label": "Client name",
+						"value": "Hobsons Bay City Council/Loaram Constructions"
+					},
+					{
+						"label": "Value",
+						"value": "$4.7 MIL"
+					},
+					{
+						"label": "Timeframe",
+						"value": "2021-2024"
+					},
+					{
+						"label": "Contractor",
+						"value": "[Loaram Constructions](https://loaram.com.au/)"
+					},
+					{
+						"label": "Consultant Team",
+						"value": "Structural & Civil Engineer – [Adams Consulting Engineer](http://www.adamseng.com.au/)\nServices Engineer – [NJM Design](https://www.njmdesign.com.au/)\nQuantity Surveyor – [Prowse Quantity Surveyors](http://www.prowseqs.com.au/)\nBuilding Surveyor – [BW&A National Building Consultants](https://www.bwanational.com.au/)"
+					}
+				],
+				"text": "This thoughtfully designed single-storey community pavilion at HC Kim Reserve in Seaholme serves as a modern hub for both local residents and visitors. The pavilion is strategically planned to accommodate a wide range of activities and foster community engagement.\n\nThe facility includes six spacious changerooms, providing separate spaces for both male and female participants, ensuring comfort and privacy. Central to the building is a Social Room, designed as a versatile space for gatherings, meetings, and community events. Large windows offer views of the surrounding reserve, creating a welcoming atmosphere for all who enter."
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2025/02/43A0066-1.jpg",
+					"alt": "",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "HC Kim Reserve Pavilion stands out for its large, flexible function room which overlooks the sports field, providing plenty of room for spectators to watch and support their team play soccer."
+			}
+		},
+		{
+			"discriminant": "text_image",
+			"value": {
+				"text": "An outdoor viewing area offers a central vantage point for spectators, making it ideal for enjoying local sporting events and recreational activities. The design emphasizes seamless indoor-outdoor flow, fostering a sense of openness and connection to the natural environment.\n\nThis pavilion not only enhances the functionality of HC Kim Reserve but also contributes to the overall sense of community by providing a space for social interaction, sports, and recreation in the heart of Seaholme.",
+				"image": {
+					"src": "/src/assets/media/2025/02/43A0175-1.jpg",
+					"alt": "",
+					"width": 620,
+					"height": 744
+				},
+				"image_side": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2025/02/43A0017-1.jpg",
+					"alt": "",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A0051.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A0002.jpg",
+							"alt": "HC Kim Reserve Pavilion changeroom",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A0092.jpg",
+							"alt": "HC Kim Reserve Pavilion commercial kitchen and serving area",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A0021.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A9986.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A9955.jpg",
+							"alt": "HC Kim Reserve Pavilion changeroom",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A0114.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A0146.jpg",
+							"alt": "HC Kim Reserve Pavilion external view",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/43A0212.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

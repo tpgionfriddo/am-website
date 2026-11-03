@@ -1,13 +1,12 @@
 ---
-import { getEmDashCollection } from "emdash";
+import { getCollection } from "../lib/content";
 import ProjectCard from "./ProjectCard.astro";
 interface Props { project: any; count?: number; }
 const { project, count = 3 } = Astro.props;
 const types: string[] = (project.data.terms?.project_type ?? []).map((t: any) => t.slug);
-const { entries, cacheHint } = types.length
-	? await getEmDashCollection("projects", { where: { project_type: types }, orderBy: { sort_order: "asc" }, limit: count + 1 })
-	: { entries: [], cacheHint: undefined };
-if (cacheHint && Astro.cache?.enabled) Astro.cache.set(cacheHint);
+const { entries } = types.length
+	? await getCollection("projects", { where: { project_type: types }, orderBy: { sort_order: "asc" }, limit: count + 1 })
+	: { entries: [] };
 const similar = entries.filter((p) => p.id !== project.id).slice(0, count);
 ---
 {

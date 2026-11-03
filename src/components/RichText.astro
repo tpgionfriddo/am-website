@@ -1,0 +1,10 @@
+---
+import Markdoc from "@markdoc/markdoc";
+import RichTextNode from "./RichTextNode.astro";
+
+interface Props { value?: any; }
+const { value } = Astro.props;
+const node = value?.node ?? (typeof value === "string" ? Markdoc.parse(value) : null);
+const rendered = node ? Markdoc.transform(node) : null;
+---
+{rendered && <RichTextNode node={typeof rendered === "object" && !Array.isArray(rendered) && rendered.name === "article" ? rendered.children : rendered} />}

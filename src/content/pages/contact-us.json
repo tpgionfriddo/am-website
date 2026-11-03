@@ -1,0 +1,27 @@
+{
+	"title": "Contact Us",
+	"featured_image": {
+		"src": "/src/assets/media/2023/02/AM-Dorrington_01-cropped.jpg",
+		"alt": "",
+		"width": 1440,
+		"height": 709
+	},
+	"seo": {
+		"title": "Contact Us",
+		"description": "Architecture Matters would love to hear from you! Please contact our team with any questions or feedback. Building design questions? Check our projects."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "contact",
+			"value": {
+				"phone": "(03) 9329 7063",
+				"email": "info@architecturematters.com.au",
+				"street_address": "Level 1/430 William Street,\nWest Melbourne VIC 3003",
+				"mailing_address": "PO Box 285 North Melbourne VIC 3051",
+				"statement": "At Architecture Matters, we design buildings that matter for people that matter.",
+				"show_form": true
+			}
+		}
+	]
+}

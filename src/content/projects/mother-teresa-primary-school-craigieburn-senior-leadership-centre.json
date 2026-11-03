@@ -1,0 +1,156 @@
+{
+	"title": "Mother Teresa Primary School, Senior Leadership Centre",
+	"featured_image": {
+		"src": "/src/assets/media/2022/11/69A9252-1-8.jpg",
+		"alt": "Mother Teresa Primary School facade",
+		"width": 1440,
+		"height": 709
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2022/11/MG_9936-12.png",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 4,
+	"types": [
+		"educational"
+	],
+	"date": "2022-11-21T12:24:39",
+	"seo": {
+		"title": "Mother Teresa Primary School, Senior Leadership Centre",
+		"description": "Mother Teresa Senior Leadership Centre soughts to create a stand-alone learning environment purpose-built for its grade six cohort."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Location",
+						"value": "Mt Ridley, Victoria"
+					},
+					{
+						"label": "Client",
+						"value": "Mother Teresa Primary School"
+					},
+					{
+						"label": "Value",
+						"value": "$1.7 MIL"
+					},
+					{
+						"label": "Timeframe",
+						"value": "2015-2017"
+					},
+					{
+						"label": "Contractor",
+						"value": "Building Engineering Pty Ltd"
+					},
+					{
+						"label": "Consultant team",
+						"value": "Structural & Civil Engineer –[Adams Consulting Engineers](http://www.adamseng.com.au/)\nServices Engineer – [NJM Design](http://www.njmdesign.com.au/)\nQuantity Surveyor – [Prowse Quantity Surveyors](http://www.prowseqs.com.au/)"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					}
+				],
+				"text": "Champions of contemporary pedagogy, Mother Theresa Primary School sought to create a stand-alone learning environment for its grade six cohort, to help them develop a clearer sense of individual responsibility and identity as they headed towards secondary schooling.\n\nHaving previously updated the school’s master plan and designed its contemporary library and learning studios, Architecture Matters built on this long-standing relationship with the school to design a new Senior Leadership Centre."
+			}
+		},
+		{
+			"discriminant": "image_pair",
+			"value": {
+				"image_left": {
+					"src": "/src/assets/media/2022/11/69A9483-1-11.jpg",
+					"alt": "Mother Teresa Primary School learning area",
+					"width": 619,
+					"height": 821
+				},
+				"image_right": {
+					"src": "/src/assets/media/2022/11/69A9318-1-11.jpg",
+					"alt": "Mother Teresa Primary School",
+					"width": 620,
+					"height": 821
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9470-1-14.jpg",
+					"alt": "Mother Teresa Primary School lounge area",
+					"width": 1320,
+					"height": 879
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "Comprising four multi-purpose learning studios arranged around a large central foyer, this new learning environment features a variety of indoor break-out spaces and integrated outdoor-learning spaces."
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-1-14.jpg",
+					"alt": "Mother Teresa Primary School pantry with yellow floor",
+					"width": 853,
+					"height": 569
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "text_image",
+			"value": {
+				"text": "This vibrant stand-alone facility is equipped to support a range of learning styles.\n\nWe introduced a new and diverse materials palette to the Centre to create a distinctive identity in contrast to the school’s more homogenous existing buildings. This contributes to the students’ experience and self awareness of their transition to high school, supporting the objective of fostering an independent cohort.\n\nThe Centre was delivered under budget and opened on schedule in January 2017. The changing rhythm of the school’s preferred pedagogical model are well served by this flexible learning space.",
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9660-1-12.jpg",
+					"alt": "Mother Teresa Primary School toilet",
+					"width": 620,
+					"height": 744
+				},
+				"image_side": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9645-1-14.jpg",
+					"alt": "Mother Teresa Primary School bathroom",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9325-2-1.jpg",
+							"alt": "Mother Teresa Primary School",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-3-1.jpg",
+							"alt": "Mother Teresa Primary School",
+							"width": 962,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

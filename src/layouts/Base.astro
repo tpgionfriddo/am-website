@@ -1,53 +1,28 @@
 ---
 import "../styles/global.css";
-import { getMenuWithCacheHint, getSiteSettingsWithCacheHint } from "emdash";
-import { EmDashBodyEnd, EmDashBodyStart, EmDashHead } from "emdash/ui";
-import { createPublicPageContext } from "emdash/page";
 import SocialMedia from "../components/SocialMedia.astro";
 import { site } from "../site.config";
+import { withBase } from "../lib/urls";
 
 interface Props {
 	title: string;
-	/** Title without the site name, for social cards */
 	pageTitle?: string | null;
 	description?: string | null;
 	image?: string | null;
 	canonical?: string | null;
-	/** WordPress body classes the theme CSS keys off (e.g. "blog", "home") */
 	bodyClass?: string;
 	pageType?: "website" | "article";
-	/** The original home page has no footer */
 	hideFooter?: boolean;
-	/** Content reference so EmDash can apply SEO panel values and plugin contributions */
-	content?: { collection: string; id: string; slug?: string | null };
 }
 
-const { title, pageTitle, description, image, canonical, bodyClass = "", pageType = "website", hideFooter = false, content } = Astro.props;
-
-const [settingsResult, menuResult] = await Promise.all([getSiteSettingsWithCacheHint(), getMenuWithCacheHint("primary")]);
-if (Astro.cache?.enabled) {
-	Astro.cache.set(settingsResult.cacheHint);
-	Astro.cache.set(menuResult.cacheHint);
-}
-const siteTitle = settingsResult.data?.title || site.name;
-const tagline = settingsResult.data?.tagline;
+const { title, pageTitle, description, image, canonical, bodyClass = "", pageType = "website", hideFooter = false } = Astro.props;
+const siteTitle = site.name;
 const fullTitle = !title || title === siteTitle ? siteTitle : `${title} - ${siteTitle}`;
-const menu = menuResult.data?.items ?? [];
+const menu = site.menu.map((item) => ({ ...item, url: withBase(item.url) }));
 const path = Astro.url.pathname.replace(/\/?$/, "/");
-const canonicalUrl = canonical ?? new URL(path, site.url).toString();
-
-const pageCtx = createPublicPageContext({
-	Astro,
-	kind: content ? "content" : "custom",
-	pageType,
-	title: fullTitle,
-	pageTitle: pageTitle ?? title,
-	description: description ?? tagline,
-	canonical: canonicalUrl,
-	image,
-	content,
-	siteName: siteTitle,
-});
+const canonicalUrl = canonical || new URL(path, site.url).toString();
+const socialImage = new URL(image || withBase("/theme/footer-badge.png"), site.url).toString();
+const structuredData = { "@context": "https://schema.org", "@type": "Architect", name: siteTitle, url: site.url, telephone: site.phone, email: site.email, address: { "@type": "PostalAddress", streetAddress: site.address.join(" "), addressCountry: "AU" }, sameAs: site.social.map((social) => social.url) };
 const isCurrent = (url: string) => url.replace(/\/?$/, "/") === path;
 const year = new Date().getFullYear();
 ---
@@ -57,17 +32,26 @@ const year = new Date().getFullYear();
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		{Astro.site?.hostname.endsWith(".github.io") && <meta name="robots" content="noindex, follow" />}
 		<title>{fullTitle}</title>
-		<link rel="icon" type="image/png" href="/theme/favicon.png" />
+		<meta name="description" content={description || site.tagline} />
+		<link rel="canonical" href={canonicalUrl} />
+		<meta property="og:type" content={pageType} />
+		<meta property="og:title" content={pageTitle || fullTitle} />
+		<meta property="og:description" content={description || site.tagline} />
+		<meta property="og:url" content={canonicalUrl} />
+		<meta property="og:site_name" content={siteTitle} />
+		<meta property="og:image" content={socialImage} />
+		<meta name="twitter:card" content="summary_large_image" />
+		<script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData).replace(/</g, "\\u003c")} />
+		<link rel="icon" type="image/png" href={withBase("/theme/favicon.png")} />
 		<script is:inline>
 			try {
 				if (sessionStorage.getItem("ack-dismissed")) document.documentElement.classList.add("ack-dismissed");
 			} catch (e) {}
 		</script>
-		<EmDashHead page={pageCtx} />
 	</head>
 	<body class={bodyClass}>
-		<EmDashBodyStart page={pageCtx} />
 
 		<div class="modal" role="dialog" aria-label="Acknowledgement of Country">
 			<button class="modal__button block-animate" aria-label="Close">
@@ -87,8 +71,8 @@ const year = new Date().getFullYear();
 				<div class="container">
 					<div class="site-header__wrapper">
 						<div class="site-branding">
-							<a href="/" class="custom-logo-link" rel="home">
-								<img width="143" height="37" src="/theme/logo-light.svg" class="custom-logo" alt={siteTitle} />
+							<a href={withBase("/")} class="custom-logo-link" rel="home">
+								<img width="143" height="37" src={withBase("/theme/logo-light.svg")} class="custom-logo" alt={siteTitle} />
 							</a>
 						</div>
 						<button class="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="site-navigation">
@@ -108,7 +92,7 @@ const year = new Date().getFullYear();
 								{
 									menu.map((item) => (
 										<li class:list={["menu-item", { "current-menu-item": isCurrent(item.url) }]}>
-											<a href={item.url} target={item.target} aria-current={isCurrent(item.url) ? "page" : undefined}>
+											<a href={item.url}  aria-current={isCurrent(item.url) ? "page" : undefined}>
 												{item.label}
 											</a>
 										</li>
@@ -141,8 +125,8 @@ const year = new Date().getFullYear();
 						<div class="footer-widgets">
 							<div class="footer-widgets__wrapper">
 								<div class="footer-widgets__logo">
-									<a href="/">
-										<img width="143" height="37" src="/theme/footer-logo.svg" class="custom-logo" alt="Architecture Matters Logo" loading="lazy" />
+									<a href={withBase("/")}>
+										<img width="143" height="37" src={withBase("/theme/footer-logo.svg")} class="custom-logo" alt="Architecture Matters Logo" loading="lazy" />
 									</a>
 								</div>
 								<div class="footer-widgets__social">
@@ -154,7 +138,7 @@ const year = new Date().getFullYear();
 									{
 										menu.map((item) => (
 											<li class="menu-item">
-												<a href={item.url} target={item.target}>
+												<a href={item.url} >
 													{item.label}
 												</a>
 											</li>
@@ -178,7 +162,7 @@ const year = new Date().getFullYear();
 								</div>
 							</div>
 							<div class="footer-widgets__logo2">
-								<img width="201" height="83" src="/theme/footer-badge.png" alt="Member, Australian Institute of Architects" loading="lazy" />
+								<img width="201" height="83" src={withBase("/theme/footer-badge.png")} alt="Member, Australian Institute of Architects" loading="lazy" />
 							</div>
 						</div>
 						<div class="site-copyright">&copy; Copyright {site.legalName} {year}</div>
@@ -193,8 +177,6 @@ const year = new Date().getFullYear();
 				<path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"></path>
 			</svg>
 		</a>
-
-		<EmDashBodyEnd page={pageCtx} />
 		<script>
 			import "../scripts/theme.ts";
 		</script>

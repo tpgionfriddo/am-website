@@ -1,8 +1,9 @@
 ---
+import { withBase } from "../lib/urls";
 interface Props { href: string; }
 const { href } = Astro.props;
 ---
-<a href={href} class="btn-back">
+<a href={withBase(href)} class="btn-back">
 	<svg width="26" height="18" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M10.999 18.9995L1.99927 9.99976L10.999 1" stroke="#A0A0A0" stroke-width="2"></path><path d="M2.19515 9.99976L27.4336 9.99976" stroke="#A0A0A0" stroke-width="2"></path></svg>
 	<span>Go Back</span>
 </a>

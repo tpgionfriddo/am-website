@@ -1,0 +1,183 @@
+{
+	"title": "Westgarth Street, Fitzroy Renovation and Extension",
+	"featured_image": {
+		"src": "/src/assets/media/2022/11/69A9252-1-14.jpg",
+		"alt": "",
+		"width": 1440,
+		"height": 709
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2022/11/MG_9936-12-2.png",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 6,
+	"types": [
+		"residential"
+	],
+	"date": "2022-11-21T12:28:28",
+	"seo": {
+		"title": "Westgarth Street, Fitzroy Renovation and Extension",
+		"description": "Constructed in three stages over 4 years, the Westgarth street residence saw a virtually derelict Edwardian villa remodelled and enlarged."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Contractor",
+						"value": "Justin Moylan"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					}
+				],
+				"text": "If an elephant needs to be eaten one bite at a time, this residential project similarly needed to be tackled as a progressive dinner – carefully planned then delivered a course at a time, often with a break in-between.\n\nConstructed in three stages over four years, this project saw a virtually derelict Edwardian villa completely remodelled and enlarged. This progressive renovation honours and enhances the property’s existing heritage qualities at the front whilst radically reworking its plan and operation at the rear.\n\nOur clients approached the project with an open mind and a clear vision of the potential for the house to be remade into a modern family home.\n\nThe main stage saw the four front rooms retained and refurbished, an ensuite bathroom and powder room added, and a new period-style bay window added to the street-facing main bedroom. Two small internal courtyards flanking the extended central corridor were introduced to separate the ‘old’ front bed/bath rooms from the ‘new’ rear open-plan living areas.\n\nOne courtyard retained the internal walls and brick fireplace of a former bedroom operating as part of a new secluded outdoor living room. The courtyards served not only to provide a physical and visual break between the different eras and functional zones of the house but also allowed for the introduction of greatly increased natural light throughout, even directly into the shower and bath via a Japanese screen-style sliding door.\n\nThe highly articulated gable-ended rear elevation maintained the roof pitch and height of the existing house while incorporating a second-storey ‘attic’ study/bedroom room within. The second storey is slung into the rear living areas like the hull of a ship, breaking-up the otherwise open floor plan into clearly defined areas for the combined kitchen/laundry, meals and living areas.\n\nExposed aggregate polished concrete floors further mark the transition from the period front and its timber floorboards to the contemporary rear. A wide set of bi-fold doors connect the living space to the courtyard garden area beyond blurring the lines between inside and outside and introducing a sense of space that is surprising for a terrace house.\n\nThe upper level was built as a shell but left internally unlined to manage available project funds."
+			}
+		},
+		{
+			"discriminant": "image_pair",
+			"value": {
+				"image_left": {
+					"src": "/src/assets/media/2022/11/69A9483-1-18.jpg",
+					"alt": "Westgarth Street Residence view of the lobby to the upstairs",
+					"width": 619,
+					"height": 821
+				},
+				"image_right": {
+					"src": "/src/assets/media/2022/11/69A9318-1-18.jpg",
+					"alt": "Westgarth Street Residence’s dining area to the living room",
+					"width": 620,
+					"height": 821
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9470-1-21.jpg",
+					"alt": "Westgarth Street Residence’s L-shaped red couch in the living room",
+					"width": 1320,
+					"height": 879
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "The final stage involved the addition of the steel and timber stair, the lining and fitout of the upper level including the installation of long clerestory window running nearly the length of the space. This final course was a sweet conclusion to a truly memorable feast."
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-1-21.jpg",
+					"alt": "Wide view of the living room to the kitchen",
+					"width": 853,
+					"height": 569
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-2-5.jpg",
+					"alt": "Westgarth Street Residence’s view from the fireplace to the stairs through a glass wall compartment",
+					"width": 853,
+					"height": 569
+				},
+				"align": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9645-1-21.jpg",
+					"alt": "Wide angle view of the ground floor",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-52-1.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-53-1.jpg",
+							"alt": "lobby view to the stairs",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-60-1.jpg",
+							"alt": "Toilet and bath",
+							"width": 465,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-55-1.jpg",
+							"alt": "Westgarth Street Residence’s study room in the attic",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-56-1.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-61-1.jpg",
+							"alt": "",
+							"width": 465,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-62-2.jpg",
+							"alt": "",
+							"width": 465,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-59-1.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

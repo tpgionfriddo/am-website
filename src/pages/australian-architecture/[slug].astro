@@ -1,12 +1,9 @@
 ---
-/** Project-type pages live under /australian-architecture/ (e.g. /australian-architecture/community-architecture/). */
-import { decodeSlug, getEmDashEntry } from "emdash";
+import { getCollection } from "../../lib/content";
 import PageView from "../../views/PageView.astro";
-
-const slug = decodeSlug(Astro.params.slug);
-if (!slug) return Astro.rewrite("/404");
-const { entry: page, cacheHint } = await getEmDashEntry("pages", slug);
-if (!page) return Astro.rewrite("/404");
-if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+export async function getStaticPaths() {
+ return (await getCollection("pages")).entries.filter((page) => page.data.layout.some((block: any) => block.discriminant === "project_list")).map((page) => ({ params: { slug: page.id }, props: { page } }));
+}
+const { page } = Astro.props;
 ---
-<PageView page={page} path={`/australian-architecture/${slug}/`} />
+<PageView page={page} path={"/australian-architecture/" + page.id + "/"} />

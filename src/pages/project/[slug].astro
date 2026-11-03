@@ -1,11 +1,9 @@
 ---
-import { decodeSlug, getEmDashEntry } from "emdash";
+import { getCollection } from "../../lib/content";
 import ProjectView from "../../views/ProjectView.astro";
-
-const slug = decodeSlug(Astro.params.slug);
-if (!slug) return Astro.rewrite("/404");
-const { entry: project, cacheHint } = await getEmDashEntry("projects", slug);
-if (!project) return Astro.rewrite("/404");
-if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+export async function getStaticPaths() {
+ return (await getCollection("projects")).entries.map((project) => ({ params: { slug: project.id }, props: { project } }));
+}
+const { project } = Astro.props;
 ---
 <ProjectView project={project} />

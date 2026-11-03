@@ -1,14 +1,13 @@
 ---
-import { getEmDashCollection } from "emdash";
+import { getCollection } from "../lib/content";
 import BlogPostCard from "./BlogPostCard.astro";
 interface Props { heading?: string; count?: number; category?: string; exclude?: string; /** "div" inside a related-news block */ as?: "section" | "div"; }
 const { heading = "Practice News", count = 3, category, exclude, as: Tag = "section" } = Astro.props;
-const { entries, cacheHint } = await getEmDashCollection("posts", {
+const { entries } = await getCollection("posts", {
 	orderBy: { published_at: "desc" },
 	limit: count + 1,
 	...(category ? { where: { category } } : {}),
 });
-if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
 const posts = entries.filter((p) => p.id !== exclude).slice(0, count);
 ---
 {

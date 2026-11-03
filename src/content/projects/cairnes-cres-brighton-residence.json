@@ -1,0 +1,236 @@
+{
+	"title": "Cairnes Crescent, Brighton Residence",
+	"featured_image": {
+		"src": "/src/assets/media/2022/11/69A9252-1-11.jpg",
+		"alt": "",
+		"width": 1440,
+		"height": 709
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2022/11/MG_9936-14-2.png",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 3,
+	"types": [
+		"residential"
+	],
+	"date": "2022-11-21T12:29:07",
+	"seo": {
+		"title": "Cairnes Crescent, Brighton Residence",
+		"description": "The strikingly modern three-storey Brighton residence was structured around a relaxed, open plan, with the ground floor living zone."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Client",
+						"value": "Private Residential"
+					},
+					{
+						"label": "Timeframe",
+						"value": "2010-2012 & 2020-2021"
+					},
+					{
+						"label": "Contractor",
+						"value": "Wattle Glen Homes and Extensions (original build)\n[Byde Constructions](https://www.bydecon.com.au/) (additions & alterations)"
+					},
+					{
+						"label": "Consultant team",
+						"value": "Structural & Civil Engineer – [Adams Consulting Engineers](http://www.adamseng.com.au/)\nInterior Design – Anthea Putt Interiors"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					}
+				],
+				"text": "It is always a pleasure to return to a project many years after you first design it and see how well it has worked. It’s an added bonus to be given the opportunity to then design an extension and be able to test the original design and construction with a new brief to suit a new owner.\n\nWhen we first worked on the original house in Brighton, we developed a Balinese-themed and sourced design concept that had to be made to work for local planning and building regulations. The resultant design stayed true to the original concept but became technically and financially buildable.\n\nThe strikingly modern three-storey home was structured around a relaxed, open plan, with the ground floor living zone including a dramatic double-height space, a private study and parents’ retreat. The first floor formed the children’s zone with bedrooms and a study while the basement zone housed a garage and entertainment ‘cave’, lit by a full width window to the end of the central swimming pool."
+			}
+		},
+		{
+			"discriminant": "image_pair",
+			"value": {
+				"image_left": {
+					"src": "/src/assets/media/2022/11/69A9483-1-14.jpg",
+					"alt": "",
+					"width": 619,
+					"height": 821
+				},
+				"image_right": {
+					"src": "/src/assets/media/2022/11/69A9318-1-14.jpg",
+					"alt": "",
+					"width": 620,
+					"height": 821
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9470-1-17.jpg",
+					"alt": "",
+					"width": 1320,
+					"height": 879
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "A pool house closed off the end of the block, framing the pool terrace as the sun-lit, central recreation and outdoor entertaining space, encapsulating the essence of the design concept’s resort origins."
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-1-17.jpg",
+					"alt": "",
+					"width": 853,
+					"height": 569
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "text_image",
+			"value": {
+				"text": "The house served its owners and its growing family well for nearly a decade before new owners, with different needs took over. Whilst the core layout of rooms and zones and the rich palette of natural materials held true, the new owners were keen to gain some additional room to better suit their older children and to also subtly move away from the naturally ageing exterior finish of the upper level walls to a more easily maintained surface.\n\nSo after a ten year hiatus, Architecture Matters were able to re engage with the house and remodel its front facade. We increased the size of a bedroom without losing the established characteristics of the facade, whilst also working closely with the building contractor to develop a new detail and render treatment to better suit the new owner’s preferences.\n\nThe house is proof that good design stands the test of time.",
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9660-1-14.jpg",
+					"alt": "Brighton Residence",
+					"width": 620,
+					"height": 744
+				},
+				"image_side": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9645-1-17-e1673498535237.jpg",
+					"alt": "",
+					"width": 854,
+					"height": 569
+				}
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-17.jpg",
+							"alt": "Brighton Residence al fresco pool area",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-18-1.jpg",
+							"alt": "Brighton Residence pool area to the living room",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-19-1.jpg",
+							"alt": "Brighton Residence-view from the inside",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-20-2.jpg",
+							"alt": "Cairnes Cres Brighton Pool cabana area",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-21-2.jpg",
+							"alt": "Brighton Residence entertainment room",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-23-1.jpg",
+							"alt": "Cairnes Cres Brighton’s entertainment room wide angle",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-22-1.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-24-1.jpg",
+							"alt": "Brighton Residence kitchen area",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-26-1.jpg",
+							"alt": "Brighton Residence wide view of the living area",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-25-1.jpg",
+							"alt": "Brighton Residence",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-27-1.jpg",
+							"alt": "Brighton residence’s view of the living area to the stairs",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-28-1.jpg",
+							"alt": "Wide view of the living area",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-29-1.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

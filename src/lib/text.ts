@@ -1,4 +1,4 @@
-import { sanitizeHref } from "emdash";
+import { sanitizeHref, withBase } from "./urls";
 
 const escape = (s: string) =>
 	s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -14,7 +14,7 @@ export function renderText(text: string | null | undefined, { paragraphs = true 
 			const safe = sanitizeHref(href.replace(/&amp;/g, "&"));
 			if (!safe) return label;
 			const external = /^https?:\/\//i.test(safe) && !/architecturematters\.com\.au/i.test(safe);
-			return `<a href="${escape(safe)}"${external ? ' target="_blank" rel="noopener"' : ""}>${label}</a>`;
+			return `<a href="${escape(withBase(safe))}"${external ? ' target="_blank" rel="noopener"' : ""}>${label}</a>`;
 		});
 	const paras = text.trim().split(/\n\s*\n/);
 	const html = paras.map((p) => p.split("\n").map(inline).join("<br />"));

@@ -1,11 +1,12 @@
 ---
-import { Image } from "emdash/ui";
+import Image from "./Image.astro";
+import { withBase } from "../lib/urls";
 interface Props { project: any; }
 const { project } = Astro.props;
-const image = project.data.thumbnail ?? project.data.featured_image;
+const image = project.data.thumbnail?.src ? project.data.thumbnail : project.data.featured_image;
 ---
 <div class="block-loop">
-	<a href={`/project/${project.id}/`} title={project.data.title} class="block-loop__link">
+	<a href={withBase(`/project/${project.id}/`)} title={project.data.title} class="block-loop__link">
 		<div class="block-loop__image">{image && <Image image={image} class="attachment-large size-large" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" />}</div>
 		<div class="block-loop__heading">
 			<h4>{project.data.title}</h4>

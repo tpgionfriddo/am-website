@@ -1,0 +1,222 @@
+{
+	"title": "Lorraine Avenue, Essendon Residence",
+	"featured_image": {
+		"src": "/src/assets/media/2022/11/69A9252-1-13.jpg",
+		"alt": "",
+		"width": 1440,
+		"height": 709
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2022/11/MG_9936-16-2.png",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 5,
+	"types": [
+		"residential"
+	],
+	"date": "2022-11-21T12:28:45",
+	"seo": {
+		"title": "Lorraine Avenue, Essendon Residence",
+		"description": "Explore the perfect balance of spacious, light-filled living areas and intimate private spaces, creating a truly inviting home, with Essendon Residence."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Client",
+						"value": "Private Residential"
+					},
+					{
+						"label": "Contractor",
+						"value": "Kennedy Construction"
+					},
+					{
+						"label": "Consultant Team",
+						"value": "Structural & Civil Engineer – [Adams Consulting Engineers](http://www.adamseng.com.au/)\nBuilding Surveyor – Gibson Dell Building Permits"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					}
+				],
+				"text": "Contextualism comes in many guises. This new residence replaced an existing single-storey weatherboard cottage in a street lined with similar single-storey weatherboard cottages. It stands proudly two-storey, has a flat roof and has a strongly emphasised verticality. At first glance, it is very different from the neighbours. And yet it sits comfortably in its suburban context.\n\nFundamentally, the owners liked the neighbourhood but not the prevailing house type. They wanted their new house to look just that – new, and to capture a way of living not possible within the older house types. We achieved this using a considered, relatively radical approach to siting, plan, form, material and colour."
+			}
+		},
+		{
+			"discriminant": "image_pair",
+			"value": {
+				"image_left": {
+					"src": "/src/assets/media/2022/11/69A9483-1-16.jpg",
+					"alt": "Essendon Residence’s stone outdoor walls with shiny wooden floor",
+					"width": 619,
+					"height": 821
+				},
+				"image_right": {
+					"src": "/src/assets/media/2022/11/69A9318-1-16.jpg",
+					"alt": "",
+					"width": 620,
+					"height": 821
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9470-1-19.jpg",
+					"alt": "Essendon Residence’s lit facade",
+					"width": 1320,
+					"height": 879
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "The Essendon Residence breaks with the aged norms of its neighbours. It is cranked, boomerang-like in plan so that it maximises precious sunlight."
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-1-19.jpg",
+					"alt": "interior details with vinyl floors",
+					"width": 853,
+					"height": 569
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "text_columns",
+			"value": {
+				"left": "It is split-level, taking advantage of the sloping site. It provides clear and distinct zoning – separating parents and children, formal and informal living. A gallery-hallway draws occupants into the heart of the home – an expansive and richly textured kitchen – from which radiates the stairwell, powder room, laundry, study, cellar, living, dining and north courtyard. The first floor repeats the gallery hallway to link the children’s bedrooms and rumpus. Internally, the house features warm timbers and bright white giving it a Scandinavian aesthetic that contrasts with the dark, bluestone tile external cladding.\n\nSo whilst seeking to set their own mark in the street, the house simultaneously responds to cues from its neighbours, such as adopting a dark coloured roof colour, proportions of the front verandahs and setbacks both front and side.\n\nThe Essendon Residence is a distinctive house in the context of its quiet suburban setting. It is a house that is a credit to the owners’ brief and vision.",
+				"right": ""
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-2-3.jpg",
+					"alt": "Essendon Residence’s wide view of the dining table to the living room",
+					"width": 853,
+					"height": 569
+				},
+				"align": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9645-1-19.jpg",
+					"alt": "",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-37-1.jpg",
+							"alt": "Essendon Residence’s lobby lit by the ray of sunshine",
+							"width": 465,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-38-1.jpg",
+							"alt": "Bedroom",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-39-1.jpg",
+							"alt": "Bathroom",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-40-1.jpg",
+							"alt": "",
+							"width": 465,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-42.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-41-1.jpg",
+							"alt": "",
+							"width": 465,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-43.jpg",
+							"alt": "Wash and laundry area",
+							"width": 465,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-45-1.jpg",
+							"alt": "Essendon Residence’s al fresco area",
+							"width": 465,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-46-1.jpg",
+							"alt": "Essendon Residence’s patio 2",
+							"width": 465,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-47-1.jpg",
+							"alt": "Essendon Residence’s al fresco area 3",
+							"width": 465,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-44-1.jpg",
+							"alt": "Essendon Residence’s al fresco area 4",
+							"width": 962,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

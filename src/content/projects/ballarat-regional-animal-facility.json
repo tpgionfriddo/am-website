@@ -1,0 +1,125 @@
+{
+	"title": "Ballarat Regional Animal Facility",
+	"featured_image": {
+		"src": "/src/assets/media/2025/05/BRAF_Website02B.png",
+		"alt": "",
+		"width": 1440,
+		"height": 708
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2025/10/BRAF_Website01TN.png",
+		"alt": "",
+		"width": 806,
+		"height": 517
+	},
+	"sort_order": 1,
+	"types": [
+		"specialised",
+		"animal-facilities"
+	],
+	"date": "2025-10-27T23:16:31",
+	"seo": {
+		"title": "Ballarat Regional Animal Facility"
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Location",
+						"value": "Mitchell Park, Victoria"
+					},
+					{
+						"label": "Client",
+						"value": "Ballarat City Council"
+					},
+					{
+						"label": "Value",
+						"value": "$14.25 MIL"
+					},
+					{
+						"label": "Timeframe",
+						"value": "2024-2027"
+					},
+					{
+						"label": "Contractor",
+						"value": "TBC"
+					},
+					{
+						"label": "Consultant team",
+						"value": "Structural & Civil Engineer – [Adams Consulting Engineers](http://www.adamseng.com.au/)\nServices Engineer – [BRT Consulting](http://www.brt.com.au/)\nQuantity Surveyor – [Prowse Quantity Surveyors](http://www.prowseqs.com.au/)\nRelevant Building Surveyor – [Lighthouse Building Permits](https://lhbp.com.au/)\nConsultant Building Surveyor – [du Chateau Chun](http://www.duchateauchun.com/)\nESD Consultant – [SALT3](https://salt3.com.au/)\nAccess Consultant – [Equal Access](http://www.disabilityaccessconsultants.com.au/)\nAcoustic Engineer – [Enfield Acoustics](https://www.enfieldacoustics.com.au/)\nLandscape Architect – Leftfield Design\nGeotechnical Engineer – [Provincial Geotechnical](https://www.pgvic.com.au/)\nBushfire Assessment – Keystone Alliance"
+					}
+				],
+				"text": "Professional services for the design and delivery of a new Regional Animal Facility in Mitchell Park enhancing the quality of life and care delivered to thousands of animals from around the greater Ballarat region that pass through the shelter each year, with a plan to house over 50 dogs and over 130 cats, as well as small animals and livestock."
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2025/05/BRAF_Website01.png",
+					"alt": "",
+					"width": 1320,
+					"height": 743
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2025/06/BRAF_Website06.png",
+					"alt": "",
+					"width": 1013,
+					"height": 570
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2025/06/BRAF_Website07.png",
+					"alt": "",
+					"width": 1564,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2025/06/BRAF_Website05C.png",
+					"alt": "",
+					"width": 1138,
+					"height": 640
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2025/06/BRAF_Website04C.png",
+					"alt": "",
+					"width": 1138,
+					"height": 640
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2025/06/BRAF_Website03C.png",
+					"alt": "",
+					"width": 1138,
+					"height": 640
+				}
+			}
+		}
+	]
+}

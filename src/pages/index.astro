@@ -1,13 +1,10 @@
 ---
-import { getEmDashEntry, getSeoMeta } from "emdash";
-import { Blocks } from "emdash/ui";
+import { getEntry, getSeoMeta } from "../lib/content";
+import Blocks from "../components/Blocks.astro";
 import { blockComponents } from "../components/blocks";
 import Base from "../layouts/Base.astro";
-
-const { entry: page, cacheHint } = await getEmDashEntry("pages", "home");
-if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
-const seo = page ? getSeoMeta(page, { siteTitle: "Architecture Matters", siteUrl: "https://architecturematters.com.au", path: "/" }) : null;
+const { entry: page } = await getEntry("pages", "home");
+if (!page) throw new Error("A published home page is required");
+const seo = getSeoMeta(page, { path: "/" });
 ---
-<Base title="" description={seo?.description} bodyClass="home" hideFooter content={page ? { collection: "pages", id: page.data.id, slug: "home" } : undefined}>
-	{page ? <Blocks value={page.data.layout ?? []} components={blockComponents} /> : <main id="primary" class="container" style="padding:10rem 1.25rem"><h1>Architecture Matters</h1><p>Create a page with the slug <code>home</code> in the admin.</p></main>}
-</Base>
+<Base title="" description={seo.description} canonical={seo.canonical} image={seo.ogImage} bodyClass="home" hideFooter><main id="primary"><Blocks value={page.data.layout} components={blockComponents} /></main></Base>

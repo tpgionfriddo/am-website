@@ -1,0 +1,230 @@
+{
+	"title": "Erskine St Project – North Melbourne",
+	"featured_image": {
+		"src": "/src/assets/media/2025/02/43A7836-1.jpg",
+		"alt": "",
+		"width": 1440,
+		"height": 856
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2024/02/43A8419.jpg",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 0,
+	"types": [
+		"residential"
+	],
+	"date": "2025-04-15T07:14:42",
+	"seo": {
+		"title": "Erskine St Project - North Melbourne"
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Client",
+						"value": "Private Residential"
+					},
+					{
+						"label": "Timeframe",
+						"value": "2020-2022"
+					},
+					{
+						"label": "Contractor",
+						"value": "[Byde Constructions](https://www.bydecon.com.au/)"
+					},
+					{
+						"label": "Consultant Team",
+						"value": "Structural & Civil Engineer – [Adams Consulting Engineers](http://www.adamseng.com.au/)\nLandscape Designer & Contractor – Ben Harris, [Ben Harris Gardens](http://www.bhgardens.com.au/)\nInteriors – Julianne Bull, [The Den Interiors](http://thedeninteriors.com.au/)\nBuilding Surveyor – [GE Building Surveyors](http://gebs.com.au/)"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					},
+					{
+						"label": "Videographer",
+						"value": "Alexandre Lourié – [AL Film Australia](http://alfilm.org/)"
+					}
+				],
+				"text": "It is a privilege to work with residential clients to help them establish their long-term homes and even more so to be able to return to the house some years later to reimagine it for a second time to reflect the growth and changing needs of the family within it.\n\nIn 2005, Anthony Gionfriddo, then a sole-practitioner and now director of Architecture Matters was engaged by the owners of an unrenovated 1960s home in North Melbourne to transform it into a residence that could suit with their planned family, so setting out to remake the modest, low-rise concrete block house through a comprehensive renovation and the addition of a second storey.\n\nDespite standing as something of an anomaly within the predominantly Victorian and Edwardian heritage streetscape, the home’s original minimalist form and the site’s deep block presented a unique opportunity. With its ‘good bones’ and untapped site potential, the design vision focused on balancing the simplicity of the original structure with the functionality and warmth of contemporary family living.\n\nDrawing on both professional expertise and personal familiarity with the neighbourhood – living in the adjoining street – Anthony brought an understanding of the challenges and opportunities posed by such a site. Through careful planning and a collaborative design process, the renovation honours the home’s restrained character while introducing spatial fluidity, enhanced natural light, and a more seamless connection to its surroundings.\n\nThe original renovations served the family well for 15 years before Anthony and Architecture Matters were called back to revisit the house and design a further renovation and addition to cater for an expanded family, now including teenagers."
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2025/04/43A8077.jpg",
+					"alt": "",
+					"width": 1321,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "text_image",
+			"value": {
+				"text": "The latest project involved the addition of two ensuite bathrooms to serve remodelled existing bedrooms, the remodelling of existing bathrooms, laundry/mudroom, kitchen/meals/living and the addition of a small music room that links with a new large family room pavilion. The new additions created a new semi-enclosed courtyard space and resulted in the relocation and expansion of an outdoor living room.\n\nSignificant landscaping works, designed and built by Ben Harris Gardens, including a picturesque water feature and stream with its own sandy beach wrap around the family room, resulting in a vibrant room within the back yard, embraced by greenery and light and with its own internal dynamic created by the sharply vaulting ceiling and highlight windows. The family room opens out onto a north-facing terrace, outdoor living room and gardens beyond, creating a newly generous entertaining zone.\n\nBy separating the new family pavilion from the main living areas by a courtyard space with a glazed perimeter, the additions remain visually connected to the rest of the house and the day-to-day activities within it but sufficiently removed to allow the different family members to find their own space.",
+				"image": {
+					"src": "/src/assets/media/2024/02/43A8536.jpg",
+					"alt": "",
+					"width": 581,
+					"height": 820
+				},
+				"image_side": "right"
+			}
+		},
+		{
+			"discriminant": "text_image",
+			"value": {
+				"text": "A collaborative and trusting working relationship between the owners, architect and builder, Nick Broadhead, Byde Constructions, enabled practical and beneficial changes to the project design to be identified and pursued during the project’s demolition and construction stages, including a structural element that was too difficult to remove in the 2005 project but which, with the benefit of Nick’s insights, was now able to be removed as part of the latest works.\n\nThe renovated bathroom, laundry and kitchen spaces were designed by Julianne Bull at The Den Interiors and provide warmth and texture to the house.\n\nHaving been entrusted for the second time to create and family’s home, the Erskine St Project stands as a testament to our client’s recognition of Architecture Matters’ commitment to designing houses that can comfortably serve the present whilst also looking to future.",
+				"image": {
+					"src": "/src/assets/media/2024/02/43A8501.jpg",
+					"alt": "",
+					"width": 581,
+					"height": 820
+				},
+				"image_side": "left"
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2025/04/43A7879.jpg",
+					"alt": "",
+					"width": 855,
+					"height": 570
+				},
+				"align": "right"
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2024/02/StudyDoors.gif",
+					"alt": "",
+					"width": 1200,
+					"height": 800
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2025/04/43A8575.jpg",
+							"alt": "North Melbourne Residence",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/04/43A8521.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/04/43A7891.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/04/43A8223.jpg",
+							"alt": "",
+							"width": 427,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/04/43A8353.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/04/43A8269.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/04/43A8312.jpg",
+							"alt": "",
+							"width": 454,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/04/43A8134.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/04/43A8053.jpg",
+							"alt": "",
+							"width": 960,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/04/43A8065.jpg",
+							"alt": "",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/04/43A8301.jpg",
+							"alt": "",
+							"width": 427,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/04/43A8378.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/04/43A8561.jpg",
+							"alt": "North Melbourne Residence",
+							"width": 962,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

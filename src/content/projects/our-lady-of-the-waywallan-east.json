@@ -1,0 +1,328 @@
+{
+	"title": "Our Lady of the Way Catholic Primary School, Stages 2-4",
+	"featured_image": {
+		"src": "/src/assets/media/2022/11/69A9252-1-5.jpg",
+		"alt": "Our Lady of the Way Catholic Primary School facade",
+		"width": 1440,
+		"height": 709
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2022/11/MG_9936-9.png",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 1,
+	"types": [
+		"educational"
+	],
+	"date": "2022-11-21T12:25:24",
+	"seo": {
+		"title": "Our Lady of the Way Catholic Primary School, Stages 2-4",
+		"description": "Discover how Architecture Matters is shaping the future of education at Our Lady of the Way Catholic Primary School."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Location",
+						"value": "Wallan East, Victoria"
+					},
+					{
+						"label": "Client name",
+						"value": "Our Lady of the Way Catholic Primary School and Melbourne Archdiocese Catholic Schools (MACS)"
+					},
+					{
+						"label": "Value",
+						"value": "Stage 2: $1.1 MIL\nStage 3: $4.6 MIL\nStage 4: $3.5 MIL"
+					},
+					{
+						"label": "Contract type",
+						"value": "Fixed Price Contract"
+					},
+					{
+						"label": "Completion",
+						"value": "Stage 2: October 2018 – January 2020\nStage 3: May 2020 – May 2021\nStage 4: April 2022 – May 2023"
+					},
+					{
+						"label": "Contractor",
+						"value": "[Raysett Constructions Australia](http://www.raysett.com.au/)"
+					},
+					{
+						"label": "Subconsultants",
+						"value": "Structural & Civil Engineer – [Adams Consulting Engineers](http://www.adamseng.com.au/)\nServices Engineer – [NJM Design](http://www.njmdesign.com.au/)\nLandscape Architect – Leftfield Design\nBuilding Surveyor – [DuChateau Chun](http://www.duchateauchun.com/)"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					}
+				],
+				"text": "Our Lady of the Way Catholic Primary School is located in the rapidly growing town of Wallan, 45 km north of Melbourne. All schools are important pieces of community infrastructure but this one matters more than most. Before we began assisting the Melbourne Archdiocese to develop the school, Wallan was without its own education facility — a pain point for an otherwise thriving community.\n\nCommencing at the greenfield site in 2019, we masterplanned and delivered 10 classrooms, a communal library and brought the outdoors in through integrated landscaping. Now, the foundation to grade-6 school is rapidly expanding. The current stage of works will see it become a 22-classroom facility with a dynamic central learning space designed to increase the school’s capacity to cater to diverse learning formats."
+			}
+		},
+		{
+			"discriminant": "image_pair",
+			"value": {
+				"image_left": {
+					"src": "/src/assets/media/2022/11/69A9483-1-8.jpg",
+					"alt": "Our Lady of the Way Catholic Primary School bench in the outdoor field",
+					"width": 619,
+					"height": 821
+				},
+				"image_right": {
+					"src": "/src/assets/media/2022/11/69A9318-1-8.jpg",
+					"alt": "Our Lady of the Way Catholic Primary School outdoor area",
+					"width": 620,
+					"height": 821
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9470-1-11.jpg",
+					"alt": "Our Lady of the Way Catholic Primary School wide angle",
+					"width": 1320,
+					"height": 879
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "Adaptability and durability are key to ensuring school infrastructure can functionally grow alongside users. In achieving this, it’s the details that count."
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-1-11.jpg",
+					"alt": "Our Lady of the Way Catholic Primary School watcher's lounge",
+					"width": 853,
+					"height": 569
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "text_image",
+			"value": {
+				"text": "All classrooms have sliding doors on two sides that when closed form a corner to encourage focused study time, yet when opened they see the hallways shift from thoroughfares to usable breakout spaces. Clean lines, vibrantly coloured finishes and naturally-lit rooms, will create fun and cheerful learning spaces.\n\nOur master plan optimises the footprint with an economically-efficient solution designed to increase the flexibility of the educational offering.\n\nOur Lady of the Way Primary School is a joyful learning environment that has provided the community access to education — what could matter more?",
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9660-1-10.jpg",
+					"alt": "Our Lady of the Way Catholic Primary School basketball court",
+					"width": 620,
+					"height": 744
+				},
+				"image_side": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9645-1-11.jpg",
+					"alt": "Our Lady of the Way Catholic Primary School library",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-5-2.png",
+							"alt": "Our Lady of the Way Catholic Primary School reading area",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-20-1.jpg",
+							"alt": "Our Lady of the Way Catholic Primary School classroom 4",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-21-1.jpg",
+							"alt": "Our Lady of the Way Catholic Primary School classroom 3",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-22.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-23.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-24.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-25.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-26.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-27.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-28.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-29.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-30.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-31.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-32.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-33.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9483-1-8.jpg",
+							"alt": "Our Lady of the Way Catholic Primary School bench in the outdoor field",
+							"width": 619,
+							"height": 821
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-35.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-37.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-36.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-38.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-39.jpg",
+							"alt": "",
+							"width": 768,
+							"height": 512
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-40.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-41.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

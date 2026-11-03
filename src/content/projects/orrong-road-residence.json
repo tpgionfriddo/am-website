@@ -1,0 +1,143 @@
+{
+	"title": "Orrong Road, Elsternwick Renovation and Extension",
+	"featured_image": {
+		"src": "/src/assets/media/2022/11/69A9252-1-12.jpg",
+		"alt": "",
+		"width": 1440,
+		"height": 709
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2022/11/MG_9936-15-2.png",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 4,
+	"types": [
+		"residential"
+	],
+	"date": "2022-11-21T12:28:55",
+	"seo": {
+		"title": "Orrong Road, Elsternwick Renovation and Extension",
+		"description": "The commitment to quality is evident in every aspect of Orrong road house by remodelling and extending this existing 1930s brick home."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Contractor",
+						"value": "[Silverstream Constructions](https://silverstreamconstructions.com.au/melbourne-construction-luxury-home-builder/)"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					}
+				],
+				"text": "Involving the remodelling and substantial second storey extension to this existing 1930s brick home, the client was keen for any alterations or additions to read as contemporary and dynamic enhancements.\n\nFollowing careful analysis and detailed consultation, we concluded that the existing house had a solid structure that could support a wholesale makeover and not necessarily demand a total rebuild.\n\nThe angular hip and gable roof forms of the new second-storey created bold new spaces, effectively inverting the existing roof with an aluminium-clad raking eave that conceals a new low-profile steel hip roof of its own. There is no mistaking the new with the old.\n\nWorking across both the renovated and new rooms, the active input of the client, an interior decorator, saw a rich and warm colour palette introduced to the house that incorporated extensive use of plywood lining, whilst the new stairwell provides a dramatic double-height void space, bringing sunlight and ventilation into the previously gloomy ground floor hallway."
+			}
+		},
+		{
+			"discriminant": "image_pair",
+			"value": {
+				"image_left": {
+					"src": "/src/assets/media/2022/11/69A9483-1-15.jpg",
+					"alt": "Orrong Road Residence’s narrow lobby to the living area",
+					"width": 619,
+					"height": 821
+				},
+				"image_right": {
+					"src": "/src/assets/media/2022/11/69A9318-1-15.jpg",
+					"alt": "",
+					"width": 620,
+					"height": 821
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9470-1-18.jpg",
+					"alt": "Orrong Road Residence’s living area",
+					"width": 1320,
+					"height": 879
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "At the rear of the house, a deft swap in location of the kitchen and living room delivered an improved functional floor area for both whilst introducing better outlooks and connectivity with the rebuilt deck outside. In this instance, working with what they already had but in a markedly different way gave the client the desired enhancement, but without the need or expense of demolishing and rebuilding.\n\nThis is a house not just renewed but revitalised and unafraid to stake its place in the 21st century."
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-1-18.jpg",
+					"alt": "Orrong Road Residence’s dining area with a view of the kitchen",
+					"width": 853,
+					"height": 569
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-2-2.jpg",
+					"alt": "",
+					"width": 853,
+					"height": 569
+				},
+				"align": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9645-1-18.jpg",
+					"alt": "Hardwood swimming pool deck",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-32-1.jpg",
+							"alt": "Orrong Road Residence’s lit facade",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-33-1.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-31-1.jpg",
+							"alt": "Orrong Road Residence’s toilet",
+							"width": 465,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,17 @@
+---
+import { Image as AstroImage } from "astro:assets";
+import { imageMetadata, type ContentImage } from "../lib/images";
+
+interface Props {
+	image?: ContentImage | null;
+	class?: string;
+	sizes?: string;
+	priority?: boolean;
+	alt?: string;
+}
+
+const { image, alt, priority = false, sizes = "100vw", ...attributes } = Astro.props;
+const source = imageMetadata(image);
+const widths = source ? [...new Set([320, 640, 1080, 1600, 2048, source.width].filter((width) => width <= source.width))].sort((left, right) => left - right) : [];
+---
+{source && <AstroImage src={source} alt={alt ?? image?.alt ?? ""} widths={widths} sizes={sizes} format={source.format === "gif" || source.format === "svg" ? source.format : "webp"} loading={priority ? "eager" : "lazy"} decoding="async" fetchpriority={priority ? "high" : undefined} {...attributes} />}

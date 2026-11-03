@@ -1,0 +1,228 @@
+{
+	"title": "Sacred Heart School",
+	"featured_image": {
+		"src": "/src/assets/media/2022/11/69A9252-1-4.jpg",
+		"alt": "Sacred Heart School playground",
+		"width": 1440,
+		"height": 709
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2022/11/MG_9936-3.png",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 0,
+	"types": [
+		"educational"
+	],
+	"date": "2022-11-21T12:25:36",
+	"seo": {
+		"title": "Sacred Heart School",
+		"description": "With a focus on sustainability and student well-being, our redesign of the Sacred Heart Primary School reflects our commitment to providing the best possible educational experience for the students."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Location",
+						"value": "Fitzroy, Victoria"
+					},
+					{
+						"label": "Client name",
+						"value": "Melbourne Archdiocese Catholic Schools (MACS)"
+					},
+					{
+						"label": "Value",
+						"value": "$1.44 MIL"
+					},
+					{
+						"label": "Timeframe",
+						"value": "2020-2022"
+					},
+					{
+						"label": "Contractor name",
+						"value": "[Stokes Rousseau](http://www.stokesrousseau.com/)"
+					},
+					{
+						"label": "Consultant team",
+						"value": "Structural & Civil Engineer – [Adams Consulting Engineers](http://www.adamseng.com.au/)\nServices Engineer – [NJM Design](http://www.njmdesign.com.au/)\nQuantity Surveyor – [Prowse Quantity Surveyors](http://www.prowseqs.com.au/)\nBuilding Surveyor – [du Chateau Chun](http://www.duchateauchun.com/)"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					}
+				],
+				"text": "Our redesign of Sacred Heart Primary School saw the respectful evolution of this historic education facility to meet the growing needs of its diverse community and contemporary learners. The result is a hard-working building that provides an enjoyable and uplifting learning environment.\n\nIn late 2018, we were commissioned to develop a master plan that reimagined the circulation and functioning of this complex, crowded and resource-challenged Catholic primary school in historic Fitzroy, Melbourne’s first suburb.\n\nWe recognised that the School’s current configuration had evolved over decades and was poorly serving its staff and its diverse community including a high migrant, refugee and low-socio economic student population. The new master plan provides the school with a contemporary, secure, generous and welcoming entry point, with associated community facilities. Staff areas have been consolidated to provide an efficient and professional work environment. As part of a staged redevelopment process, we are introducing contemporary flexible learning spaces into the existing building, which was designed to accommodate traditional classrooms."
+			}
+		},
+		{
+			"discriminant": "image_pair",
+			"value": {
+				"image_left": {
+					"src": "/src/assets/media/2022/11/69A9483-1-7.jpg",
+					"alt": "Sacred Heart School colorful carpeted learning area",
+					"width": 619,
+					"height": 821
+				},
+				"image_right": {
+					"src": "/src/assets/media/2022/11/69A9318-1-7.jpg",
+					"alt": "Sacred Heart School open lockers",
+					"width": 620,
+					"height": 821
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9470-1-10.jpg",
+					"alt": "",
+					"width": 1320,
+					"height": 879
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "Our design responds to the constraints of the once industrial nature of the site and the original, traditional teaching environment."
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-1-10.jpg",
+					"alt": "Sacred Heart Primary School, lockers on the lobby",
+					"width": 853,
+					"height": 569
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "text_image",
+			"value": {
+				"text": "Taking a lead from the school’s stated desire to remove the inflexible and closed-in classroom formats and barbed-wire-topped fencing, we adopted a range of simple architectural approaches. We opened up and connected teaching spaces with large format sliding doors to encourage structured interaction and collaboration between classes and enable team teaching. We decluttered the corridor space to enable teaching spaces to break out into a shared zone. We designed colourful joinery and floor finishes to give spaces their own identities and establish clear paths of travel. We installed new palisade perimeter fencing, replacing the barbed wire fencing and its negative stigma.\n\nThe junior playground was completely rebuilt with colourful and safer surfaces for running and play. The ground floor learning space was opened out into the playground with colourful flooring running from the indoor to the outdoor learning zone, complete with outdoor black/whiteboard. A targeted range of play equipment and other discovery learning-based equipment such as built in musical instruments and a water-play zone add vital multi-purpose use to the playground, so critical due to the school’s spatial restrictions.\n\nThe project was warmly received by the school community and recognised with the award of two commendations in the Association for Learning Environments 2022 Awards Program; Category 6 Modernisation – Small, and Category 7 Small projects under $2 million. Sacred Heart Primary School shows that a design process that includes careful consideration of and consultation with those who use a space, can deliver an impactful building, no matter the budget.",
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9660-1-9.jpg",
+					"alt": "Sacred Heart School slides at the playground",
+					"width": 620,
+					"height": 744
+				},
+				"image_side": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9645-1-10.jpg",
+					"alt": "The front of Sacred Heart Primary School with trees and green rubber grass",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-5-1.png",
+							"alt": "Sacred Heart School indoor to outdoor view",
+							"width": 768,
+							"height": 512
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-7-1.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-8-1.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-9-1.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-10-e1673498217499.jpg",
+							"alt": "",
+							"width": 853,
+							"height": 568
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-11.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-12-1.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-16-1.jpg",
+							"alt": "Sacred Heart School stairs",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-13-1.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-15-1.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-14-1.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

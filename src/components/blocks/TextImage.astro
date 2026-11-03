@@ -1,5 +1,6 @@
 ---
-import { Image, PortableText } from "emdash/ui";
+import Image from "../Image.astro";
+import RichText from "../RichText.astro";
 const { value } = Astro.props;
 const imageFirst = value.image_side === "left";
 const cls = imageFirst ? "two-columns-image-text" : "two-columns-text-image";
@@ -7,7 +8,7 @@ const cls = imageFirst ? "two-columns-image-text" : "two-columns-text-image";
 <section class={`block block-animate ${cls}`}>
 	<div class="grid mt-[30px] md:mt-[50px]">
 		{imageFirst && <div class="grid__image">{value.image && <Image image={value.image} class="attachment-full size-full" sizes="(min-width: 768px) 50vw, 100vw" />}</div>}
-		<div class="grid__text space-y-12"><div>{value.text && <PortableText value={value.text} />}</div></div>
+		<div class="grid__text space-y-12"><div>{value.text && <RichText value={value.text} />}</div></div>
 		{!imageFirst && <div class="grid__image">{value.image && <Image image={value.image} class="attachment-full size-full" sizes="(min-width: 768px) 50vw, 100vw" />}</div>}
 	</div>
 </section>

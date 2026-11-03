@@ -1,5 +1,4 @@
 ---
-import { Form } from "@emdash-cms/plugin-forms/ui";
 import { renderText } from "../../lib/text";
 const { value } = Astro.props;
 const tel = value.phone ? `tel:${value.phone.replace(/[^\d+]/g, "")}` : null;
@@ -30,6 +29,6 @@ const tel = value.phone ? `tel:${value.phone.replace(/[^\d+]/g, "")}` : null;
 	</div>
 	<div class="grid">
 		<div>{value.statement && <h3>{value.statement}</h3>}</div>
-		<div>{value.show_form && <Form id="contact" />}</div>
+		<div>{value.show_form && <div class="contact-enquiry"><p>We’d love to hear about your project.</p><p><a href={`mailto:${value.email}`}>Email us to start a conversation</a></p>{tel && <p>Or call <a href={tel}>{value.phone}</a>.</p>}</div>}</div>
 	</div>
 </section>

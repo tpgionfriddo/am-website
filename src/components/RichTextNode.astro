@@ -1,0 +1,14 @@
+---
+import Image from "./Image.astro";
+import { sanitizeHref, withBase } from "../lib/urls";
+
+interface Props { node: any; }
+const { node } = Astro.props;
+const allowed = new Set(["article", "p", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "blockquote", "pre", "code", "strong", "em", "s", "del", "br", "hr", "table", "thead", "tbody", "tr", "th", "td"]);
+const Tag = allowed.has(node?.name) ? node.name : "span";
+const href = node?.name === "a" ? sanitizeHref(node.attributes?.href) : null;
+const external = !!href && /^https?:\/\//i.test(href) && !/^https?:\/\/(?:www\.)?architecturematters\.com\.au(?:\/|$)/i.test(href);
+---
+{typeof node === "string" || typeof node === "number" ? node : Array.isArray(node) ? node.map((child) => <Astro.self node={child} />) : node?.name === "img" ? <Image image={{ src: node.attributes.src, alt: node.attributes.alt }} /> : node?.name === "a" ? (
+	href ? <a href={withBase(href)} target={external ? "_blank" : undefined} rel={external ? "noopener noreferrer" : undefined}>{(node.children || []).map((child: any) => <Astro.self node={child} />)}</a> : (node.children || []).map((child: any) => <Astro.self node={child} />)
+) : node ? <Tag>{(node.children || []).map((child: any) => <Astro.self node={child} />)}</Tag> : null}

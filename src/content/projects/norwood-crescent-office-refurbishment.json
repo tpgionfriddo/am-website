@@ -1,0 +1,236 @@
+{
+	"title": "Catholic Education Melbourne, Northern Region Office",
+	"featured_image": {
+		"src": "/src/assets/media/2022/11/69A9252-1-17.jpg",
+		"alt": "",
+		"width": 1440,
+		"height": 709
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2022/11/MG_9936-12-1.png",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 3,
+	"types": [
+		"community"
+	],
+	"date": "2022-11-21T12:26:23",
+	"seo": {
+		"title": "Catholic Education Melbourne, Northern Region Office",
+		"description": "Architecture Matters regularly works with our institutional clients to help deliver new workplace solutions."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Location",
+						"value": "Moonee Ponds, Victoria"
+					},
+					{
+						"label": "Client name",
+						"value": "Melbourne Archdiocese Catholic Schools (MACS)"
+					},
+					{
+						"label": "Value",
+						"value": "$0.7 MIL"
+					},
+					{
+						"label": "Timeframe",
+						"value": "9 months"
+					},
+					{
+						"label": "Contractor name",
+						"value": "[Mantec Projects](http://www.mantecprojects.com.au/)"
+					},
+					{
+						"label": "Consultant team",
+						"value": "Structural & Civil Engineer – [Adams Consulting Engineers](http://www.adamseng.com.au/)\nServices Engineer – [NJM Design](http://www.njmdesign.com.au/)"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					}
+				],
+				"text": "One of the challenges that any large organisation faces is how to provide supportive and high performing working environments that make the best use of their property portfolios. Architecture Matters regularly works with our institutional clients to help deliver new workplace solutions.\n\nThe project brief for the refurbishment of the existing two storey office building at Norwood Crescent, Moonee Ponds was to create a flexible and inviting workspace suitable for project and team-based collaboration as well as hosting presentations and meetings for external colleagues for the Northern Region Office of Catholic Education Melbourne."
+			}
+		},
+		{
+			"discriminant": "image_pair",
+			"value": {
+				"image_left": {
+					"src": "/src/assets/media/2022/11/69A9483-1-2.jpg",
+					"alt": "Catholic Education Melbourne-classrom door",
+					"width": 619,
+					"height": 821
+				},
+				"image_right": {
+					"src": "/src/assets/media/2022/11/69A9318-1-2.jpg",
+					"alt": "Catholic Education Melbourne chairs",
+					"width": 620,
+					"height": 821
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9470-1-4.jpg",
+					"alt": "Catholic Education Melbourne wide room with glass windows to see the outside",
+					"width": 1320,
+					"height": 879
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "Working with the existing infrastructure, we provided workstations for fifty people, a series of breakout spaces, a dedicated twelve person meeting room and a large fifty person conference facility equipped with virtual meeting technology and associated kitchen and gathering space adjacent."
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-1-4.jpg",
+					"alt": "Catholic Education Melbourne classroom panoramic shot",
+					"width": 853,
+					"height": 569
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "text_image",
+			"value": {
+				"text": "Being an older office building, it did not comply with modern accessibility standards. We added an accessible-compliant toilet and shower facility to the ground floor and completed the preparatory work for the future installation of an accessible-compliant passenger lift.\n\nA modern and calming palette of materials brings the workplace into alignment with The Catholic Education Office’s other office buildings.",
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9660-1-4.jpg",
+					"alt": "Catholic Education Melbourne classroom with glass walls",
+					"width": 620,
+					"height": 744
+				},
+				"image_side": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9645-1-4.jpg",
+					"alt": "meeting area with glass walls-outside view can be seen",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-44.png",
+							"alt": "",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-31.jpg",
+							"alt": "Catholic Education Melbourne living area",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-32.jpg",
+							"alt": "",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-33.jpg",
+							"alt": "Catholic Education Melbourne classroom 2",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-34.jpg",
+							"alt": "Catholic Education Melbourne classroom 3",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-35.jpg",
+							"alt": "",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-36.jpg",
+							"alt": "",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-37.jpg",
+							"alt": "",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-38.jpg",
+							"alt": "",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-39.jpg",
+							"alt": "",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-40.jpg",
+							"alt": "",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-41.jpg",
+							"alt": "Catholic Education Melbourne meeting room 2",
+							"width": 961,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

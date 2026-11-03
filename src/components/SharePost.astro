@@ -1,8 +1,10 @@
 ---
+import { site } from "../site.config";
+import { withBase } from "../lib/urls";
 /** "Share This" links. Plain share URLs (the old site loaded AddToAny's script for these). */
 interface Props { title: string; }
 const { title } = Astro.props;
-const url = new URL(Astro.url.pathname, "https://architecturematters.com.au").toString();
+const url = new URL(Astro.url.pathname, site.url).toString();
 const u = encodeURIComponent(url);
 const t = encodeURIComponent(title);
 const links = [
@@ -17,7 +19,7 @@ const links = [
 		<div class="addtoany_shortcode">
 			<div class="a2a_kit a2a_kit_size_ addtoany_list">
 				{links.map((l) => (
-					<a class={`a2a_button_${l.icon}`} href={l.href} title={l.name} rel="nofollow noopener" target="_blank"><img src={`/theme/${l.icon}.svg`} alt={l.name} width="24" height="24" /></a>
+					<a class={`a2a_button_${l.icon}`} href={l.href} title={l.name} rel="nofollow noopener" target="_blank"><img src={withBase(`/theme/${l.icon}.svg`)} alt={l.name} width="24" height="24" /></a>
 				))}
 			</div>
 		</div>

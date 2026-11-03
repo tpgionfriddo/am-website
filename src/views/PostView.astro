@@ -1,72 +1,24 @@
 ---
-import { getSeoMeta } from "emdash";
-import { Image, PortableText } from "emdash/ui";
+import { getSeoMeta } from "../lib/content";
+import Image from "../components/Image.astro";
+import RichText from "../components/RichText.astro";
 import BackLink from "../components/BackLink.astro";
 import RelatedPosts from "../components/RelatedPosts.astro";
 import SharePost from "../components/SharePost.astro";
 import Base from "../layouts/Base.astro";
-
 interface Props { post: any; }
 const { post } = Astro.props;
-const path = `/${post.id}/`;
-const seo = getSeoMeta(post, { siteTitle: "Architecture Matters", siteUrl: "https://architecturematters.com.au", path });
+const seo = getSeoMeta(post, { path: "/" + post.id + "/" });
 const banner = post.data.featured_image;
-
-// Group the rich text into the theme's news sections: text runs, images and quotes.
-type Run = { kind: "text" | "image" | "quote"; blocks: any[] };
-const runs: Run[] = [];
-for (const b of post.data.content ?? []) {
-	const kind: Run["kind"] = b._type === "image" ? "image" : b.style === "blockquote" ? "quote" : "text";
-	const last = runs[runs.length - 1];
-	if (last && last.kind === kind && kind !== "image") last.blocks.push(b);
-	else runs.push({ kind, blocks: [b] });
-}
-const toNormal = (blocks: any[]) => blocks.map((b) => ({ ...b, style: "normal" }));
 ---
-<Base
-	title={post.data.title}
-	description={seo.description ?? post.data.excerpt}
-	canonical={seo.canonical}
-	image={seo.ogImage ?? banner?.src}
-	pageType="article"
-	bodyClass={`single single-post${banner ? "" : " no-thumbnail"}`}
-	content={{ collection: "posts", id: post.data.id, slug: post.id }}
->
-	<main id="primary" class="site-main">
-		<article class="post type-post">
-			{banner && <div class="entry-thumbnail" {...post.edit.featured_image}><Image image={banner} class="attachment-full size-full wp-post-image" sizes="100vw" priority /></div>}
-			<header class="block-animate entry-header">
-				<div class="container entry-header__container"><h1 class="entry-title" {...post.edit.title}>{post.data.title}</h1></div>
-			</header>
-			<div class="entry-content">
-				<div class="container single-post__grid">
-					<div class="single-post__sidebar">
-						<SharePost title={post.data.title} />
-						<BackLink href="/architectural-news/" />
-					</div>
-					<div class="single-post__content block-wrapper" {...post.edit.content}>
-						{
-							runs.map((run) =>
-								run.kind === "image" ? (
-									<section class:list={["block block-animate news-image", { "news-image--offset": run.blocks[0].alignment === "wide" }]}>
-										<PortableText value={run.blocks} />
-									</section>
-								) : run.kind === "quote" ? (
-									<section class="block block-animate news-block-quote news-block-quote--offset">
-										<div class="grid"><div><blockquote><PortableText value={toNormal(run.blocks)} /></blockquote></div></div>
-									</section>
-								) : (
-									<section class="block block-animate text-editor"><div class="ml-auto w-full"><PortableText value={run.blocks} /></div></section>
-								),
-							)
-						}
-					</div>
-					<BackLink href="/architectural-news/" />
-				</div>
-				<div class="container block-animate">
-					<RelatedPosts heading="Practice News" count={2} exclude={post.id} />
-				</div>
-			</div>
-		</article>
-	</main>
+<Base title={post.data.title} description={seo.description} canonical={seo.canonical} image={seo.ogImage} pageType="article" bodyClass={"single single-post" + (banner?.src ? "" : " no-thumbnail")}>
+ <main id="primary" class="site-main"><article class="post type-post">
+  {banner?.src && <div class="entry-thumbnail"><Image image={banner} class="attachment-full size-full wp-post-image" sizes="100vw" priority /></div>}
+  <header class="block-animate entry-header"><div class="container entry-header__container"><h1 class="entry-title">{post.data.title}</h1></div></header>
+  <div class="entry-content"><div class="container single-post__grid">
+   <div class="single-post__sidebar"><SharePost title={post.data.title} /><BackLink href="/architectural-news/" /></div>
+   <div class="single-post__content block-wrapper"><section class="block block-animate text-editor"><RichText value={post.data.content} /></section></div>
+   <BackLink href="/architectural-news/" />
+  </div><div class="container block-animate"><RelatedPosts heading="Practice News" count={2} exclude={post.id} /></div></div>
+ </article></main>
 </Base>

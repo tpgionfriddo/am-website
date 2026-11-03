@@ -1,0 +1,9 @@
+---
+interface Props { value?: any[]; components: Record<string, any>; }
+const { value = [], components } = Astro.props;
+---
+{value.map((block, index) => {
+	const Component = components[block.discriminant];
+	if (!Component) throw new Error(`Unknown content block: ${block.discriminant}`);
+	return <Component value={block.value} blockKey={`${block.discriminant}-${index}`} />;
+})}

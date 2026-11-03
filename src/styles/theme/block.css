@@ -957,7 +957,7 @@
   }
   &::after {
     content: var(--tw-content);
-    background-image: url(/theme/arrow-right.svg);
+    background-image: url(../../../public/theme/arrow-right.svg);
   }
   &::after {
     content: var(--tw-content);

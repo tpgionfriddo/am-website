@@ -18,7 +18,6 @@ import Team from "./Team.astro";
 import TextColumns from "./TextColumns.astro";
 import TextImage from "./TextImage.astro";
 
-/** Block type slug (seed/seed.json) -> Astro component. */
 export const blockComponents = {
 	hero_slider: HeroSlider,
 	project_info: ProjectInfo,

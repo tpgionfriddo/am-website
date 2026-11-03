@@ -1,0 +1,279 @@
+{
+	"title": "Exford Primary School",
+	"featured_image": {
+		"src": "/src/assets/media/2022/11/69A9252-1-6.jpg",
+		"alt": "",
+		"width": 1440,
+		"height": 709
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2022/11/MG_9936-10.png",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 2,
+	"types": [
+		"educational"
+	],
+	"date": "2022-11-21T12:25:09",
+	"seo": {
+		"title": "Exford Primary School",
+		"description": "We sensitively transformed Exford Primary School from an overcrowded and under-resourced ‘country’ school, into a fully resourced contemporary school."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Location",
+						"value": "Exford, Victoria"
+					},
+					{
+						"label": "Client name",
+						"value": "Victorian School Building Authority"
+					},
+					{
+						"label": "Value",
+						"value": "$6.24 MIL"
+					},
+					{
+						"label": "Timeframe",
+						"value": "2019-2022"
+					},
+					{
+						"label": "Contractor",
+						"value": "[Orion Builders](https://orionbuilders.com.au/)"
+					},
+					{
+						"label": "Consultant team",
+						"value": "Structural & Civil Engineer – [Adams Consulting Engineers](http://www.adamseng.com.au/)\nServices Engineer – [NJM Design](http://www.njmdesign.com.au/)\nAcoustic Engineer – [Renzo Tonin](http://www.renzotonin.com.au/)\nLand Surveyor – [Peter Rickard and Associates](https://www.yellowpages.com.au/vic/hawthorn/rickard-peter-associates-pty-ltd-14331807-listing.html)\nLandscape Architect – Land Design Partnership & Leftfield Design\nAccess Consultant – [Equal Access](http://www.disabilityaccessconsultants.com.au/)\nHydrogeologist – MSH Groundwater\nBushfire Assessment – Keystone Alliance\nGeotechnical Engineer – [Civil Test](https://www.civiltest.com.au/)\nQuantity Surveyor – [MBM](https://mbmpl.com.au/)\nBuilding Surveyor – [du Chateau Chun](http://www.duchateauchun.com/)"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					}
+				],
+				"text": "The progressive rebirth of Exford Primary School from an overcrowded and under-resourced ‘country’ school on the suburban fringe to a fully resourced contemporary school is progressing over a number of stages following multiple rounds of significant state government funding.\n\nThe school suffered from being comprised entirely of relocatable buildings and operated without mains water, sewer or stormwater connections and insufficient power and telecom services. Its relative isolation, surrounded by sheep paddocks, belied the suburban fringe that was approaching and driving significant growth in student numbers.\n\nFollowing extensive consultation with the broader school community and working closely with the VSBA, we developed a detailed master plan that allowed for the safe, functional and continuous operation of the school throughout planned multistage construction phases, as well as satisfying the School’s rapidly expanding accommodation requirements.\n\nThe completion of Stage 1 of the plan is a testament to the value placed in a considered design process in order to ensure a successful built outcome. At the core of this is that Architecture Matters listens, with recognition of the school’s particular needs requiring a careful interpretation and application of VSBA’s building quality guidelines.\n\nEarly works to established adequate infrastructure services to the site provided a vital underpinning to the school’s long-term viability."
+			}
+		},
+		{
+			"discriminant": "image_pair",
+			"value": {
+				"image_left": {
+					"src": "/src/assets/media/2022/11/69A9483-1-9.jpg",
+					"alt": "Exford Primary School entrance gate",
+					"width": 619,
+					"height": 821
+				},
+				"image_right": {
+					"src": "/src/assets/media/2022/11/69A9318-1-9.jpg",
+					"alt": "Exford Primary School front door",
+					"width": 620,
+					"height": 821
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9470-1-12.jpg",
+					"alt": "Exford Primary School rainbow mural",
+					"width": 1320,
+					"height": 879
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "Exford Primary School demonstrates how facilitating the active participation of the school community in the design and development process can deliver buildings and spaces that will play a pivotal role in shaping the school’s sense of place and identity for decades to come."
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/Sliding1.gif",
+					"alt": "Exford Primary School blue carpeted classroom",
+					"width": 1200,
+					"height": 800
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "text_image",
+			"value": {
+				"text": "The Stage 1 works were successfully completed in July 2022, and included a new administration building incorporating staff amenities, a formal school entrance, a junior learning base building that accommodates eight general learning areas (GLAs), and student amenities. Extensive landscaping, coordination of infrastructure upgrades and integration with multiple existing relocatable buildings across the school site were also included.\n\nOnce the Stage 1 works were underway and having proved the viability of the comprehensive redevelopment of the school whilst it remained in operation, substantial additional funding was granted to the school to enable the completion of the master plan as a three-stage project delivery to run over subsequent 18-months.",
+				"image": {
+					"src": "/src/assets/media/2022/11/B3A3570.jpg",
+					"alt": "Exford Primary School front gate",
+					"width": 630,
+					"height": 744
+				},
+				"image_side": "right"
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/Sliding2.gif",
+					"alt": "Exford Primary School blue carpeted lobby",
+					"width": 1200,
+					"height": 800
+				},
+				"align": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9645-1-12.jpg",
+					"alt": "",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "text_columns",
+			"value": {
+				"left": "Stage 2 commenced in December 2022, divided into three consecutive parts, A, B and C:\n\nStage 2A is a two-level GLA and specialist building with student amenities and staff work areas.\n\nStage 2B is a refurbishment of Building Education Revolution-era paired-5MOD relocatables that we have arranged symmetrically around a central gallery space to create a new library, science and food preparation facility.\n\nStage 2C is a community hub building incorporating a full-sized gym with stage, physical education office, student amenities and canteen.\n\nAdditionally, all remaining areas of the school will be progressively landscaped, with the sports field and playing surfaces being rebuilt or added.",
+				"right": ""
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-69.png",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-44.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-47.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-45.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-48.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-46.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-49.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-50.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-51.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-52.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-53.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-54.jpg",
+							"alt": "Exford Primary School",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-55.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-56.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-57.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

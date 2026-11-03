@@ -1,5 +1,5 @@
 ---
-import { Image } from "emdash/ui";
+import Image from "../Image.astro";
 const { value } = Astro.props;
 const logos = (value.logos ?? []).filter((l: any) => l.image);
 ---

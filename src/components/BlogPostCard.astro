@@ -1,9 +1,10 @@
 ---
-import { Image } from "emdash/ui";
+import Image from "./Image.astro";
 import { formatDate } from "../lib/text";
+import { withBase } from "../lib/urls";
 interface Props { post: any; }
 const { post } = Astro.props;
-const href = `/${post.id}/`;
+const href = withBase(`/${post.id}/`);
 const cats = (post.data.terms?.category ?? []).map((t: any) => t.label).join(", ");
 ---
 <div class="blog-post">

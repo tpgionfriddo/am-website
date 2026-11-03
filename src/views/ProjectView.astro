@@ -1,6 +1,7 @@
 ---
-import { getSeoMeta } from "emdash";
-import { Blocks, Image } from "emdash/ui";
+import { getSeoMeta } from "../lib/content";
+import Blocks from "../components/Blocks.astro";
+import Image from "../components/Image.astro";
 import BackLink from "../components/BackLink.astro";
 import RelatedPosts from "../components/RelatedPosts.astro";
 import RelatedProjects from "../components/RelatedProjects.astro";
@@ -12,7 +13,7 @@ interface Props { project: any; }
 const { project } = Astro.props;
 const path = `/project/${project.id}/`;
 const seo = getSeoMeta(project, { siteTitle: "Architecture Matters", siteUrl: "https://architecturematters.com.au", path });
-const banner = project.data.featured_image;
+const banner = project.data.featured_image?.src ? project.data.featured_image : null;
 ---
 <Base
 	title={project.data.title}
@@ -21,13 +22,12 @@ const banner = project.data.featured_image;
 	image={seo.ogImage ?? banner?.src}
 	pageType="article"
 	bodyClass={`single single-projects${banner ? "" : " no-thumbnail"}`}
-	content={{ collection: "projects", id: project.data.id, slug: project.id }}
 >
 	<main id="primary" class="site-main">
 		<article class="projects type-projects">
-			{banner && <div class="entry-thumbnail" {...project.edit.featured_image}><Image image={banner} class="attachment-full size-full wp-post-image" sizes="100vw" priority /></div>}
+			{banner && <div class="entry-thumbnail"><Image image={banner} class="attachment-full size-full wp-post-image" sizes="100vw" priority /></div>}
 			<header class="block-animate entry-header">
-				<div class="container entry-header__container"><h1 class="entry-title" {...project.edit.title}>{project.data.title}</h1></div>
+				<div class="container entry-header__container"><h1 class="entry-title">{project.data.title}</h1></div>
 			</header>
 			<div class="entry-content">
 				<div class="container block-wrapper">

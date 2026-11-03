@@ -1,0 +1,160 @@
+{
+	"title": "Prahran Square Library & Customer Service Hub",
+	"featured_image": {
+		"src": "/src/assets/media/2022/11/69A9470-1-7.jpg",
+		"alt": "Prahran Square Library & Customer Service Hub book shelves 2",
+		"width": 1320,
+		"height": 879
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2022/11/B3A7148-1.png",
+		"alt": "",
+		"width": 640,
+		"height": 427
+	},
+	"sort_order": 8,
+	"types": [
+		"community"
+	],
+	"date": "2022-11-21T12:20:30",
+	"seo": {
+		"title": "Prahran Square Library &amp; Customer Service Hub",
+		"description": "Discover how we built the Prahran Square Library that transforms the way we learn and interacts with our community."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Location",
+						"value": "Prahran, Victoria"
+					},
+					{
+						"label": "Client name",
+						"value": "Stonnington City Council"
+					},
+					{
+						"label": "Value",
+						"value": "$0.6 MIL"
+					},
+					{
+						"label": "Timeframe",
+						"value": "2018-2020"
+					},
+					{
+						"label": "Consultant team",
+						"value": "Structural & Civil Engineer – [WSP](https://www.wsp.com/en-au/services/structural-engineering)\nServices Engineer – [BRT Consulting](http://www.brt.com.au/)\nBuilding Surveyor – [PLP](https://www.plpaust.com/)"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					}
+				],
+				"text": "Due to the pending redevelopment of the nearby Prahran Town Hall, Stonnington Council required a temporary premises for the Council’s customer services, business development and library teams. In consultation with Council, we derived a forward-thinking and agile solution – ‘pop up’ retail-like facilities that would simultaneously activate and enliven the perimeter of the new Prahran Square civic space.\n\nWe created attractive, functional and accessible library and hub fitouts for three recently built ‘cold-shell’ spaces that were originally designed to fulfil commercial and retail functions at the edges of the newly opened Prahran Square project."
+			}
+		},
+		{
+			"discriminant": "image_pair",
+			"value": {
+				"image_left": {
+					"src": "/src/assets/media/2022/11/69A9483-1-4.jpg",
+					"alt": "Prahran Square Library & Customer Service Hub bin bags",
+					"width": 619,
+					"height": 821
+				},
+				"image_right": {
+					"src": "/src/assets/media/2022/11/69A9318-1-4.jpg",
+					"alt": "Prahran Square Library & Customer Service Hub book shelves",
+					"width": 620,
+					"height": 821
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9470-1-7.jpg",
+					"alt": "Prahran Square Library & Customer Service Hub book shelves 2",
+					"width": 1320,
+					"height": 879
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "Our simple yet effective interiors utilise a contrasting colour palette expressed through interior wall paint, carpet tiles and light fittings to define key areas within the open floorplans."
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-1-7.jpg",
+					"alt": "Prahran Square Library & Customer Service Hub book shelves 3",
+					"width": 853,
+					"height": 569
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "text_image",
+			"value": {
+				"text": "This dynamic backdrop works seamlessly with furniture repurposed from existing facilities while creating fresh and modern spaces.\n\nBy installing the Council facilities into these public-facing spaces, not only was the perimeter of the square activated, but it increased the engagement of the Council with its community. The temporary library and customer services projects were also seen as an opportunity to trial new operational and workflow structures for council staff and their interactions with the public.\n\nWe successfully incorporated recycled elements from the existing facilities into the new spaces whilst also ensuring minimal changes were made to the buildings’ services, structure or envelopes, providing a highly functional and cost-effective utilisation of otherwise unused space.",
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9660-1-7.jpg",
+					"alt": "Prahran Square Library & Customer Service Hub study area",
+					"width": 620,
+					"height": 744
+				},
+				"image_side": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9645-1-7.jpg",
+					"alt": "",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9325-1-1.jpg",
+							"alt": "Prahran Square Library & Customer Service Hub study area 2",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-18.jpg",
+							"alt": "Prahran Square Library & Customer Service Hub study area 3",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9496-19.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

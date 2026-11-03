@@ -1,0 +1,57 @@
+{
+	"title": "Our Projects",
+	"seo": {
+		"title": "Our Projects",
+		"description": "Our portfolio of Australian architecture features a range of built projects - including community, education, commercial, and residential work."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_types",
+			"value": {
+				"items": [
+					{
+						"title": "Community",
+						"url": "/australian-architecture/community-architecture/",
+						"image": {
+							"src": "/src/assets/media/2023/02/Our-Projects_Community-2.jpg",
+							"alt": "",
+							"width": 720,
+							"height": 872
+						}
+					},
+					{
+						"title": "Educational",
+						"url": "/australian-architecture/education-architecture/",
+						"image": {
+							"src": "/src/assets/media/2023/02/Our-Projects_Educational-2.jpg",
+							"alt": "",
+							"width": 720,
+							"height": 872
+						}
+					},
+					{
+						"title": "Animal Facilities",
+						"url": "/australian-architecture/commercial-architecture/",
+						"image": {
+							"src": "/src/assets/media/2025/07/Our-Projects_Specialised-4.jpg",
+							"alt": "",
+							"width": 720,
+							"height": 872
+						}
+					},
+					{
+						"title": "Residential",
+						"url": "/australian-architecture/residential-architecture/",
+						"image": {
+							"src": "/src/assets/media/2025/11/Our-Projects_Residential-3.jpg",
+							"alt": "",
+							"width": 720,
+							"height": 872
+						}
+					}
+				]
+			}
+		}
+	]
+}

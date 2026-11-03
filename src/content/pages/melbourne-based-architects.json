@@ -1,0 +1,238 @@
+{
+	"title": "Our Practice",
+	"featured_image": {
+		"src": "/src/assets/media/2023/01/Our-Practice-banner.png",
+		"alt": "school library in black and white with yellow hue",
+		"width": 1440,
+		"height": 601
+	},
+	"seo": {
+		"title": "Our Practice",
+		"description": "Looking for Melbourne-based architects to design your dream home or commercial space? Contact us today to start planning your next project."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "text_columns",
+			"value": {
+				"left": "### At Architecture Matters, we design buildings that matter for people that matter.",
+				"right": "Great architecture relies on effective communication and collaboration between people. That is why we place a great emphasis on building strong relationships with our clients, their user groups and the other authority representatives and consultants we collaborate with. We pride ourselves on being useful and trusted advisors to our clients during their project and beyond.\n\nWe like to think of ourselves as creative pragmatists – experts at ﬁnding clever solutions. We bring our practical knowledge of the planning system, construction, technical, aesthetic and sustainable design expertise together with our appreciation of your project brief, budget and aspirations, to create attractive, functional and cost effective outcomes.\n\nWe design high quality, well considered, energy efficient and cost effective residential, commercial and public buildings."
+			}
+		},
+		{
+			"discriminant": "story",
+			"value": {
+				"heading": "Our Story",
+				"image": {
+					"src": "/src/assets/media/2023/01/Our-Story-image-2.jpg",
+					"alt": "Melbourne-based architects, Anthony Quiqley and Anthony Gionfriddo",
+					"width": 1000,
+					"height": 667
+				},
+				"intro": "Based in West Melbourne, Architecture Matters is an architecture practice directed by Anthony Quigley and Anthony Gionfriddo.",
+				"slides": [
+					{
+						"text": "Our directors first met in 1988 as students of architecture at RMIT, where they shared classes and discovered common ground in their approach. Upon graduating, both gained formative experience in various architecture firms and subsequently went into business for themselves. Anthony Quigley founded Architecture Matters in 2001. Anthony Gionfriddo joined as co-director in 2008 after 10 years as a sole practitioner specialising in residential architecture."
+					},
+					{
+						"text": "In the 1990s, when the pair began their careers, the architectural profession was in the process of moving from pen drafting into computer aided drafting and building information modelling (BIM) software. Advanced use of BIM technology has become the cornerstone of our project approach, facilitating clear communication and design efficiency."
+					},
+					{
+						"text": "From an initial group of four, in recent years our practice has expanded to a team of 13 – a diverse mix, including project architects, senior consultants, a practice manager, and several architecture graduates. Importantly, our current scale enables Anthony Q and Anthony G to develop projects from beginning to end, allowing both directors to maintain a close connection to the work."
+					},
+					{
+						"text": "Architecture Matters seeks simple solutions over grand gestures and efficiency in practice and design. Our portfolio encompasses a range of educational, community specialised and residential projects. Whether family homes, not-for-profit community projects, or larger institutional buildings, our work is characterised by an open, creatively pragmatic design approach centred on client and civic benefit and tangible value."
+					}
+				]
+			}
+		},
+		{
+			"discriminant": "principals",
+			"value": {
+				"heading": "Principals",
+				"people": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/QUIGLEY-Anthony_270x318px.png",
+							"alt": "Melbourne-based architect Anthony Quigley",
+							"width": 540,
+							"height": 636
+						},
+						"name": "Anthony Quigley",
+						"title": "Director, B.Arch. R.A.I.A.",
+						"bio": "Director and Co-founder of Architecture Matters, Anthony Quigley is motivated by designing and delivering buildings that enrich lives and meaningfully contribute to the community. He brings over thirty-five years of experience in the industry to every project.\n\nAnthony is involved in all aspects of the business. Day-to-day he manages and mentors a team of talented all-rounders, ensuring that all projects are well resourced and on-track to meet project deadlines and budgets.\n\nAnthony’s down-to-earth approach means he is not interested in producing egotistical architecture, rather he sees design as an opportunity to creatively solve problems and deliver buildings that improve the everyday lives of the people that use them.\n\n“We create buildings for our clients, not for ourselves.”"
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/GIONFRIDDO-Anthony_270x318px_2.png",
+							"alt": "Melbourne-based architects Anthony Gionfriddo",
+							"width": 540,
+							"height": 636
+						},
+						"name": "Anthony Gionfriddo",
+						"title": "Director, B.Arch (Hons), B.A., R.A.I.A.",
+						"bio": "With over 25 years’ experience in residential, commercial and community work, Anthony Gionfriddo approaches every project with pragmatic humility, in pursuit of good, honest design.\n\n“There’s great fulfilment in working in the public sphere, where your work can be visible and make a positive contribution,” says Anthony. “I like being brought into people’s lives, or operating within an organisation’s work life, and trying to be useful – to come up with something that meets a need.”\n\nMerging his practice with Architecture Matters Pty Ltd in 2008, Anthony enjoys the diversity of work in the broad-based practice. He has overseen the design of public buildings, schools, large scale commercial projects as well as some unique works in the not-for-profit sector."
+					}
+				]
+			}
+		},
+		{
+			"discriminant": "team",
+			"value": {
+				"heading": "Our Team",
+				"people": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/ARALAR-Yvonne_270x318px.png",
+							"alt": "melbourne-architect Yvonne Aralar",
+							"width": 540,
+							"height": 636
+						},
+						"name": "Yvonne Aralar",
+						"position": "Graduate of Architecture",
+						"bio": "Yvonne Aralar is a Deakin University Graduate of Architecture who came to Architecture Matters in 2021. She focuses on residential design and local government projects. She also regularly develops tender submissions, assisting us in securing projects. Yvonne is exceptionally well-organised and an excellent communicator. In 2017, she was awarded the architecture student prize in the Northern Territory Architecture Awards. The passion that led to this award has not diminished, as she constantly seeks to learn and proactively engages in professional development and industry engagement. She is keenly learning the process of architectural design and documentation."
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2023/02/DUDDY-Stephen_270x318px.png",
+							"alt": "melbourne-architect-stephen-duddy",
+							"width": 540,
+							"height": 636
+						},
+						"name": "Stephen Duddy",
+						"position": "Senior Consultant (Quality)",
+						"bio": "Stephen Duddy is a Senior Quality Consultant who provides oversight and advice across most of our projects in the education, local government, residential, not-for-profit and commercial sectors. He is experienced in ISO9001—an internationally recognised Quality Management System standard—and design and documentation reviews. He has helped establish and maintain high project design and delivery standards throughout our practice. Steve’s wide range of local and international experience makes him well-placed to take on this mentoring role."
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/05/FARSHAD-Hosni_540x636px.png",
+							"alt": "melbourne-architect-hosni-farshad",
+							"width": 540,
+							"height": 634
+						},
+						"name": "Hosni Farshad",
+						"position": "Project Architect",
+						"bio": "With over a decade of experience in the architectural industry, Hosni is a versatile and passionate architect who has been shaping residential and commercial spaces of various scales, from intimate residential projects to expansive commercial complexes, across Victoria and Queensland. She earned her Master of Architecture from Deakin University in 2014 and became a registered architect in 2020. Hosni is known for her collaborative attitude and dedication to empowering her team, as well as her innovative design approach, combining strong technical skills with a keen eye for detail. With Architecture Matters since 2024, Hosni continues to bring her creative vision and commitment to sustainable, high-quality design to every project she undertakes."
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/05/GEMMELL-Polly_540x634px.png",
+							"alt": "melbourne-architect-polly-gemmell",
+							"width": 540,
+							"height": 634
+						},
+						"name": "Polly Gemmell",
+						"position": "Graduate of Architecture",
+						"bio": "Polly Gemmell, a graduate from the University of Melbourne with a Master of Architecture and Bachelor of Design, joined in 2024 upon completion of her master degree. Polly brings with her a passion for design that is thoughtful and considered. Having worked with a commercial builder through her time at university and now joining the architectural profession Polly actively takes onboard any challenge with a positive frame of mind, willing to spend the time needed to get the best outcome possible. Being involved in team sports all her life, working in a group environment comes second nature to her and as such she works efficiently and effectively with others."
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/02/HALIMI-Morteza_540x636px.png",
+							"alt": "melbourne-architect-morteza-halimi",
+							"width": 540,
+							"height": 636
+						},
+						"name": "Morteza Halimi",
+						"position": "Project Architect",
+						"bio": "Morteza Halimi is a registered Architect in both Victoria and Queensland, and joined Architecture Matters in 2024. He has worked on a range of public and private projects across Australia, taking them from feasibility to hand-over. He enjoys collaborating closely with clients, stakeholders, local authorities, consultants, contractors, and other designers, which he believes is the key to delivering successful built outcomes. In his spare time, Morteza also creates animated short films."
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/10/Website-Henry-Luu-03.png",
+							"alt": "melbourne-architect-henry-luu",
+							"width": 540,
+							"height": 636
+						},
+						"name": "Henry Luu",
+						"position": "Graduate of Architecture",
+						"bio": "Henry Luu is a Graduate of Architecture who has been with us since 2021. He regularly works on our local government, education and residential projects. He has a good eye for landscape design and is interested in applying contemporary design approaches. Henry brings a youthful, optimistic outlook to all his projects and will not hesitate to push the boundaries of what is possible. His can-do attitude and entrepreneurial mindset help energise everyone in the office."
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/NASRALLA-Tony_270x318px.png",
+							"alt": "melbourne-architect-antony-nasralla",
+							"width": 540,
+							"height": 636
+						},
+						"name": "Antony Nasralla",
+						"position": "Architect",
+						"bio": "Antony Nasralla is our most recently registered Architect after joining the team at Architecture Matters as a Graduate in 2021. He tends to be involved in our not-for-profit and sporting pavilion projects and is intently focused on refining his approach to project design and documentation. He is particularly interested in contemporary design and regularly looks for opportunities to apply contemporary architectural thinking. To do so, he does not shy away from testing project parameters to find the best solution to every design problem."
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/ROSTAMI-Michael.png",
+							"alt": "melbourne-architect-michael-rostami",
+							"width": 540,
+							"height": 636
+						},
+						"name": "Michael Rostami",
+						"position": "Project Architect",
+						"bio": "Michael Rostami has been an architect since 2006 and joined the team at Architecture Matters in 2017. He has brought a wealth of experience, regularly undertaking the role of Project Architect on local government and education projects. Michael specialises in schools and sporting pavilions, focusing on providing consistent, high-quality design responses. He is passionate about every project he takes on and is independently driven. He works well in a team and helps sustain the practice with his positive worldview."
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/SINGH-Vijay_270x318px.png",
+							"alt": "melbourne-architect-vijay-singh",
+							"width": 540,
+							"height": 636
+						},
+						"name": "Vijay Singh",
+						"position": "Project Architect",
+						"bio": "Vijay completed a Master of Architecture at the University of Melbourne and joined Architecture Matters as a Project Architect in 2019. He has considerable expertise with educational projects and is our ArchiCAD expert. Vijay also stands out as someone who can capture the complexities of a project and evaluate all the elements needed to find the best solution. He is a very organised, careful and considered practitioner whose insights are helping the progression of the practice."
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/SMITH-Holly_270x318px.png",
+							"alt": "melbourne-architect-holly-smith",
+							"width": 540,
+							"height": 636
+						},
+						"name": "Holly Smith",
+						"position": "Practice Manager",
+						"bio": "As the Practice Manager here at Architecture Matters, Holly works across the board on practice administration. A vital team member, her day-to-day sees her handling everything behind the scenes to keep our practice running smoothly. Holly’s expertise lies in financial management and business systems. However, it is her calm and measured approach, with both her co-workers and those in the non-architectural side of the business, that we particularly value."
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2025/06/TUCHELT-Franka_540x636px.png",
+							"alt": "melbourne-architect-franka-tuchelt",
+							"width": 540,
+							"height": 634
+						},
+						"name": "Franka Tuchelt",
+						"position": "Senior Project Lead",
+						"bio": "Franka joined Architecture Matters in 2025, bringing with her a wealth of experience in delivering community-focused and residential projects across both Australia and her native Germany. Franka has built a strong foundation in project development, detailed design, documentation, and quality assurance over many years in practice. She’s widely appreciated for her sharp eye for detail, collaborative mindset, and consistently positive, can-do attitude — qualities that make her a valued and trusted team member. As Project Lead, Franka is involved across all design phases and plays a key role in maintaining quality standards within the practice. She has a particular passion for building redevelopment, interior architecture, and sustainable design, and brings a thoughtful, skilled approach to projects of all types and scales."
+					}
+				]
+			}
+		},
+		{
+			"discriminant": "awards",
+			"value": {
+				"heading": "Awards",
+				"items": [
+					{
+						"award": "Commendation – Learning Environments Victoria & Tasmania Awards",
+						"project": "Sacred Heart Primary School, Fitzroy",
+						"category": "Category 7: Small Projects Value Under AU$2 Million",
+						"year": "2022",
+						"url": "https://learningenvironments.awardsplatform.com/gallery/QdGPOGrY/aWWYoEEM?search=7b7025766b97a307-33"
+					},
+					{
+						"award": "Commendation – Learning Environments Victoria & Tasmania Awards",
+						"project": "Sacred Heart Primary School, Fitzroy",
+						"category": "Category 8: Outdoor Learning Area",
+						"year": "2022",
+						"url": "https://learningenvironments.awardsplatform.com/gallery/QdGPOGrY/gkEREpXB?search=7b7025766b97a307-35"
+					},
+					{
+						"award": "Shortlisted – AIA Awards Victorian Chapter",
+						"project": "Fitzroy Town Hall Universal Access Portal",
+						"category": "John George Knight Award for Heritage (VIC)",
+						"year": "2009",
+						"url": "/project/fitzroy-town-hall-universal-access-portal/"
+					}
+				]
+			}
+		}
+	]
+}

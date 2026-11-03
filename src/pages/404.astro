@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import { withBase } from "../lib/urls";
 Astro.response.status = 404;
 ---
 <Base title="Page not found" bodyClass="error404 no-thumbnail">
@@ -8,7 +9,7 @@ Astro.response.status = 404;
 			<div class="site-404__wrapper">
 				<h1>Page not found</h1>
 				<p>Sorry, we couldn't find that page.</p>
-				<p><a href="/">Return to the home page</a> or <a href="/australian-architecture/">see our projects</a>.</p>
+				<p><a href={withBase("/")}>Return to the home page</a> or <a href={withBase("/australian-architecture/")}>see our projects</a>.</p>
 			</div>
 		</div>
 	</main>

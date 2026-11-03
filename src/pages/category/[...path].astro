@@ -1,13 +1,14 @@
 ---
-/** /category/<slug>/ and /category/<slug>/page/<n>/ */
-import { getTerm } from "emdash";
+import { getCollection, getTerms } from "../../lib/content";
 import NewsListView from "../../views/NewsListView.astro";
-
-const parts = (Astro.params.path ?? "").split("/").filter(Boolean);
-const [slug, pageWord, pageNum] = parts;
-const n = pageWord === "page" ? Number(pageNum) : 1;
-if (!slug || (pageWord && pageWord !== "page") || parts.length > 3 || !Number.isInteger(n) || n < 1) return Astro.rewrite("/404");
-const term = await getTerm("category", slug);
-if (!term) return Astro.rewrite("/404");
+export async function getStaticPaths() {
+ const paths = [];
+ for (const term of getTerms("category")) {
+  const posts = await getCollection("posts", { where: { category: term.slug } });
+  for (let page = 1; page <= Math.max(1, Math.ceil(posts.entries.length / 8)); page++) paths.push({ params: { path: page === 1 ? term.slug : term.slug + "/page/" + page }, props: { term, page } });
+ }
+ return paths;
+}
+const { term, page } = Astro.props;
 ---
-<NewsListView title={term.label} category={term.slug} page={n} basePath={`/category/${term.slug}/`} />
+<NewsListView title={term.label} category={term.slug} page={page} basePath={"/category/" + term.slug + "/"} />

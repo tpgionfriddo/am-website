@@ -1,0 +1,540 @@
+[
+	{
+		"slug": "hero_slider",
+		"label": "Home hero slider",
+		"fields": [
+			{
+				"slug": "title",
+				"label": "Title",
+				"type": "string",
+				"required": true
+			},
+			{
+				"slug": "link_url",
+				"label": "Arrow link",
+				"type": "url"
+			},
+			{
+				"slug": "slides",
+				"label": "Slides",
+				"type": "repeater",
+				"validation": {
+					"subFields": [
+						{
+							"slug": "image",
+							"label": "Image",
+							"type": "image",
+							"required": true
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"slug": "project_info",
+		"label": "Project details",
+		"fields": [
+			{
+				"slug": "details",
+				"label": "Details",
+				"type": "repeater",
+				"validation": {
+					"subFields": [
+						{
+							"slug": "label",
+							"label": "Label (e.g. Client)",
+							"type": "string",
+							"required": true
+						},
+						{
+							"slug": "value",
+							"label": "Value. Links: [text](https://...)",
+							"type": "text",
+							"required": true
+						}
+					]
+				}
+			},
+			{
+				"slug": "text",
+				"label": "Description",
+				"type": "portableText"
+			}
+		]
+	},
+	{
+		"slug": "text_columns",
+		"label": "Two columns of text",
+		"fields": [
+			{
+				"slug": "left",
+				"label": "Left column",
+				"type": "portableText"
+			},
+			{
+				"slug": "right",
+				"label": "Right column",
+				"type": "portableText"
+			}
+		]
+	},
+	{
+		"slug": "quote",
+		"label": "Quote",
+		"fields": [
+			{
+				"slug": "text",
+				"label": "Quote",
+				"type": "portableText"
+			}
+		]
+	},
+	{
+		"slug": "image_full",
+		"label": "Full-width image",
+		"fields": [
+			{
+				"slug": "image",
+				"label": "Image",
+				"type": "image",
+				"required": true
+			}
+		]
+	},
+	{
+		"slug": "image_two_thirds",
+		"label": "Two-thirds image",
+		"fields": [
+			{
+				"slug": "image",
+				"label": "Image",
+				"type": "image",
+				"required": true
+			},
+			{
+				"slug": "align",
+				"label": "Alignment",
+				"type": "select",
+				"validation": {
+					"options": [
+						"left",
+						"right"
+					]
+				}
+			}
+		]
+	},
+	{
+		"slug": "image_pair",
+		"label": "Two images side by side",
+		"fields": [
+			{
+				"slug": "image_left",
+				"label": "Left image",
+				"type": "image",
+				"required": true
+			},
+			{
+				"slug": "image_right",
+				"label": "Right image",
+				"type": "image",
+				"required": true
+			}
+		]
+	},
+	{
+		"slug": "text_image",
+		"label": "Text and image",
+		"fields": [
+			{
+				"slug": "text",
+				"label": "Text",
+				"type": "portableText"
+			},
+			{
+				"slug": "image",
+				"label": "Image",
+				"type": "image",
+				"required": true
+			},
+			{
+				"slug": "image_side",
+				"label": "Image position",
+				"type": "select",
+				"validation": {
+					"options": [
+						"right",
+						"left"
+					]
+				}
+			}
+		]
+	},
+	{
+		"slug": "carousel",
+		"label": "Image carousel",
+		"fields": [
+			{
+				"slug": "images",
+				"label": "Images",
+				"type": "repeater",
+				"validation": {
+					"subFields": [
+						{
+							"slug": "image",
+							"label": "Image",
+							"type": "image",
+							"required": true
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"slug": "story",
+		"label": "Story (image + text slides)",
+		"fields": [
+			{
+				"slug": "heading",
+				"label": "Heading",
+				"type": "string"
+			},
+			{
+				"slug": "image",
+				"label": "Image",
+				"type": "image"
+			},
+			{
+				"slug": "intro",
+				"label": "Intro",
+				"type": "text"
+			},
+			{
+				"slug": "slides",
+				"label": "Text slides",
+				"type": "repeater",
+				"validation": {
+					"subFields": [
+						{
+							"slug": "text",
+							"label": "Text",
+							"type": "text",
+							"required": true
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"slug": "principals",
+		"label": "Principals",
+		"fields": [
+			{
+				"slug": "heading",
+				"label": "Heading",
+				"type": "string"
+			},
+			{
+				"slug": "people",
+				"label": "People",
+				"type": "repeater",
+				"validation": {
+					"subFields": [
+						{
+							"slug": "image",
+							"label": "Photo",
+							"type": "image"
+						},
+						{
+							"slug": "name",
+							"label": "Name",
+							"type": "string",
+							"required": true
+						},
+						{
+							"slug": "title",
+							"label": "Title",
+							"type": "string"
+						},
+						{
+							"slug": "bio",
+							"label": "Bio",
+							"type": "text"
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"slug": "team",
+		"label": "Team",
+		"fields": [
+			{
+				"slug": "heading",
+				"label": "Heading",
+				"type": "string"
+			},
+			{
+				"slug": "people",
+				"label": "People",
+				"type": "repeater",
+				"validation": {
+					"subFields": [
+						{
+							"slug": "image",
+							"label": "Photo",
+							"type": "image"
+						},
+						{
+							"slug": "name",
+							"label": "Name",
+							"type": "string",
+							"required": true
+						},
+						{
+							"slug": "position",
+							"label": "Position",
+							"type": "string"
+						},
+						{
+							"slug": "bio",
+							"label": "Bio",
+							"type": "text"
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"slug": "accordion",
+		"label": "Accordion with images",
+		"fields": [
+			{
+				"slug": "heading",
+				"label": "Heading",
+				"type": "string"
+			},
+			{
+				"slug": "items",
+				"label": "Items",
+				"type": "repeater",
+				"validation": {
+					"subFields": [
+						{
+							"slug": "title",
+							"label": "Title",
+							"type": "string",
+							"required": true
+						},
+						{
+							"slug": "text",
+							"label": "Text",
+							"type": "text"
+						},
+						{
+							"slug": "image",
+							"label": "Image",
+							"type": "image"
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"slug": "project_types",
+		"label": "Project type tiles",
+		"fields": [
+			{
+				"slug": "items",
+				"label": "Tiles",
+				"type": "repeater",
+				"validation": {
+					"subFields": [
+						{
+							"slug": "title",
+							"label": "Title",
+							"type": "string",
+							"required": true
+						},
+						{
+							"slug": "url",
+							"label": "Link",
+							"type": "url",
+							"required": true
+						},
+						{
+							"slug": "image",
+							"label": "Image",
+							"type": "image"
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"slug": "project_list",
+		"label": "Project list (by type)",
+		"fields": [
+			{
+				"slug": "project_type",
+				"label": "Show projects of type",
+				"type": "select",
+				"required": true,
+				"validation": {
+					"options": [
+						"community",
+						"educational",
+						"specialised",
+						"residential",
+						"animal-facilities"
+					]
+				}
+			}
+		]
+	},
+	{
+		"slug": "logos",
+		"label": "Client logos",
+		"fields": [
+			{
+				"slug": "logos",
+				"label": "Logos",
+				"type": "repeater",
+				"validation": {
+					"subFields": [
+						{
+							"slug": "image",
+							"label": "Logo",
+							"type": "image",
+							"required": true
+						},
+						{
+							"slug": "name",
+							"label": "Name",
+							"type": "string"
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"slug": "related_news",
+		"label": "Latest news",
+		"fields": [
+			{
+				"slug": "heading",
+				"label": "Heading",
+				"type": "string"
+			},
+			{
+				"slug": "count",
+				"label": "Number of posts",
+				"type": "integer"
+			},
+			{
+				"slug": "category",
+				"label": "Only this category (optional)",
+				"type": "select",
+				"validation": {
+					"options": [
+						"publications",
+						"community",
+						"educational",
+						"residential",
+						"specialised"
+					]
+				}
+			}
+		]
+	},
+	{
+		"slug": "contact",
+		"label": "Contact details and form",
+		"fields": [
+			{
+				"slug": "phone",
+				"label": "Phone",
+				"type": "string"
+			},
+			{
+				"slug": "email",
+				"label": "Email",
+				"type": "string"
+			},
+			{
+				"slug": "street_address",
+				"label": "Street address",
+				"type": "text"
+			},
+			{
+				"slug": "mailing_address",
+				"label": "Mailing address",
+				"type": "text"
+			},
+			{
+				"slug": "statement",
+				"label": "Statement",
+				"type": "text"
+			},
+			{
+				"slug": "show_form",
+				"label": "Show enquiry form",
+				"type": "boolean"
+			}
+		]
+	},
+	{
+		"slug": "awards",
+		"label": "Awards",
+		"fields": [
+			{
+				"slug": "heading",
+				"label": "Heading",
+				"type": "string"
+			},
+			{
+				"slug": "items",
+				"label": "Awards",
+				"type": "repeater",
+				"validation": {
+					"subFields": [
+						{
+							"slug": "award",
+							"label": "Award",
+							"type": "string",
+							"required": true
+						},
+						{
+							"slug": "project",
+							"label": "Project",
+							"type": "string"
+						},
+						{
+							"slug": "category",
+							"label": "Category",
+							"type": "string"
+						},
+						{
+							"slug": "year",
+							"label": "Year",
+							"type": "string"
+						},
+						{
+							"slug": "url",
+							"label": "Link",
+							"type": "url"
+						}
+					]
+				}
+			}
+		]
+	}
+]

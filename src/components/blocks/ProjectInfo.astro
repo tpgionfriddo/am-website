@@ -1,5 +1,5 @@
 ---
-import { PortableText } from "emdash/ui";
+import RichText from "../RichText.astro";
 import { renderText } from "../../lib/text";
 const { value } = Astro.props;
 ---
@@ -15,6 +15,6 @@ const { value } = Astro.props;
 				))
 			}
 		</div>
-		<div class="grid__text">{value.text && <PortableText value={value.text} />}</div>
+		<div class="grid__text">{value.text && <RichText value={value.text} />}</div>
 	</div>
 </section>

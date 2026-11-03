@@ -1,0 +1,29 @@
+{
+	"title": "Residential",
+	"featured_image": {
+		"src": "/src/assets/media/2023/01/69A9821.jpg",
+		"alt": "",
+		"width": 1135,
+		"height": 600
+	},
+	"seo": {
+		"title": "Residential",
+		"description": "Our residential architecture places an emphasis on creating beautiful, functional and efficient homes, to address the unique needs of each site and client."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "text_columns",
+			"value": {
+				"left": "### We enjoy designing bespoke, light filled and spatially efficient private homes.",
+				"right": "Nowhere matters more than home. At Architecture Matters, we undertake a limited number of residential extension and new build projects each year, providing an end-to-end brief development, design and project management service to clients who seek both a great design outcome and an experienced guide for their home building project."
+			}
+		},
+		{
+			"discriminant": "project_list",
+			"value": {
+				"project_type": "residential"
+			}
+		}
+	]
+}

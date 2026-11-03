@@ -1,0 +1,77 @@
+{
+	"title": "Educational",
+	"featured_image": {
+		"src": "/src/assets/media/2023/01/B3A1018-e1673499450696.jpg",
+		"alt": "",
+		"width": 1135,
+		"height": 598
+	},
+	"seo": {
+		"title": "Educational",
+		"description": "Our team recognises the importance of delivering well thought-out education architecture that directly addresses the needs of clients and building users."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "text_columns",
+			"value": {
+				"left": "### We are passionate about designing light, flexible and engaging learning environments.",
+				"right": "We are aware of the increasing pressure on governments and institutions to deliver contemporary education buildings and are experts at delivering these projects on time and on budget.\n\nWhether new or refurbished infrastructure on an existing campus or an entirely new campus, we are adept translators of education vision and pedagogy into effective and adaptable learning spaces."
+			}
+		},
+		{
+			"discriminant": "project_list",
+			"value": {
+				"project_type": "educational"
+			}
+		},
+		{
+			"discriminant": "logos",
+			"value": {
+				"logos": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/mother-teresa.png",
+							"alt": "",
+							"width": 225,
+							"height": 131
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/macedon.png",
+							"alt": "",
+							"width": 130,
+							"height": 131
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/our-lady-of-the-way.png",
+							"alt": "",
+							"width": 131,
+							"height": 131
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/12/sacred-heart.png",
+							"alt": "",
+							"width": 130,
+							"height": 131
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2023/01/Exford-Primary-School-logo-bw.png",
+							"alt": "Exford Primary School logo b&w",
+							"width": 131,
+							"height": 131
+						},
+						"name": "Exford Primary School logo b&w"
+					}
+				]
+			}
+		}
+	]
+}

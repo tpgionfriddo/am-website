@@ -1,0 +1,188 @@
+{
+	"title": "Bendigo Jockey Club Tower and Function Room Extension",
+	"featured_image": {
+		"src": "/src/assets/media/2022/11/69A9645-1-2.jpg",
+		"alt": "",
+		"width": 1320,
+		"height": 880
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2022/11/MG_9936-10-1.png",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 1,
+	"types": [
+		"community"
+	],
+	"date": "2022-11-21T12:26:47",
+	"seo": {
+		"title": "Bendigo Jockey Club Tower and Function Room Extension",
+		"description": "Bendigo Jockey Club Officials Tower and Function Room, designed to address the Members Lawn racecourse area and a new functional bar."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Location",
+						"value": "Bendigo, Victoria"
+					},
+					{
+						"label": "Client name",
+						"value": "Racing Victoria Ltd"
+					},
+					{
+						"label": "Value",
+						"value": "$0.4 MIL"
+					},
+					{
+						"label": "Timeframe",
+						"value": "2009-2010"
+					},
+					{
+						"label": "Contractor name",
+						"value": "B.P. & R.M. Carboon Pty. Ltd"
+					},
+					{
+						"label": "Consultant team",
+						"value": "Structural & Civil Engineer – [Adams Consulting Engineers](http://www.adamseng.com.au/)\nServices Engineer – [NJM Design](http://www.njmdesign.com.au/)\nBuilding Surveyor – [GE Building Surveyors](http://www.gebuildingsurveyors.com.au/)"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					}
+				],
+				"text": "This project involved the masterplanning and design of multiple extensions, addressing the existing well-used but no longer fit-for-purpose elements of the renowned Bendigo Racecourse and weaving in a series of iconic additions. Our design ensured this specialised facility now provides a modern workplace for race officials and broadcasters and a contemporary hospitality venue for course staff and visitors alike.\n\nThe Bendigo Jockey Club houses Victorian-era grandstands as well as grandstands built in the 1950’s and 60’s. In this project we aimed to upgrade these ageing grandstands to meet modern racing industry and audience expectations. We also designed a new steel framed and glazed race official, broadcasters’ and callers’ tower, which has become a focal point. Our design also ensured punters would be well catered for with inclusion of a new bar and restaurant facilities."
+			}
+		},
+		{
+			"discriminant": "image_pair",
+			"value": {
+				"image_left": {
+					"src": "/src/assets/media/2022/11/69A9483-1-1.jpg",
+					"alt": "",
+					"width": 619,
+					"height": 821
+				},
+				"image_right": {
+					"src": "/src/assets/media/2022/11/69A9483-2.jpg",
+					"alt": "",
+					"width": 619,
+					"height": 821
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9470-1-2.jpg",
+					"alt": "",
+					"width": 1320,
+					"height": 879
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "Neatly connected both visually and functionally to the existing steel-framed grandstand, the function room extension provides greater amenity and offers excellent views of the finish line."
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-1-2.jpg",
+					"alt": "",
+					"width": 853,
+					"height": 569
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "text_image",
+			"value": {
+				"text": "The Watson Room members facility now features new bars, kitchen facilities and an updated finishes palette. This includes acoustic treatment that improves sound quality on bustling race days. Thermal glazing has reduced reliance on airconditioning while enhancing views to the finish line.\n\nThe tower itself accommodates the media including TV cameras, and most importantly the finish line camera. We designed the tower as a simple steel frame, manufactured locally and efficiently craned into position with no impact on the Club’s racing calendar. Our thorough planning ensured it also had no impact on views from the existing grandstand.\n\nThe successful completion of this project adds to our extensive portfolio of work for the Victorian racing industry and speaks to our reliability and standing in the sector.",
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9660-1-2.jpg",
+					"alt": "Bendigo Jockey Club tower-viewing area",
+					"width": 620,
+					"height": 744
+				},
+				"image_side": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9252-1-1.jpg",
+					"alt": "",
+					"width": 1440,
+					"height": 709
+				}
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-6.png",
+							"alt": "Bendigo Jockey Club tower front side angle",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-25.jpg",
+							"alt": "Bendigo Jockey Club field with people around the grass field",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-11.jpg",
+							"alt": "Bendigo Jockey Club pantry with people dining",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-12.jpg",
+							"alt": "people eating at the Bendigo Jockey Club canteen",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-13.jpg",
+							"alt": "visitors eating at Bendigo Jockey Club cafeteria",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-26.jpg",
+							"alt": "side view of the tower in Bendigo Jockey Club",
+							"width": 961,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

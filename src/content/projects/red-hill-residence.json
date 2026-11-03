@@ -1,0 +1,123 @@
+{
+	"title": "Donaldson Road, Red Hill Residence",
+	"featured_image": {
+		"src": "/src/assets/media/2022/11/69A9252-1-16.jpg",
+		"alt": "",
+		"width": 1440,
+		"height": 709
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2022/11/MG_9936-13-1.png",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 7,
+	"types": [
+		"residential"
+	],
+	"date": "2022-11-21T12:28:19",
+	"seo": {
+		"title": "Donaldson Road, Red Hill Residence",
+		"description": "Red Hill Residence was designed to serve as a comprehensive but flexible family retreat for a young Melbourne-based family."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Client",
+						"value": "Private Residential"
+					},
+					{
+						"label": "Contractor",
+						"value": "Owner-builder"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					}
+				],
+				"text": "Red Hill Residence is a fine example of maximising the possible. Blessed with a spacious farmland setting, deep in the elevated heart of Mornington Peninsula’s Red Hill agricultural and tourism district, the house was designed to serve as a comprehensive but flexible family retreat for a young Melbourne-based family, but one that was also welcoming to the flood of expected visitors. And so Architecture Matters sought to design for both intimacy and openness, on a scale that could be both ‘home’ to a few and ‘holiday house’ to many.\n\nRed Hill Residence is an example of realising these paradoxical qualities of the project brief. The owners wanted a cosy but also capacious home, open and connected to the surrounding two-hectare, gently sloping and fully landscaped rural property."
+			}
+		},
+		{
+			"discriminant": "image_pair",
+			"value": {
+				"image_left": {
+					"src": "/src/assets/media/2022/11/69A9483-1-19.jpg",
+					"alt": "Red Hill Residence’s marbled lobby with white walls",
+					"width": 619,
+					"height": 821
+				},
+				"image_right": {
+					"src": "/src/assets/media/2022/11/69A9318-1-19.jpg",
+					"alt": "Colorful abstract painting on the wall",
+					"width": 620,
+					"height": 821
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9470-1-22.jpg",
+					"alt": "Red Hill Residence’s living room with paintings hung on the wall",
+					"width": 1320,
+					"height": 879
+				}
+			}
+		},
+		{
+			"discriminant": "text_columns",
+			"value": {
+				"left": "The layout of the house itself is an interesting juxtaposition of crescent-shaped, linked pavilions that step gently down the slope of the east-facing hillside, always open to the north sun, external courts and terraces and the landscaped grounds beyond. The outer, rear face of these crescents contain circulation and service areas, flanking a tall spine wall that connects all of the pavilions. This rear face is relatively solid and ‘mute’, saving the revelation of the cascade of living rooms and external spaces on the north side for those that are privileged to enter.\n\nBy breaking down the floor plan and intended uses across the pavilions and trailing them along and around a coherent circulation path of the halway/spine, the design can accommodate a substantial functional brief without appearing as oversized or excessive from any one viewing point. This progressive separation also enables for ready zoning of areas for family and visitors, adults and children, to heighten the potential enjoyment of the house as a getaway.\n\nOur clients were also keen for the building design to adopt resilient, low-maintenance finishes that would respond well to the locality and the intermittent but regular uses of the building. This saw the use of spotted-gum and Colorbond steel cladding, aluminium windows, expressed galvanised steel framing and polished concrete floors – robust and befitting a country house between two bays.",
+				"right": ""
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-1-22.jpg",
+					"alt": "Red Hill Residence’s spacious bathroom with a long narrow bath tub",
+					"width": 853,
+					"height": 569
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "The resulting residence demonstrates that a house design can be at its most successful when a client’s bold ambition has a clarity of purpose and the room to grow into itself."
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-2-6.jpg",
+					"alt": "View of the Dining area to the kitchen",
+					"width": 853,
+					"height": 569
+				},
+				"align": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9645-1-22.jpg",
+					"alt": "Red Hill Residence’s open pool area with a view of the lit house on a lovely evening",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		}
+	]
+}

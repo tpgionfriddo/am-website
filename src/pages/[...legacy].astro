@@ -1,0 +1,26 @@
+---
+import redirects from "../content/redirects.json";
+import { withBase } from "../lib/urls";
+
+export function getStaticPaths() {
+	return redirects.filter((redirect) => redirect.enabled && !redirect.source.includes("[")).map((redirect) => ({
+		params: { legacy: redirect.source.replace(/^\/+|\/+$/g, "") },
+		props: { destination: redirect.destination },
+	}));
+}
+
+const destination = withBase(Astro.props.destination);
+const canonical = new URL(destination, Astro.site).toString();
+---
+<!doctype html>
+<html lang="en-AU">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="robots" content="noindex" />
+		<meta http-equiv="refresh" content={`0;url=${destination}`} />
+		<link rel="canonical" href={canonical} />
+		<title>Page moved — Architecture Matters</title>
+	</head>
+	<body><p>This page has moved. <a href={destination}>Continue to the new page.</a></p></body>
+</html>

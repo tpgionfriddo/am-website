@@ -1,0 +1,190 @@
+{
+	"title": "Upwey and Tecoma Community Recreation and Sports Hub (UTCRASH) Pavilion",
+	"featured_image": {
+		"src": "/src/assets/media/2022/11/upwey-and-tecoma.jpg",
+		"alt": "",
+		"width": 1440,
+		"height": 709
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2022/11/MG_9936-17-1.png",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 10,
+	"types": [
+		"community"
+	],
+	"date": "2022-11-21T12:15:02",
+	"seo": {
+		"title": "Upwey and Tecoma Community Recreation and Sports Hub (UTCRASH) Pavilion",
+		"description": "Explore this new two-storey Community Recreation and Sports Hub - the legacy of a highly engaged and committed local community. Check here."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Location",
+						"value": "Upwey, Victoria"
+					},
+					{
+						"label": "Client name",
+						"value": "Yarra Ranges Council"
+					},
+					{
+						"label": "Value",
+						"value": "$4.5 M"
+					},
+					{
+						"label": "Timeframe",
+						"value": "2014-2017"
+					},
+					{
+						"label": "Contractor name",
+						"value": "[Circon Constructions](https://circon.com.au/)"
+					},
+					{
+						"label": "Consultant name",
+						"value": "Structural & Civil Engineer – Keith Long & Associates\nServices Engineering – [BRT Consulting Engineers](http://www.brt.com.au/)\nQuantity Surveyor – [Plancost Australia](http://www.plancost.com.au/)"
+					},
+					{
+						"label": "Photography",
+						"value": "Provided by Circon Construction"
+					}
+				],
+				"text": "Located in the foothills of the Dandenong Ranges, this two storey community recreation and sports hub is the legacy of a highly engaged and committed local community.\n\nDriven by a supportive council and made possible by state government funding, the hub is designed to be home to a coalition of local community groups. Facilities including change rooms, meeting rooms and social spaces are brought together under one roof for use by groups including local cricket, football and netball clubs, the University of the Third Age and a chess club.\n\nWe undertook thorough consultation with the Upwey Tecoma Football & Netball Club and the Upwey Tecoma Cricket Club and other end users during the design process. The design of the UTCRASH achieves maximum value for money optimising player and spectator amenity and providing high levels of flexibility to accommodate the diverse needs of these diverse community groups."
+			}
+		},
+		{
+			"discriminant": "image_pair",
+			"value": {
+				"image_left": {
+					"src": "/src/assets/media/2022/11/69A9318-1-6.jpg",
+					"alt": "",
+					"width": 620,
+					"height": 821
+				},
+				"image_right": {
+					"src": "/src/assets/media/2022/11/69A9483-1-6.jpg",
+					"alt": "",
+					"width": 619,
+					"height": 821
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9470-1-9.jpg",
+					"alt": "",
+					"width": 1320,
+					"height": 879
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "“UTCRASH exemplifies our decades of experience with designing municipal sports and recreation facilities, highlighting our expertise and specialist knowledge of this building type and the needs of the people that use and visit them. ”"
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-1-9.jpg",
+					"alt": "",
+					"width": 853,
+					"height": 569
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "text_columns",
+			"value": {
+				"left": "A new car park surrounding the facility was also developed in consultation with the adjoining Upwey High School to ensure existing bus movements and school day traffic flows could be maintained.\n\nWe carefully negotiated authority approvals with our design solution overcoming significant complexities including the site’s location on a flood plain and the building’s position above an easement for a stormwater main drain.",
+				"right": ""
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9645-1-9.jpg",
+					"alt": "",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9325-1-3.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9325.jpg",
+							"alt": "Community Recreation and Sports Hub function room with a view of the outdoor",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9325-4.jpg",
+							"alt": "",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9325-6.jpg",
+							"alt": "Community Recreation and Sports Hub meeting room with a long table and chairs",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9325-7.jpg",
+							"alt": "Community Recreation and Sports Hub meeting room",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9325-8.jpg",
+							"alt": "UTCRASH Pavilion wash area",
+							"width": 962,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9325-9.jpg",
+							"alt": "UTCRASH Pavilion toilet",
+							"width": 962,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}

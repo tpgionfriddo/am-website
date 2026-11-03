@@ -1,0 +1,183 @@
+{
+	"title": "Stonnington Animal Pound and Shelter",
+	"featured_image": {
+		"src": "/src/assets/media/2022/11/69A9252-1.jpg",
+		"alt": "",
+		"width": 1440,
+		"height": 709
+	},
+	"thumbnail": {
+		"src": "/src/assets/media/2023/01/MG_9483-1.png",
+		"alt": "",
+		"width": 774,
+		"height": 516
+	},
+	"sort_order": 4,
+	"types": [
+		"specialised",
+		"animal-facilities"
+	],
+	"date": "2023-01-01T12:27:13",
+	"seo": {
+		"title": "Stonnington Animal Pound and Shelter",
+		"description": "Visit our project page today and discover how our design for the Stonnington Animal Pound and Shelter is transforming the way we care for animals."
+	},
+	"status": "published",
+	"layout": [
+		{
+			"discriminant": "project_info",
+			"value": {
+				"details": [
+					{
+						"label": "Location",
+						"value": "Glen Iris, Victoria"
+					},
+					{
+						"label": "Client Name",
+						"value": "City of Stonnington"
+					},
+					{
+						"label": "Value",
+						"value": "$1.0 MIL"
+					},
+					{
+						"label": "Timeframe",
+						"value": "2011-2012"
+					},
+					{
+						"label": "Contractor Name",
+						"value": "[4 Dimensions Building Contractors Pty Ltd](http://www.4dimensions.net.au/)"
+					},
+					{
+						"label": "Consultant team",
+						"value": "Structural & Civil Engineer – [Adams Consulting Engineers](http://www.adamseng.com.au/)\nServices Engineer – [NJM Design](http://www.njmdesign.com.au/)\nESD Consultants – Wood & Greve"
+					},
+					{
+						"label": "Photographer",
+						"value": "[Christopher Alexander Photography](https://www.yelp.com/biz/christopher-alexander-photography-blackburn)"
+					}
+				],
+				"text": "The benefits of excellent design are not reserved for humans alone. Our approach to Stonnington Animal Pound and Shelter considers how this specialised building could serve both its animal residents and the environment simultaneously.\n\nAesthetically, we aimed to integrate the hard-edged urban setting, idyllic parkland surrounds, and the contemporary architecture of the existing Pound and Council Depot while functionally ensuring the building would accommodate a growing population of lost and abandoned cats. The dramatically wedge-shaped building, sculpturally clad in steel, is an engaging local beacon to be enjoyed when approached by foot, when passing at speed or from the contemplative viewpoint of a park-bench. Dynamically shaped entry screens reference the adjacent road screens, and serve a practical purpose, filtering noise and views into the cats’ outdoor play areas."
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2023/01/MG_9466-2-scaled.jpg",
+					"alt": "",
+					"width": 2560,
+					"height": 1707
+				}
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9470-1-1.jpg",
+					"alt": "",
+					"width": 1320,
+					"height": 879
+				}
+			}
+		},
+		{
+			"discriminant": "quote",
+			"value": {
+				"text": "However, this building offers more than a powerful form that meets its functional requirements; it also serves as an prototype of simple and practical environmental design."
+			}
+		},
+		{
+			"discriminant": "image_two_thirds",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9574-1-1.jpg",
+					"alt": "Stonnington Pound reception area",
+					"width": 853,
+					"height": 569
+				},
+				"align": "left"
+			}
+		},
+		{
+			"discriminant": "text_image",
+			"value": {
+				"text": "Rainwater captured in tanks is then reticulated to dog wash facilities and cisterns. A broad range of initiatives minimise energy consuption including sensor controlled low-energy light fittings, cross ventilation, automated air conditioning, high performance thermal insulation, double glazing and shaded windows. These initiatives collectively contribute to a sustainable facility that paves the way for future environmental gains.\n\nAll Council building assets, regardless of their nature, should be robust and low maintenance, yet simultaneously a source of community pride. Our highly-considered aesthetic and practical approach to Stonnington Animal Pound and Shelter achieved this and led to Architecture Matters being commissioned by the City of Whittlesea to provide services for a number of other similar facilities.",
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9660-1-1.jpg",
+					"alt": "",
+					"width": 620,
+					"height": 744
+				},
+				"image_side": "right"
+			}
+		},
+		{
+			"discriminant": "image_full",
+			"value": {
+				"image": {
+					"src": "/src/assets/media/2022/11/69A9645-1-1.jpg",
+					"alt": "",
+					"width": 1320,
+					"height": 880
+				}
+			}
+		},
+		{
+			"discriminant": "carousel",
+			"value": {
+				"images": [
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-5.jpg",
+							"alt": "",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-4.jpg",
+							"alt": "",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-6.jpg",
+							"alt": "",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-8.jpg",
+							"alt": "",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-9.jpg",
+							"alt": "",
+							"width": 961,
+							"height": 641
+						}
+					},
+					{
+						"image": {
+							"src": "/src/assets/media/2022/11/69A9574-3.png",
+							"alt": "Stonnington Pound external view",
+							"width": 961,
+							"height": 641
+						}
+					}
+				]
+			}
+		}
+	]
+}
