@@ -1,0 +1,25 @@
+---
+/** "Share This" links. Plain share URLs (the old site loaded AddToAny's script for these). */
+interface Props { title: string; }
+const { title } = Astro.props;
+const url = new URL(Astro.url.pathname, "https://architecturematters.com.au").toString();
+const u = encodeURIComponent(url);
+const t = encodeURIComponent(title);
+const links = [
+	{ name: "Twitter", icon: "twitter", href: `https://twitter.com/intent/tweet?url=${u}&text=${t}` },
+	{ name: "Facebook", icon: "facebook", href: `https://www.facebook.com/sharer/sharer.php?u=${u}` },
+	{ name: "LinkedIn", icon: "linkedin", href: `https://www.linkedin.com/sharing/share-offsite/?url=${u}` },
+];
+---
+<section id="shared-post" class="block block-animate share-post">
+	<div class="share-post__wrapper">
+		<h5 class="share-post__title">Share This</h5>
+		<div class="addtoany_shortcode">
+			<div class="a2a_kit a2a_kit_size_ addtoany_list">
+				{links.map((l) => (
+					<a class={`a2a_button_${l.icon}`} href={l.href} title={l.name} rel="nofollow noopener" target="_blank"><img src={`/theme/${l.icon}.svg`} alt={l.name} width="24" height="24" /></a>
+				))}
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,11 @@
+---
+import { decodeSlug, getEmDashEntry } from "emdash";
+import ProjectView from "../../views/ProjectView.astro";
+
+const slug = decodeSlug(Astro.params.slug);
+if (!slug) return Astro.rewrite("/404");
+const { entry: project, cacheHint } = await getEmDashEntry("projects", slug);
+if (!project) return Astro.rewrite("/404");
+if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+---
+<ProjectView project={project} />

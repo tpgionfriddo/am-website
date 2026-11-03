@@ -1,0 +1,24 @@
+---
+import { Image } from "emdash/ui";
+import Arrows from "./Arrows.astro";
+const { value } = Astro.props;
+const images = (value.images ?? []).filter((i: { image?: unknown }) => i.image);
+---
+{
+	images.length > 0 && (
+		<section class="block block-animate project-carousel">
+			<div class="swiper swiper-block">
+				<div class="swiper-wrapper">
+					{images.map((i: { image: any }) => (
+						<div class="swiper-slide">
+							<div class="h-[250px] sm:h-[415px] md:h-[550px] lg:w-[940px] lg:h-[640px] *:w-full *:h-full! *:object-cover">
+								<Image image={i.image} class="attachment-full size-full" sizes="(min-width: 1024px) 940px, 100vw" />
+							</div>
+						</div>
+					))}
+				</div>
+			</div>
+			<Arrows prefix="swiper-block" wrapper="swiper-block-nav" />
+		</section>
+	)
+}

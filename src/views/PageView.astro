@@ -1,0 +1,35 @@
+---
+import { getSeoMeta } from "emdash";
+import { Blocks, Image } from "emdash/ui";
+import { blockComponents } from "../components/blocks";
+import Base from "../layouts/Base.astro";
+
+interface Props { page: any; path: string; }
+const { page, path } = Astro.props;
+const seo = getSeoMeta(page, { siteTitle: "Architecture Matters", siteUrl: "https://architecturematters.com.au", path });
+const banner = page.data.featured_image;
+---
+<Base
+	title={page.data.title}
+	description={seo.description}
+	canonical={seo.canonical}
+	image={seo.ogImage ?? banner?.src}
+	bodyClass={`page${banner ? "" : " no-thumbnail"}`}
+	content={{ collection: "pages", id: page.data.id, slug: page.id }}
+>
+	<main id="primary" class="site-main">
+		<article class="page type-page">
+			<header class="entry-header">
+				{banner && <Image image={banner} class="attachment-full size-full wp-post-image" sizes="100vw" priority {...page.edit.featured_image} />}
+				<div class="block-animate container entry-header__container">
+					<h1 class="entry-title" {...page.edit.title}>{page.data.title}</h1>
+				</div>
+			</header>
+			<div class="entry-content">
+				<div class="container block-wrapper">
+					<Blocks value={page.data.layout ?? []} components={blockComponents} />
+				</div>
+			</div>
+		</article>
+	</main>
+</Base>

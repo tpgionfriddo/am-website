@@ -1,0 +1,13 @@
+---
+/** /category/<slug>/ and /category/<slug>/page/<n>/ */
+import { getTerm } from "emdash";
+import NewsListView from "../../views/NewsListView.astro";
+
+const parts = (Astro.params.path ?? "").split("/").filter(Boolean);
+const [slug, pageWord, pageNum] = parts;
+const n = pageWord === "page" ? Number(pageNum) : 1;
+if (!slug || (pageWord && pageWord !== "page") || parts.length > 3 || !Number.isInteger(n) || n < 1) return Astro.rewrite("/404");
+const term = await getTerm("category", slug);
+if (!term) return Astro.rewrite("/404");
+---
+<NewsListView title={term.label} category={term.slug} page={n} basePath={`/category/${term.slug}/`} />

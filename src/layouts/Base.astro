@@ -1,0 +1,202 @@
+---
+import "../styles/global.css";
+import { getMenuWithCacheHint, getSiteSettingsWithCacheHint } from "emdash";
+import { EmDashBodyEnd, EmDashBodyStart, EmDashHead } from "emdash/ui";
+import { createPublicPageContext } from "emdash/page";
+import SocialMedia from "../components/SocialMedia.astro";
+import { site } from "../site.config";
+
+interface Props {
+	title: string;
+	/** Title without the site name, for social cards */
+	pageTitle?: string | null;
+	description?: string | null;
+	image?: string | null;
+	canonical?: string | null;
+	/** WordPress body classes the theme CSS keys off (e.g. "blog", "home") */
+	bodyClass?: string;
+	pageType?: "website" | "article";
+	/** The original home page has no footer */
+	hideFooter?: boolean;
+	/** Content reference so EmDash can apply SEO panel values and plugin contributions */
+	content?: { collection: string; id: string; slug?: string | null };
+}
+
+const { title, pageTitle, description, image, canonical, bodyClass = "", pageType = "website", hideFooter = false, content } = Astro.props;
+
+const [settingsResult, menuResult] = await Promise.all([getSiteSettingsWithCacheHint(), getMenuWithCacheHint("primary")]);
+if (Astro.cache?.enabled) {
+	Astro.cache.set(settingsResult.cacheHint);
+	Astro.cache.set(menuResult.cacheHint);
+}
+const siteTitle = settingsResult.data?.title || site.name;
+const tagline = settingsResult.data?.tagline;
+const fullTitle = !title || title === siteTitle ? siteTitle : `${title} - ${siteTitle}`;
+const menu = menuResult.data?.items ?? [];
+const path = Astro.url.pathname.replace(/\/?$/, "/");
+const canonicalUrl = canonical ?? new URL(path, site.url).toString();
+
+const pageCtx = createPublicPageContext({
+	Astro,
+	kind: content ? "content" : "custom",
+	pageType,
+	title: fullTitle,
+	pageTitle: pageTitle ?? title,
+	description: description ?? tagline,
+	canonical: canonicalUrl,
+	image,
+	content,
+	siteName: siteTitle,
+});
+const isCurrent = (url: string) => url.replace(/\/?$/, "/") === path;
+const year = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang="en-AU">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{fullTitle}</title>
+		<link rel="icon" type="image/png" href="/theme/favicon.png" />
+		<script is:inline>
+			try {
+				if (sessionStorage.getItem("ack-dismissed")) document.documentElement.classList.add("ack-dismissed");
+			} catch (e) {}
+		</script>
+		<EmDashHead page={pageCtx} />
+	</head>
+	<body class={bodyClass}>
+		<EmDashBodyStart page={pageCtx} />
+
+		<div class="modal" role="dialog" aria-label="Acknowledgement of Country">
+			<button class="modal__button block-animate" aria-label="Close">
+				<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+					<path d="M1 1L29 29" stroke="white" stroke-width="2"></path>
+					<path d="M29 1L1 29" stroke="white" stroke-width="2"></path>
+				</svg>
+			</button>
+			<div class="container modal__container block-animate">
+				<div class="modal__body"><p>{site.acknowledgement}</p></div>
+			</div>
+		</div>
+
+		<div id="page" class="site">
+			<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
+			<header id="masthead" class="site-header">
+				<div class="container">
+					<div class="site-header__wrapper">
+						<div class="site-branding">
+							<a href="/" class="custom-logo-link" rel="home">
+								<img width="143" height="37" src="/theme/logo-light.svg" class="custom-logo" alt={siteTitle} />
+							</a>
+						</div>
+						<button class="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="site-navigation">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+
+			<div class="overlay-menu">
+				<div class="container overlay-menu__container">
+					<div class="overlay-menu__nav">
+						<nav id="site-navigation" class="main-navigation" aria-label="Main">
+							<ul class="menu">
+								{
+									menu.map((item) => (
+										<li class:list={["menu-item", { "current-menu-item": isCurrent(item.url) }]}>
+											<a href={item.url} target={item.target} aria-current={isCurrent(item.url) ? "page" : undefined}>
+												{item.label}
+											</a>
+										</li>
+									))
+								}
+							</ul>
+						</nav>
+					</div>
+					<div class="overlay-menu__contact">
+						<div>
+							<p><a href={site.phoneHref}>{site.phone}</a></p>
+							<p><a href={`mailto:${site.email}`}>{site.email}</a></p>
+						</div>
+						<div>
+							<address>{site.address[0]} <br />{site.address[1]}</address>
+						</div>
+						<div>
+							<SocialMedia />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<slot />
+
+			{!hideFooter && (
+			<footer id="colophon" class="site-footer">
+				<div class="container">
+					<div class="site-info block-animate">
+						<div class="footer-widgets">
+							<div class="footer-widgets__wrapper">
+								<div class="footer-widgets__logo">
+									<a href="/">
+										<img width="143" height="37" src="/theme/footer-logo.svg" class="custom-logo" alt="Architecture Matters Logo" loading="lazy" />
+									</a>
+								</div>
+								<div class="footer-widgets__social">
+									<SocialMedia />
+								</div>
+							</div>
+							<div class="footer-widgets__menu">
+								<ul class="menu">
+									{
+										menu.map((item) => (
+											<li class="menu-item">
+												<a href={item.url} target={item.target}>
+													{item.label}
+												</a>
+											</li>
+										))
+									}
+								</ul>
+							</div>
+							<div class="footer-widgets__contact">
+								<div>
+									<h4>Contact:</h4>
+									<p><a href={site.phoneHref}>{site.phone}</a></p>
+									<p><a href={`mailto:${site.email}`}>{site.email}</a></p>
+								</div>
+								<div>
+									<h4>Address:</h4>
+									<address>{site.address.join(" ")}</address>
+								</div>
+								<div>
+									<h4>PO Box:</h4>
+									<p>{site.poBox}</p>
+								</div>
+							</div>
+							<div class="footer-widgets__logo2">
+								<img width="201" height="83" src="/theme/footer-badge.png" alt="Member, Australian Institute of Architects" loading="lazy" />
+							</div>
+						</div>
+						<div class="site-copyright">&copy; Copyright {site.legalName} {year}</div>
+					</div>
+				</div>
+			</footer>
+			)}
+		</div>
+
+		<a href="#page" class="back-to-top" aria-label="Back to top">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+				<path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"></path>
+			</svg>
+		</a>
+
+		<EmDashBodyEnd page={pageCtx} />
+		<script>
+			import "../scripts/theme.ts";
+		</script>
+	</body>
+</html>

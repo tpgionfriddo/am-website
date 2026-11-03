@@ -1,0 +1,10 @@
+---
+import { PortableText } from "emdash/ui";
+const { value } = Astro.props;
+---
+<section class="block block-animate two-columns-text">
+	<div class="grid">
+		<div class="grid__text">{value.left && <PortableText value={value.left} />}</div>
+		<div class="grid__text space-y-12"><div>{value.right && <PortableText value={value.right} />}</div></div>
+	</div>
+</section>

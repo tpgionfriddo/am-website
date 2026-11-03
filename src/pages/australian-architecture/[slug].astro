@@ -1,0 +1,12 @@
+---
+/** Project-type pages live under /australian-architecture/ (e.g. /australian-architecture/community-architecture/). */
+import { decodeSlug, getEmDashEntry } from "emdash";
+import PageView from "../../views/PageView.astro";
+
+const slug = decodeSlug(Astro.params.slug);
+if (!slug) return Astro.rewrite("/404");
+const { entry: page, cacheHint } = await getEmDashEntry("pages", slug);
+if (!page) return Astro.rewrite("/404");
+if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+---
+<PageView page={page} path={`/australian-architecture/${slug}/`} />

@@ -1,0 +1,35 @@
+---
+import { Form } from "@emdash-cms/plugin-forms/ui";
+import { renderText } from "../../lib/text";
+const { value } = Astro.props;
+const tel = value.phone ? `tel:${value.phone.replace(/[^\d+]/g, "")}` : null;
+---
+<section class="block block-animate contact-form">
+	<div class="grid grid--top">
+		<div class="grid__contact">
+			<h5>Contact</h5>
+			{value.phone && <p><a href={tel}>{value.phone}</a></p>}
+			{value.email && <p><a href={`mailto:${value.email}`}>{value.email}</a></p>}
+		</div>
+		<div class="grid__contact">
+			<div class="grid">
+				{value.street_address && (
+					<div>
+						<h5>Street Address</h5>
+						<address set:html={renderText(value.street_address, { paragraphs: false })} />
+					</div>
+				)}
+				{value.mailing_address && (
+					<div>
+						<h5>Mailing Address</h5>
+						<p set:html={renderText(value.mailing_address, { paragraphs: false })} />
+					</div>
+				)}
+			</div>
+		</div>
+	</div>
+	<div class="grid">
+		<div>{value.statement && <h3>{value.statement}</h3>}</div>
+		<div>{value.show_form && <Form id="contact" />}</div>
+	</div>
+</section>

@@ -1,0 +1,43 @@
+---
+import { getSeoMeta } from "emdash";
+import { Blocks, Image } from "emdash/ui";
+import BackLink from "../components/BackLink.astro";
+import RelatedPosts from "../components/RelatedPosts.astro";
+import RelatedProjects from "../components/RelatedProjects.astro";
+import SharePost from "../components/SharePost.astro";
+import { blockComponents } from "../components/blocks";
+import Base from "../layouts/Base.astro";
+
+interface Props { project: any; }
+const { project } = Astro.props;
+const path = `/project/${project.id}/`;
+const seo = getSeoMeta(project, { siteTitle: "Architecture Matters", siteUrl: "https://architecturematters.com.au", path });
+const banner = project.data.featured_image;
+---
+<Base
+	title={project.data.title}
+	description={seo.description}
+	canonical={seo.canonical}
+	image={seo.ogImage ?? banner?.src}
+	pageType="article"
+	bodyClass={`single single-projects${banner ? "" : " no-thumbnail"}`}
+	content={{ collection: "projects", id: project.data.id, slug: project.id }}
+>
+	<main id="primary" class="site-main">
+		<article class="projects type-projects">
+			{banner && <div class="entry-thumbnail" {...project.edit.featured_image}><Image image={banner} class="attachment-full size-full wp-post-image" sizes="100vw" priority /></div>}
+			<header class="block-animate entry-header">
+				<div class="container entry-header__container"><h1 class="entry-title" {...project.edit.title}>{project.data.title}</h1></div>
+			</header>
+			<div class="entry-content">
+				<div class="container block-wrapper">
+					<Blocks value={project.data.layout ?? []} components={blockComponents} />
+					<SharePost title={project.data.title} />
+					<RelatedProjects project={project} />
+					<BackLink href="/australian-architecture/" />
+					<RelatedPosts heading="Practice News" count={1} />
+				</div>
+			</div>
+		</article>
+	</main>
+</Base>

@@ -1,0 +1,24 @@
+---
+import { Image } from "emdash/ui";
+import { renderText } from "../../lib/text";
+const { value } = Astro.props;
+---
+<section class="block principals">
+	<div class="container principals__container block-animate">
+		{value.heading && <h2>{value.heading}</h2>}
+		<div class="principals__wrapper">
+			{
+				(value.people ?? []).map((p: any) => (
+					<div class="grid">
+						<div class="principals__image">{p.image && <Image image={p.image} class="attachment-full size-full" />}</div>
+						<div class="principals__details">
+							<h4 class="principals__name">{p.name}</h4>
+							{p.title && <div class="principals__designation">{p.title}</div>}
+							<div class="principals__text" set:html={renderText(p.bio)} />
+						</div>
+					</div>
+				))
+			}
+		</div>
+	</div>
+</section>

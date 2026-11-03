@@ -1,0 +1,43 @@
+---
+/**
+ * Root-level URLs, as on the WordPress site: pages (/contact-us/) and news posts (/australian-house/).
+ */
+import { decodeSlug, getEmDashEntry, getSeoMeta } from "emdash";
+import NewsListView from "../views/NewsListView.astro";
+import PageView from "../views/PageView.astro";
+import PostView from "../views/PostView.astro";
+import ProjectsIndexView from "../views/ProjectsIndexView.astro";
+
+const slug = decodeSlug(Astro.params.slug);
+if (!slug || slug === "home") return Astro.rewrite("/404");
+const path = `/${slug}/`;
+
+const { entry: page, cacheHint } = await getEmDashEntry("pages", slug);
+let post = null;
+if (page) {
+	if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+} else {
+	const result = await getEmDashEntry("posts", slug);
+	post = result.entry;
+	if (!post) return Astro.rewrite("/404");
+	if (Astro.cache?.enabled) Astro.cache.set(result.cacheHint);
+}
+const newsDescription =
+	page && slug === "architectural-news"
+		? getSeoMeta(page, { siteTitle: "Architecture Matters", siteUrl: "https://architecturematters.com.au", path }).description
+		: null;
+---
+
+{
+	page ? (
+		slug === "architectural-news" ? (
+			<NewsListView title={page.data.title} description={newsDescription} page={1} basePath="/architectural-news/" />
+		) : slug === "australian-architecture" ? (
+			<ProjectsIndexView page={page} path={path} />
+		) : (
+			<PageView page={page} path={path} />
+		)
+	) : (
+		<PostView post={post} />
+	)
+}

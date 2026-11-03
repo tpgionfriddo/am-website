@@ -1,0 +1,60 @@
+---
+import { getEmDashCollection, getTaxonomyTermsWithCacheHint } from "emdash";
+import { Image } from "emdash/ui";
+import Base from "../layouts/Base.astro";
+
+/** Practice News index and category archives (the theme's home.php / archive.php). */
+interface Props { title: string; description?: string | null; category?: string; page: number; basePath: string; }
+const { title, description, category, page, basePath } = Astro.props;
+const PER_PAGE = 8; // as on the WordPress site
+
+const [termsResult, postsResult] = await Promise.all([
+	getTaxonomyTermsWithCacheHint("category", { includeCounts: false }),
+	getEmDashCollection("posts", { orderBy: { published_at: "desc" }, limit: 100, ...(category ? { where: { category } } : {}) }),
+]);
+if (Astro.cache?.enabled) {
+	Astro.cache.set(termsResult.cacheHint);
+	Astro.cache.set(postsResult.cacheHint);
+}
+// Same filter order as the original site
+const ORDER = ["community", "educational", "specialised", "residential", "publications"];
+const terms = [...termsResult.data].sort((a, b) => ORDER.indexOf(a.slug) - ORDER.indexOf(b.slug));
+const all = postsResult.entries;
+const pages = Math.max(1, Math.ceil(all.length / PER_PAGE));
+const posts = all.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+const pageUrl = (n: number) => (n <= 1 ? basePath : `${basePath}page/${n}/`);
+const outOfRange = page > pages;
+if (outOfRange) Astro.response.status = 404;
+---
+<Base title={page > 1 ? `${title} - Page ${page}` : title} description={description} bodyClass="blog">
+	<main id="primary" class="site-blog">
+		<div class="container site-blog__container">
+			<header class="site-blog__header block-animate"><h1>Practice News</h1></header>
+			<div class="site-blog__filter block-animate">
+				<ul>
+					<li><a class:list={{ "is-active": !category }} href="/architectural-news/">All Posts</a></li>
+					{terms.map((t) => (
+						<li><a class:list={{ "is-active": category === t.slug }} href={`/category/${t.slug}/`}>{t.label}</a></li>
+					))}
+				</ul>
+			</div>
+			<div class="site-blog__posts block-animate">
+				{posts.length === 0 && <p>No posts yet.</p>}
+				{posts.map((post) => (
+					<div class="site-blog__post">
+						<a href={`/${post.id}/`} title={post.data.title} class="site-blog__title"><h3>{post.data.title}</h3></a>
+						<a href={`/${post.id}/`} title={post.data.title} class="site-blog__image">
+							{post.data.featured_image && <Image image={post.data.featured_image} class="attachment-medium size-medium" sizes="300px" />}
+						</a>
+					</div>
+				))}
+				{pages > 1 && (
+					<div class="site-blog__pagination">
+						<div>{page > 1 && <a href={pageUrl(page - 1)} class="prev-posts-link">Previous</a>}</div>
+						<div>{page < pages && <a href={pageUrl(page + 1)} class="next-posts-link">Next</a>}</div>
+					</div>
+				)}
+			</div>
+		</div>
+	</main>
+</Base>

@@ -1,0 +1,34 @@
+---
+import { Image } from "emdash/ui";
+const { value } = Astro.props;
+const slides = (value.slides ?? []).filter((s: any) => s.image);
+---
+<div class="home-screen">
+	<div id="gradient-overlay"></div>
+	<div class="swiper swiper-home">
+		<div class="swiper-wrapper swiper-home__wrraper">
+			{
+				slides.map((s: any, i: number) => (
+					<div class="swiper-slide swiper-home__slide">
+						<Image image={s.image} class="attachment-full size-full" sizes="100vw" priority={i === 0} />
+					</div>
+				))
+			}
+		</div>
+	</div>
+	<div class="home-screen__wrapper">
+		<div class="container">
+			<h1 class="home-screen__title block-animate">{value.title}</h1>
+			{
+				value.link_url && (
+					<a href={value.link_url} class="home-screen__arrow block-animate" aria-label="View our projects">
+						<svg width="65" height="46" viewBox="0 0 67 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+							<path d="M42 1L65 24L42 47" stroke="#FCC707" stroke-width="2"></path>
+							<path d="M64.5 24H0" stroke="#FCC707" stroke-width="2"></path>
+						</svg>
+					</a>
+				)
+			}
+		</div>
+	</div>
+</div>

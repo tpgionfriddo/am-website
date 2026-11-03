@@ -1,0 +1,47 @@
+---
+import { Image } from "emdash/ui";
+import { renderText } from "../../lib/text";
+const { value, blockKey } = Astro.props;
+const people = (value.people ?? []) as any[];
+// The theme's grid CSS lays out four people per .team__grid row.
+const rows: any[][] = [];
+for (let i = 0; i < people.length; i += 4) rows.push(people.slice(i, i + 4));
+---
+<section class="block block-animate our-team">
+	<div class="our-team__container">
+		{value.heading && <h2>{value.heading}</h2>}
+		<div class="team">
+			{rows.map((row, r) => (
+			<div class="team__grid">
+				{
+					row.map((p, j) => {
+						const id = `${r * 4 + j + 1}`; // global, links a person to their bio
+						const pos = j + 1; // position in the row; the theme CSS styles -1 to -4
+						return (
+							<>
+								<div class={`team__wrapper team__wrapper-${pos}`} data-id={id} role="button" tabindex="0" aria-controls={`team-${blockKey}-${id}`}>
+									<div class="team__image">{p.image && <Image image={p.image} class="attachment-full size-full" />}</div>
+									<h4 class="team__name">{p.name}</h4>
+									{p.position && <div class="team__position">{p.position}</div>}
+								</div>
+								<div class={`team__content team__content-${pos}`} data-target={id} id={`team-${blockKey}-${id}`}>
+									<div>
+										<h4 class="team__name">{p.name}</h4>
+										{p.position && <div class="team__position">{p.position}</div>}
+									</div>
+									<div set:html={renderText(p.bio)} />
+									<div>
+										<button class="team__close" aria-label="Close">
+											<svg width="28" height="28" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M1 1L29 29" stroke="black" stroke-width="2" /><path d="M29 1L1 29" stroke="black" stroke-width="2" /></svg>
+										</button>
+									</div>
+								</div>
+							</>
+						);
+					})
+				}
+			</div>
+			))}
+		</div>
+	</div>
+</section>

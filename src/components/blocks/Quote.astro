@@ -1,0 +1,11 @@
+---
+import { PortableText } from "emdash/ui";
+const { value } = Astro.props;
+---
+<section class="block block-animate block-quote">
+	<div class="max-sm:w-full ml-auto w-1/2">
+		<div>
+			<blockquote>{value.text && <PortableText value={value.text} />}</blockquote>
+		</div>
+	</div>
+</section>

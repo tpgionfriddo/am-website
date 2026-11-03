@@ -1,0 +1,73 @@
+/*
+ * Architecture Matters theme.
+ * theme/main.css and theme/block.css are the original "rarchitecture" WordPress
+ * theme stylesheets, copied verbatim (apart from the font import) so the rebuilt
+ * site matches the original. Site-specific additions live at the bottom.
+ */
+@import "@fontsource/raleway/400.css";
+@import "@fontsource/raleway/500.css";
+@import "@fontsource/raleway/600.css";
+@import "@fontsource/raleway/700.css";
+@import "swiper/css";
+@import "swiper/css/effect-fade";
+@import "./theme/main.css";
+@import "./theme/block.css";
+
+/* ---- additions for the EmDash port ---- */
+
+/* EmDash <Image> wraps images; keep theme sizing rules working */
+.entry-thumbnail img,
+.entry-header > img,
+.swiper-home img,
+.block-loop__image img,
+.our-projects__image,
+.site-blog__image img,
+.blog-post__img img {
+	display: block;
+}
+
+/* Rich-text project-detail values rendered from "[text](url)" markup */
+.grid__details p + p { margin-top: 0; }
+
+/* Portable Text content in news posts: mirror the news-image / news-block-quote blocks */
+.single-post__content .pt-image { margin: 0 0 2.5rem; }
+.single-post__content .pt-image img { width: 100%; height: auto; display: block; }
+.single-post__content blockquote { margin: 0 0 2.5rem; }
+
+/* Acknowledgement modal: hidden once dismissed this session (set before paint) */
+html.ack-dismissed .modal { display: none; }
+
+/* Contact form (EmDash forms plugin markup, styled like the original Gravity Form) */
+.contact-form .ec-form { display: grid; gap: 1.25rem; }
+.contact-form .ec-form fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 1.25rem; }
+.contact-form .ec-form-label {
+	position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); white-space: nowrap;
+}
+.contact-form .ec-form-input {
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #A0A0A0;
+	border-radius: 0;
+	background: transparent;
+	padding: 0.75rem 0;
+	font: inherit;
+	color: inherit;
+}
+.contact-form textarea.ec-form-input { min-height: 7rem; resize: vertical; }
+.contact-form .ec-form-input::placeholder { color: #A0A0A0; }
+.contact-form .ec-form-input:focus { outline: none; border-bottom-color: #000; }
+.contact-form .ec-form button[type="submit"],
+.contact-form .ec-form-submit {
+	justify-self: start;
+	border: 1px solid #000;
+	background: transparent;
+	color: #000;
+	padding: 0.875rem 2.5rem;
+	font: inherit;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.contact-form .ec-form button[type="submit"]:hover,
+.contact-form .ec-form-submit:hover { background: #FCC707; border-color: #FCC707; }
+.contact-form .ec-form-error { color: #990000; font-size: 0.875rem; }

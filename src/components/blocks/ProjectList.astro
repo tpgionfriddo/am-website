@@ -1,0 +1,29 @@
+---
+import { getEmDashCollection } from "emdash";
+import ProjectCard from "../ProjectCard.astro";
+import Arrows from "./Arrows.astro";
+const { value } = Astro.props;
+const { entries, cacheHint } = await getEmDashCollection("projects", {
+	where: { project_type: value.project_type },
+	orderBy: { sort_order: "asc" },
+	limit: 100,
+});
+if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+// The theme shows six projects per slide.
+const pages: any[][] = [];
+for (let i = 0; i < entries.length; i += 6) pages.push(entries.slice(i, i + 6));
+---
+{
+	pages.length > 0 && (
+		<section class="block block-animate project-list">
+			<div class="swiper swiper-project">
+				<div class="swiper-wrapper">
+					{pages.map((page) => (
+						<div class="swiper-slide swiper-project__slide">{page.map((p) => <ProjectCard project={p} />)}</div>
+					))}
+				</div>
+				{pages.length > 1 && <Arrows prefix="swiper-project" wrapper="swiper-project__nav" width={28} height={20} />}
+			</div>
+		</section>
+	)
+}

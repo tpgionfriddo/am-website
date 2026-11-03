@@ -1,0 +1,37 @@
+---
+const { value } = Astro.props;
+const items = (value.items ?? []) as any[];
+---
+<section class="block awards">
+	<div class="container awards__container block-animate">
+		{value.heading && <h2>{value.heading}</h2>}
+		<div class="awards__wrapper">
+			<div class="awards__labels">
+				<div class="awards__label">Award<span>,&nbsp;</span></div>
+				<div class="awards__label">Project<span>,&nbsp;</span></div>
+				<div class="awards__label">Category</div>
+				<div class="awards__label">Year</div>
+			</div>
+			{
+				items.map((a) => {
+					const external = a.url && /^https?:/.test(a.url);
+					const inner = (
+						<>
+							<div class="awards__grid">
+								<div class="awards__award">{a.award}</div>
+								<div class="awards__project">{a.project}</div>
+								<div class="awards__category">{a.category}</div>
+							</div>
+							<div class="awards__year">{a.year}</div>
+						</>
+					);
+					return a.url ? (
+						<a href={a.url} class="awards__link" target={external ? "_blank" : undefined} rel={external ? "noopener" : undefined}>{inner}</a>
+					) : (
+						<div class="awards__link">{inner}</div>
+					);
+				})
+			}
+		</div>
+	</div>
+</section>

@@ -1,0 +1,16 @@
+---
+import { Image } from "emdash/ui";
+const { value } = Astro.props;
+const cls = value.align === "right" ? "two-thirds-image-right" : "two-thirds-image";
+---
+{
+	value.image && (
+		<section class={`block block-animate ${cls}`}>
+			<div class="grid">
+				<div>
+					<Image image={value.image} class="attachment-full size-full" sizes="(min-width: 1360px) 880px, 100vw" />
+				</div>
+			</div>
+		</section>
+	)
+}

@@ -1,0 +1,11 @@
+---
+import { Image } from "emdash/ui";
+const { value } = Astro.props;
+---
+{
+	value.image && (
+		<section class="block block-animate full-width-image">
+			<Image image={value.image} class="attachment-full size-full" sizes="(min-width: 1360px) 1320px, 100vw" />
+		</section>
+	)
+}

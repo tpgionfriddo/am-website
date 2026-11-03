@@ -1,0 +1,23 @@
+---
+import { getEmDashCollection } from "emdash";
+import BlogPostCard from "./BlogPostCard.astro";
+interface Props { heading?: string; count?: number; category?: string; exclude?: string; /** "div" inside a related-news block */ as?: "section" | "div"; }
+const { heading = "Practice News", count = 3, category, exclude, as: Tag = "section" } = Astro.props;
+const { entries, cacheHint } = await getEmDashCollection("posts", {
+	orderBy: { published_at: "desc" },
+	limit: count + 1,
+	...(category ? { where: { category } } : {}),
+});
+if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+const posts = entries.filter((p) => p.id !== exclude).slice(0, count);
+---
+{
+	posts.length > 0 && (
+		<Tag class:list={["related-posts", { "block-animate": Tag === "section" }]}>
+			<div class="related-posts__wrapper">
+				<h2 class="related-posts__title">{heading}</h2>
+				<div class="related-posts__blogs">{posts.map((post) => <BlogPostCard post={post} />)}</div>
+			</div>
+		</Tag>
+	)
+}

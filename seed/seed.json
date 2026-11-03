@@ -1,0 +1,1036 @@
+{
+	"$schema": "https://emdashcms.com/seed.schema.json",
+	"version": "1",
+	"meta": {
+		"name": "Architecture Matters",
+		"description": "Architecture Matters website: projects, practice news and pages, rebuilt from the rarchitecture WordPress theme.",
+		"author": "Architecture Matters"
+	},
+	"settings": {
+		"title": "Architecture Matters",
+		"tagline": "Buildings that matter for people that matter",
+		"timezone": "Australia/Melbourne",
+		"postsPerPage": 10
+	},
+	"blockTypes": [
+		{
+			"slug": "hero_slider",
+			"label": "Home hero slider",
+			"category": "Home",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "title",
+							"label": "Title",
+							"type": "string",
+							"required": true
+						},
+						{
+							"slug": "link_url",
+							"label": "Arrow link",
+							"type": "url"
+						},
+						{
+							"slug": "slides",
+							"label": "Slides",
+							"type": "repeater",
+							"validation": {
+								"subFields": [
+									{
+										"slug": "image",
+										"label": "Image",
+										"type": "image",
+										"required": true
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "project_info",
+			"label": "Project details",
+			"category": "Projects",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "details",
+							"label": "Details",
+							"type": "repeater",
+							"validation": {
+								"subFields": [
+									{
+										"slug": "label",
+										"label": "Label (e.g. Client)",
+										"type": "string",
+										"required": true
+									},
+									{
+										"slug": "value",
+										"label": "Value. Links: [text](https://...)",
+										"type": "text",
+										"required": true
+									}
+								]
+							}
+						},
+						{
+							"slug": "text",
+							"label": "Description",
+							"type": "portableText"
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "text_columns",
+			"label": "Two columns of text",
+			"category": "Text",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "left",
+							"label": "Left column",
+							"type": "portableText"
+						},
+						{
+							"slug": "right",
+							"label": "Right column",
+							"type": "portableText"
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "quote",
+			"label": "Quote",
+			"category": "Text",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "text",
+							"label": "Quote",
+							"type": "portableText"
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "image_full",
+			"label": "Full-width image",
+			"category": "Images",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "image",
+							"label": "Image",
+							"type": "image",
+							"required": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "image_two_thirds",
+			"label": "Two-thirds image",
+			"category": "Images",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "image",
+							"label": "Image",
+							"type": "image",
+							"required": true
+						},
+						{
+							"slug": "align",
+							"label": "Alignment",
+							"type": "select",
+							"validation": {
+								"options": [
+									"left",
+									"right"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "image_pair",
+			"label": "Two images side by side",
+			"category": "Images",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "image_left",
+							"label": "Left image",
+							"type": "image",
+							"required": true
+						},
+						{
+							"slug": "image_right",
+							"label": "Right image",
+							"type": "image",
+							"required": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "text_image",
+			"label": "Text and image",
+			"category": "Images",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "text",
+							"label": "Text",
+							"type": "portableText"
+						},
+						{
+							"slug": "image",
+							"label": "Image",
+							"type": "image",
+							"required": true
+						},
+						{
+							"slug": "image_side",
+							"label": "Image position",
+							"type": "select",
+							"validation": {
+								"options": [
+									"right",
+									"left"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "carousel",
+			"label": "Image carousel",
+			"category": "Images",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "images",
+							"label": "Images",
+							"type": "repeater",
+							"validation": {
+								"subFields": [
+									{
+										"slug": "image",
+										"label": "Image",
+										"type": "image",
+										"required": true
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "story",
+			"label": "Story (image + text slides)",
+			"category": "Practice",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "heading",
+							"label": "Heading",
+							"type": "string"
+						},
+						{
+							"slug": "image",
+							"label": "Image",
+							"type": "image"
+						},
+						{
+							"slug": "intro",
+							"label": "Intro",
+							"type": "text"
+						},
+						{
+							"slug": "slides",
+							"label": "Text slides",
+							"type": "repeater",
+							"validation": {
+								"subFields": [
+									{
+										"slug": "text",
+										"label": "Text",
+										"type": "text",
+										"required": true
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "principals",
+			"label": "Principals",
+			"category": "Practice",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "heading",
+							"label": "Heading",
+							"type": "string"
+						},
+						{
+							"slug": "people",
+							"label": "People",
+							"type": "repeater",
+							"validation": {
+								"subFields": [
+									{
+										"slug": "image",
+										"label": "Photo",
+										"type": "image"
+									},
+									{
+										"slug": "name",
+										"label": "Name",
+										"type": "string",
+										"required": true
+									},
+									{
+										"slug": "title",
+										"label": "Title",
+										"type": "string"
+									},
+									{
+										"slug": "bio",
+										"label": "Bio",
+										"type": "text"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "team",
+			"label": "Team",
+			"category": "Practice",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "heading",
+							"label": "Heading",
+							"type": "string"
+						},
+						{
+							"slug": "people",
+							"label": "People",
+							"type": "repeater",
+							"validation": {
+								"subFields": [
+									{
+										"slug": "image",
+										"label": "Photo",
+										"type": "image"
+									},
+									{
+										"slug": "name",
+										"label": "Name",
+										"type": "string",
+										"required": true
+									},
+									{
+										"slug": "position",
+										"label": "Position",
+										"type": "string"
+									},
+									{
+										"slug": "bio",
+										"label": "Bio",
+										"type": "text"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "accordion",
+			"label": "Accordion with images",
+			"category": "Practice",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "heading",
+							"label": "Heading",
+							"type": "string"
+						},
+						{
+							"slug": "items",
+							"label": "Items",
+							"type": "repeater",
+							"validation": {
+								"subFields": [
+									{
+										"slug": "title",
+										"label": "Title",
+										"type": "string",
+										"required": true
+									},
+									{
+										"slug": "text",
+										"label": "Text",
+										"type": "text"
+									},
+									{
+										"slug": "image",
+										"label": "Image",
+										"type": "image"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "project_types",
+			"label": "Project type tiles",
+			"category": "Projects",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "items",
+							"label": "Tiles",
+							"type": "repeater",
+							"validation": {
+								"subFields": [
+									{
+										"slug": "title",
+										"label": "Title",
+										"type": "string",
+										"required": true
+									},
+									{
+										"slug": "url",
+										"label": "Link",
+										"type": "url",
+										"required": true
+									},
+									{
+										"slug": "image",
+										"label": "Image",
+										"type": "image"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "project_list",
+			"label": "Project list (by type)",
+			"category": "Projects",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "project_type",
+							"label": "Show projects of type",
+							"type": "select",
+							"required": true,
+							"validation": {
+								"options": [
+									"community",
+									"educational",
+									"specialised",
+									"residential",
+									"animal-facilities"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "logos",
+			"label": "Client logos",
+			"category": "Projects",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "logos",
+							"label": "Logos",
+							"type": "repeater",
+							"validation": {
+								"subFields": [
+									{
+										"slug": "image",
+										"label": "Logo",
+										"type": "image",
+										"required": true
+									},
+									{
+										"slug": "name",
+										"label": "Name",
+										"type": "string"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "related_news",
+			"label": "Latest news",
+			"category": "News",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "heading",
+							"label": "Heading",
+							"type": "string"
+						},
+						{
+							"slug": "count",
+							"label": "Number of posts",
+							"type": "integer"
+						},
+						{
+							"slug": "category",
+							"label": "Only this category (optional)",
+							"type": "select",
+							"validation": {
+								"options": [
+									"publications",
+									"community",
+									"educational",
+									"residential",
+									"specialised"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "contact",
+			"label": "Contact details and form",
+			"category": "Contact",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "phone",
+							"label": "Phone",
+							"type": "string"
+						},
+						{
+							"slug": "email",
+							"label": "Email",
+							"type": "string"
+						},
+						{
+							"slug": "street_address",
+							"label": "Street address",
+							"type": "text"
+						},
+						{
+							"slug": "mailing_address",
+							"label": "Mailing address",
+							"type": "text"
+						},
+						{
+							"slug": "statement",
+							"label": "Statement",
+							"type": "text"
+						},
+						{
+							"slug": "show_form",
+							"label": "Show enquiry form",
+							"type": "boolean"
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "awards",
+			"label": "Awards",
+			"category": "Practice",
+			"currentVersion": 1,
+			"versions": [
+				{
+					"version": 1,
+					"fields": [
+						{
+							"slug": "heading",
+							"label": "Heading",
+							"type": "string"
+						},
+						{
+							"slug": "items",
+							"label": "Awards",
+							"type": "repeater",
+							"validation": {
+								"subFields": [
+									{
+										"slug": "award",
+										"label": "Award",
+										"type": "string",
+										"required": true
+									},
+									{
+										"slug": "project",
+										"label": "Project",
+										"type": "string"
+									},
+									{
+										"slug": "category",
+										"label": "Category",
+										"type": "string"
+									},
+									{
+										"slug": "year",
+										"label": "Year",
+										"type": "string"
+									},
+									{
+										"slug": "url",
+										"label": "Link",
+										"type": "url"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"collections": [
+		{
+			"slug": "pages",
+			"label": "Pages",
+			"labelSingular": "Page",
+			"urlPattern": "/{slug}/",
+			"supports": [
+				"drafts",
+				"revisions",
+				"preview",
+				"search",
+				"seo"
+			],
+			"fields": [
+				{
+					"slug": "title",
+					"label": "Title",
+					"type": "string",
+					"required": true,
+					"searchable": true
+				},
+				{
+					"slug": "featured_image",
+					"label": "Banner image",
+					"type": "image"
+				},
+				{
+					"slug": "layout",
+					"label": "Layout",
+					"type": "blocks",
+					"validation": {
+						"allowedTypes": [
+							"text_columns",
+							"quote",
+							"image_full",
+							"image_two_thirds",
+							"image_pair",
+							"text_image",
+							"carousel",
+							"story",
+							"principals",
+							"team",
+							"awards",
+							"accordion",
+							"project_types",
+							"project_list",
+							"logos",
+							"related_news",
+							"contact",
+							"hero_slider"
+						],
+						"maxItems": 40
+					}
+				}
+			]
+		},
+		{
+			"slug": "projects",
+			"label": "Projects",
+			"labelSingular": "Project",
+			"urlPattern": "/project/{slug}/",
+			"supports": [
+				"drafts",
+				"revisions",
+				"preview",
+				"search",
+				"seo"
+			],
+			"fields": [
+				{
+					"slug": "title",
+					"label": "Title",
+					"type": "string",
+					"required": true,
+					"searchable": true
+				},
+				{
+					"slug": "featured_image",
+					"label": "Banner image",
+					"type": "image"
+				},
+				{
+					"slug": "thumbnail",
+					"label": "List thumbnail (optional)",
+					"type": "image"
+				},
+				{
+					"slug": "sort_order",
+					"label": "Sort order (lower first)",
+					"type": "integer"
+				},
+				{
+					"slug": "layout",
+					"label": "Layout",
+					"type": "blocks",
+					"validation": {
+						"allowedTypes": [
+							"project_info",
+							"image_full",
+							"image_pair",
+							"image_two_thirds",
+							"text_image",
+							"quote",
+							"text_columns",
+							"carousel"
+						],
+						"maxItems": 60
+					}
+				}
+			]
+		},
+		{
+			"slug": "posts",
+			"label": "Practice News",
+			"labelSingular": "Post",
+			"urlPattern": "/{slug}/",
+			"supports": [
+				"drafts",
+				"revisions",
+				"preview",
+				"scheduling",
+				"search",
+				"seo"
+			],
+			"fields": [
+				{
+					"slug": "title",
+					"label": "Title",
+					"type": "string",
+					"required": true,
+					"searchable": true
+				},
+				{
+					"slug": "featured_image",
+					"label": "Featured image",
+					"type": "image"
+				},
+				{
+					"slug": "content",
+					"label": "Content",
+					"type": "portableText",
+					"searchable": true
+				},
+				{
+					"slug": "excerpt",
+					"label": "Excerpt",
+					"type": "text"
+				}
+			]
+		}
+	],
+	"taxonomies": [
+		{
+			"name": "category",
+			"label": "Categories",
+			"labelSingular": "Category",
+			"hierarchical": true,
+			"collections": [
+				"posts"
+			],
+			"terms": [
+				{
+					"slug": "publications",
+					"label": "Publications"
+				},
+				{
+					"slug": "community",
+					"label": "Community"
+				},
+				{
+					"slug": "educational",
+					"label": "Educational"
+				},
+				{
+					"slug": "residential",
+					"label": "Residential"
+				},
+				{
+					"slug": "specialised",
+					"label": "Specialised"
+				}
+			]
+		},
+		{
+			"name": "project_type",
+			"label": "Project types",
+			"labelSingular": "Project type",
+			"hierarchical": false,
+			"collections": [
+				"projects"
+			],
+			"terms": [
+				{
+					"slug": "community",
+					"label": "Community"
+				},
+				{
+					"slug": "educational",
+					"label": "Educational"
+				},
+				{
+					"slug": "specialised",
+					"label": "Specialised"
+				},
+				{
+					"slug": "residential",
+					"label": "Residential"
+				},
+				{
+					"slug": "animal-facilities",
+					"label": "Animal Facilities"
+				}
+			]
+		}
+	],
+	"menus": [
+		{
+			"name": "primary",
+			"label": "Main menu",
+			"items": [
+				{
+					"type": "custom",
+					"label": "Our Practice",
+					"url": "/melbourne-based-architects/"
+				},
+				{
+					"type": "custom",
+					"label": "Our Services",
+					"url": "/architectural-services/"
+				},
+				{
+					"type": "custom",
+					"label": "Our Projects",
+					"url": "/australian-architecture/"
+				},
+				{
+					"type": "custom",
+					"label": "Practice News",
+					"url": "/architectural-news/"
+				},
+				{
+					"type": "custom",
+					"label": "Contact Us",
+					"url": "/contact-us/"
+				}
+			]
+		}
+	],
+	"redirects": [
+		{
+			"source": "/tag/community",
+			"destination": "/australian-architecture/community-architecture/",
+			"type": 301,
+			"enabled": true,
+			"groupName": "WordPress migration"
+		},
+		{
+			"source": "/tag/educational",
+			"destination": "/australian-architecture/education-architecture/",
+			"type": 301,
+			"enabled": true,
+			"groupName": "WordPress migration"
+		},
+		{
+			"source": "/tag/specialised",
+			"destination": "/australian-architecture/commercial-architecture/",
+			"type": 301,
+			"enabled": true,
+			"groupName": "WordPress migration"
+		},
+		{
+			"source": "/tag/animal-facilities",
+			"destination": "/australian-architecture/commercial-architecture/",
+			"type": 301,
+			"enabled": true,
+			"groupName": "WordPress migration"
+		},
+		{
+			"source": "/tag/residential",
+			"destination": "/australian-architecture/residential-architecture/",
+			"type": 301,
+			"enabled": true,
+			"groupName": "WordPress migration"
+		},
+		{
+			"source": "/tag/[...rest]",
+			"destination": "/australian-architecture/",
+			"type": 301,
+			"enabled": true,
+			"groupName": "WordPress migration"
+		},
+		{
+			"source": "/author/[...rest]",
+			"destination": "/architectural-news/",
+			"type": 301,
+			"enabled": true,
+			"groupName": "WordPress migration"
+		},
+		{
+			"source": "/feed",
+			"destination": "/architectural-news/",
+			"type": 301,
+			"enabled": true,
+			"groupName": "WordPress migration"
+		},
+		{
+			"source": "/our-architects",
+			"destination": "/melbourne-based-architects/",
+			"type": 301,
+			"enabled": true,
+			"groupName": "WordPress migration"
+		},
+		{
+			"source": "/contact",
+			"destination": "/contact-us/",
+			"type": 301,
+			"enabled": true,
+			"groupName": "WordPress migration"
+		},
+		{
+			"source": "/links",
+			"destination": "/",
+			"type": 301,
+			"enabled": true,
+			"groupName": "WordPress migration"
+		},
+		{
+			"source": "/media",
+			"destination": "/",
+			"type": 301,
+			"enabled": true,
+			"groupName": "WordPress migration"
+		},
+		{
+			"source": "/hello-world",
+			"destination": "/",
+			"type": 301,
+			"enabled": true,
+			"groupName": "WordPress migration"
+		},
+		{
+			"source": "/project/norwood-crescentoffice-refurbishment",
+			"destination": "/project/norwood-crescent-office-refurbishment/",
+			"type": 301,
+			"enabled": true,
+			"groupName": "WordPress migration"
+		}
+	]
+}

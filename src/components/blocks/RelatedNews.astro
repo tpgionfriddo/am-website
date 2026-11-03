@@ -1,0 +1,7 @@
+---
+import RelatedPosts from "../RelatedPosts.astro";
+const { value } = Astro.props;
+---
+<section class="block block-animate related-news">
+	<RelatedPosts heading={value.heading || "Practice News"} count={value.count || 3} category={value.category} as="div" />
+</section>

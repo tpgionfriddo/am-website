@@ -1,0 +1,24 @@
+---
+import { getEmDashCollection } from "emdash";
+import ProjectCard from "./ProjectCard.astro";
+interface Props { project: any; count?: number; }
+const { project, count = 3 } = Astro.props;
+const types: string[] = (project.data.terms?.project_type ?? []).map((t: any) => t.slug);
+const { entries, cacheHint } = types.length
+	? await getEmDashCollection("projects", { where: { project_type: types }, orderBy: { sort_order: "asc" }, limit: 50 })
+	: { entries: [], cacheHint: undefined };
+if (cacheHint && Astro.cache?.enabled) Astro.cache.set(cacheHint);
+const similar = entries.filter((p) => p.id !== project.id).slice(0, count);
+---
+{
+	similar.length > 0 && (
+		<section class="related-projects block-animate">
+			<div class="related-projects__wrapper">
+				<h2 class="related-projects__title">Similar Projects</h2>
+				<div class="related-projects__blogs">
+					<div class="grid">{similar.map((p) => <ProjectCard project={p} />)}</div>
+				</div>
+			</div>
+		</section>
+	)
+}

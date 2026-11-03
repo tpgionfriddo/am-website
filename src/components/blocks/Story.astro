@@ -1,0 +1,31 @@
+---
+import { Image } from "emdash/ui";
+import { renderText } from "../../lib/text";
+import Arrows from "./Arrows.astro";
+const { value } = Astro.props;
+const slides = (value.slides ?? []) as { text: string }[];
+---
+<section class="block block-animate two-columns-image-text">
+	{value.heading && <h2>{value.heading}</h2>}
+	<div class="grid">
+		<div class="grid__image">{value.image && <Image image={value.image} class="attachment-full size-full" sizes="(min-width: 768px) 50vw, 100vw" />}</div>
+		<div class="grid__text space-y-12">
+			{value.intro && <div><h4><strong>{value.intro}</strong></h4></div>}
+			{
+				slides.length > 0 && (
+					<div class="swiper swiper-text">
+						<div class="swiper-text__nav">
+							<div class="swiper-text__pagination"><div class="swiper-text-pagination" /></div>
+							<Arrows prefix="swiper-text" wrapper="swiper-text__arrows" color="black" width={26} height={18} />
+						</div>
+						<div class="swiper-wrapper">
+							{slides.map((s) => (
+								<div class="swiper-slide"><div set:html={renderText(s.text)} /></div>
+							))}
+						</div>
+					</div>
+				)
+			}
+		</div>
+	</div>
+</section>

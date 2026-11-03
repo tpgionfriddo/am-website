@@ -1,0 +1,10 @@
+---
+import { Image } from "emdash/ui";
+const { value } = Astro.props;
+---
+<section class="block block-animate two-columns-image">
+	<div class="grid">
+		<div class="grid__image">{value.image_left && <Image image={value.image_left} class="attachment-full size-full" sizes="(min-width: 768px) 50vw, 100vw" />}</div>
+		<div class="grid__image">{value.image_right && <Image image={value.image_right} class="attachment-full size-full" sizes="(min-width: 768px) 50vw, 100vw" />}</div>
+	</div>
+</section>

@@ -1,0 +1,16 @@
+---
+import { Image } from "emdash/ui";
+const { value } = Astro.props;
+---
+<div class="our-projects__grid block-animate">
+	{
+		(value.items ?? []).map((it: any) => (
+			<div class="our-projects__item">
+				<a href={it.url} class="our-projects__link">
+					{it.image && <Image image={it.image} class="our-projects__image" sizes="(min-width: 768px) 50vw, 100vw" />}
+					<h3 class="our-projects__title">{it.title}</h3>
+				</a>
+			</div>
+		))
+	}
+</div>

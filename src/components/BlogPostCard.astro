@@ -1,0 +1,22 @@
+---
+import { Image } from "emdash/ui";
+import { formatDate } from "../lib/text";
+interface Props { post: any; }
+const { post } = Astro.props;
+const href = `/${post.id}/`;
+const cats = (post.data.terms?.category ?? []).map((t: any) => t.label).join(", ");
+---
+<div class="blog-post">
+	<div class="blog-post__wrapper">
+		<div>
+			<a href={href} title={post.data.title} class="blog-post__link"><h3 class="blog-post__title">{post.data.title}</h3></a>
+			<div class="blog-post__meta">
+				<span>{formatDate(post.data.publishedAt)}</span>
+				{cats && <span>{cats}</span>}
+			</div>
+		</div>
+		<a href={href} title={post.data.title} class="blog-post__img">
+			{post.data.featured_image && <Image image={post.data.featured_image} class="attachment-large size-large" sizes="(min-width: 768px) 640px, 100vw" />}
+		</a>
+	</div>
+</div>

@@ -1,0 +1,24 @@
+---
+import { Image } from "emdash/ui";
+const { value } = Astro.props;
+const logos = (value.logos ?? []).filter((l: any) => l.image);
+---
+{
+	logos.length > 0 && (
+		<section class="block block-animate logos">
+			<div class="!space-y-10 lg:!space-y-18">
+				<div class="container-full">
+					<div class="swiper swiper-logos">
+						<div class="swiper-wrapper">
+							{logos.map((l: any) => (
+								<div class="swiper-slide">
+									<Image image={l.image} alt={l.name ?? l.image.alt} class="w-[120px] object-contain" sizes="120px" />
+								</div>
+							))}
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	)
+}

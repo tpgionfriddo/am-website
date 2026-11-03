@@ -1,0 +1,39 @@
+---
+import { Image } from "emdash/ui";
+import { renderText } from "../../lib/text";
+const { value } = Astro.props;
+const items = (value.items ?? []) as any[];
+---
+<section class="block block-animate accordion-section">
+	{value.heading && <h2>{value.heading}</h2>}
+	<div class="grid">
+		<div class="grid__image">
+			<div class="accordion__images">
+				{
+					items.map((it, i) => (
+						<div id={`accordion-image-${i + 1}`} class="accordion__image" style={i === 0 ? undefined : "display:none"}>
+							{it.image && <Image image={it.image} class="attachment-full size-full" sizes="(min-width: 768px) 50vw, 100vw" />}
+						</div>
+					))
+				}
+			</div>
+		</div>
+		<div class="grid__text">
+			<div class="accordion">
+				{
+					items.map((it, i) => (
+						<div class="accordion__item">
+							<h4 class="accordion__title">
+								<button type="button" class:list={["accordion__button", { "is-active": i === 0 }]} data-id={`${i + 1}`} aria-expanded={i === 0 ? "true" : "false"}>
+									<span>{it.title}</span>
+									<svg width="25.43" height="18" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M16.4343 0.717285L25.4341 9.71704L16.4343 18.7168" stroke="black" stroke-width="2" /><path d="M25.2384 9.71704L0 9.71704" stroke="black" stroke-width="2" /></svg>
+								</button>
+							</h4>
+							<div class="accordion__content" style={i === 0 ? "display:block" : undefined} set:html={renderText(it.text)} />
+						</div>
+					))
+				}
+			</div>
+		</div>
+	</div>
+</section>

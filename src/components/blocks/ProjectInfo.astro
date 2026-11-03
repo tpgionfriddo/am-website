@@ -1,0 +1,20 @@
+---
+import { PortableText } from "emdash/ui";
+import { renderText } from "../../lib/text";
+const { value } = Astro.props;
+---
+<section class="block block-animate project-info">
+	<div class="grid">
+		<div class="grid__details">
+			{
+				(value.details ?? []).map((d: { label: string; value: string }) => (
+					<div>
+						<h5>{d.label}</h5>
+						<Fragment set:html={renderText(d.value)} />
+					</div>
+				))
+			}
+		</div>
+		<div class="grid__text">{value.text && <PortableText value={value.text} />}</div>
+	</div>
+</section>

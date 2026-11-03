@@ -1,0 +1,13 @@
+---
+/** Prev/next arrow pair used by the theme's sliders (markup matches the original). */
+interface Props { prefix: string; wrapper?: string; color?: string; width?: number; height?: number; }
+const { prefix, wrapper, color = "#A0A0A0", width = 25, height = 18 } = Astro.props;
+---
+<div class={wrapper}>
+	<div class={`${prefix}-prev`} role="button" tabindex="0" aria-label="Previous">
+		<svg width={width} height={height} viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M10.9998 19L2 10.0002L10.9998 1.00049" stroke={color} stroke-width="2"></path><path d="M2.19564 10L27.4341 10" stroke={color} stroke-width="2"></path></svg>
+	</div>
+	<div class={`${prefix}-next`} role="button" tabindex="0" aria-label="Next">
+		<svg width={width} height={height} viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M17.001 1L26.0007 9.99976L17.001 18.9995" stroke={color} stroke-width="2"></path><path d="M25.8049 10H0.566406" stroke={color} stroke-width="2"></path></svg>
+	</div>
+</div>
