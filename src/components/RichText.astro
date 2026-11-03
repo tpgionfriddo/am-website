@@ -1,10 +1,9 @@
 ---
-import Markdoc from "@markdoc/markdoc";
+import { richTextNodes } from "../lib/rich-text";
 import RichTextNode from "./RichTextNode.astro";
 
 interface Props { value?: any; }
 const { value } = Astro.props;
-const node = value?.node ?? (typeof value === "string" ? Markdoc.parse(value) : null);
-const rendered = node ? Markdoc.transform(node, { tags: { regular: { render: "regular", inline: true, attributes: {} } } }) : null;
+const rendered = richTextNodes(value);
 ---
-{rendered && <RichTextNode node={typeof rendered === "object" && !Array.isArray(rendered) && rendered.name === "article" ? rendered.children : rendered} />}
+<RichTextNode node={rendered} />

@@ -70,10 +70,7 @@ html { scrollbar-gutter: stable; }
 /* Rich-text project-detail values rendered from "[text](url)" markup */
 .grid__details p + p { margin-top: 0; }
 
-/* Portable Text content in news posts: mirror the news-image / news-block-quote blocks */
-.single-post__content .pt-image { margin: 0 0 2.5rem; }
-.single-post__content .pt-image img { width: 100%; height: auto; display: block; }
-.single-post__content blockquote { margin: 0 0 2.5rem; }
+.single-post__content .news-image img { width: 100%; height: auto; display: block; }
 
 /* Acknowledgement modal: hidden once dismissed this session (set before paint) */
 html.ack-dismissed .modal { display: none; }

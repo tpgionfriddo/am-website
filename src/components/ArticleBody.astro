@@ -1,0 +1,34 @@
+---
+import Markdoc, { type RenderableTreeNode } from "@markdoc/markdoc";
+import { richTextNodes } from "../lib/rich-text";
+import RichTextNode from "./RichTextNode.astro";
+
+interface Props { value?: any; }
+interface Section {
+	kind: "text" | "image" | "quote";
+	wide: boolean;
+	nodes: RenderableTreeNode[];
+}
+
+const sections: Section[] = [];
+for (const node of richTextNodes(Astro.props.value)) {
+	const child = Markdoc.Tag.isTag(node) && node.name === "p" && node.children.length === 1 ? node.children[0] : null;
+	const content = Markdoc.Tag.isTag(child) && child.name === "img" ? child : node;
+	const name = Markdoc.Tag.isTag(content) ? content.name : "";
+	const kind = name === "img" || name === "wide-image" ? "image" : name === "blockquote" ? "quote" : "text";
+	const previous = sections.at(-1);
+	if (kind === "text" && previous?.kind === "text") previous.nodes.push(content);
+	else sections.push({ kind, wide: name === "wide-image" || kind === "quote", nodes: [content] });
+}
+---
+{sections.map((section) => (
+	<section class:list={["block", "block-animate", {
+		"text-editor": section.kind === "text",
+		"news-image": section.kind === "image",
+		"news-image--offset": section.kind === "image" && section.wide,
+		"news-block-quote": section.kind === "quote",
+		"news-block-quote--offset": section.kind === "quote" && section.wide,
+	}]}>
+		<RichTextNode node={section.nodes} />
+	</section>
+))}

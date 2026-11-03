@@ -1,7 +1,7 @@
 ---
 import { getSeoMeta } from "../lib/content";
 import Image from "../components/Image.astro";
-import RichText from "../components/RichText.astro";
+import ArticleBody from "../components/ArticleBody.astro";
 import BackLink from "../components/BackLink.astro";
 import RelatedPosts from "../components/RelatedPosts.astro";
 import SharePost from "../components/SharePost.astro";
@@ -17,7 +17,7 @@ const banner = post.data.featured_image;
   <header class="block-animate entry-header"><div class="container entry-header__container"><h1 class="entry-title">{post.data.title}</h1></div></header>
   <div class="entry-content"><div class="container single-post__grid">
    <div class="single-post__sidebar"><SharePost title={post.data.title} /><BackLink href="/architectural-news/" /></div>
-   <div class="single-post__content block-wrapper"><section class="block block-animate text-editor"><RichText value={post.data.content} /></section></div>
+   <div class="single-post__content block-wrapper"><ArticleBody value={post.data.content} /></div>
    <BackLink href="/architectural-news/" />
   </div><div class="container block-animate"><RelatedPosts heading="Practice News" count={2} exclude={post.id} /></div></div>
  </article></main>

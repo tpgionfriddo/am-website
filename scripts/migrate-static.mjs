@@ -40,6 +40,7 @@ function richText(blocks) {
 		if (block._type === "image") {
 			const file = block.asset?.$file;
 			if (!file) throw new Error("Missing rich-text image file");
+			if (block.alignment === "wide") return `{% wideImage src=${JSON.stringify(mediaPath(file))} alt=${JSON.stringify(block.alt || "")} /%}`;
 			return `![${escapeMarkdown(block.alt || "")}](${mediaPath(file)})`;
 		}
 		if (block._type !== "block") throw new Error(`Unsupported rich-text block: ${block._type}`);

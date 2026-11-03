@@ -54,16 +54,23 @@ Use http://localhost:4321/am-website/ for that preview. BASE_PATH is a build set
 and assets are generated for it. Rebuild with BASE_PATH=/ when changing to the client's
 root domain. The build output is dist/, not public/.
 
-## Preview deployment
+## Production deployment
 
 Repository: https://github.com/tpgionfriddo/am-website
 
 The GitHub Pages workflow is **manual-only**. Pushing a commit does not deploy it. Run the
-Deploy static website to GitHub Pages workflow when an updated preview is wanted. It uses
+Deploy static website to GitHub Pages workflow when an update is ready to publish. It uses
 the repository's Pages origin/base path, checks types, builds, validates and deploys dist/.
 The repository is public because the current GitHub plan does not support Pages for a
-private repository. No CNAME or custom domain is configured: the client's DNS and current
-site are unchanged. Pages previews carry a noindex directive and have no analytics tag.
+private repository. The Pages custom domain is architecturematters.com.au, with HTTPS
+enforced and www redirecting to the apex domain. The existing GitHub Pages DNS records
+are unchanged. The domain was transferred from the maintenance repository on November 3,
+2026; that repository and the separate EmDash Worker remain available.
+
+The workflow reads the domain from the repository's Pages settings, building production
+links and assets at the root path. It does not require a CNAME file for workflow-based
+deployment. Production pages are indexable; builds for a github.io preview origin carry
+a noindex directive. No analytics tag is currently loaded on either.
 
 Fixed legacy URLs have complete HTML redirect pages with working base-aware links.
 These are browser/meta-refresh redirects, not HTTP 301 responses. Arbitrary wildcard
@@ -124,3 +131,8 @@ The body default is the original weight 500. Recovered inline weight-400 spans a
 with the Regular weight (400) mark in Keystatic rich text. Plain-text fields use paired
 \`{% regular %}\` and \`{% /regular %}\` markers around the original lighter text. Do not apply
 a blanket body-weight override: contact details and unmarked text intentionally remain 500.
+
+Article bodies retain the theme's separate text, image and pull-quote sections. Use the
+standard quote control for pull quotes and the Wide image content component for the
+desktop image bleed; normal images stay within the text column. Wide images collapse
+to the content width on mobile. The original asymmetric article/sidebar layout is retained.

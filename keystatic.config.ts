@@ -1,5 +1,5 @@
 import { collection, config, fields, singleton } from "@keystatic/core";
-import { mark } from "@keystatic/core/content-components";
+import { block, mark } from "@keystatic/core/content-components";
 import { createElement } from "react";
 import blockDefinitions from "./src/content/block-schema.json";
 import taxonomies from "./src/content/taxonomies.json";
@@ -13,8 +13,17 @@ type FieldDefinition = {
 };
 
 const mediaDirectory = { directory: "src/assets/media", publicPath: "/src/assets/media/" };
+const regular = mark({ label: "Regular weight (400)", icon: createElement("span", null, "400"), schema: {}, tag: "span", style: { fontWeight: "400" } });
 const richText = (label: string) => fields.markdoc.inline({ label, options: { image: mediaDirectory }, components: {
-	regular: mark({ label: "Regular weight (400)", icon: createElement("span", null, "400"), schema: {}, tag: "span", style: { fontWeight: "400" } }),
+	regular,
+} });
+const articleBody = fields.markdoc.inline({ label: "Article body", options: { image: mediaDirectory }, components: {
+	regular,
+	wideImage: block({
+		label: "Wide image",
+		description: "An article image extending to the left of the text column on desktop.",
+		schema: { src: fields.image({ label: "Image", ...mediaDirectory }), alt: fields.text({ label: "Alternative text" }) },
+	}),
 } });
 const image = (label: string) => fields.object({
 	src: fields.image({ label: "Image", ...mediaDirectory }),
@@ -64,7 +73,7 @@ export default config({
 	collections: {
 		pages: collection({ label: "Pages", slugField: "title", path: "src/content/pages/*", format: { data: "json" }, schema: { ...common(), layout: layout(40) } }),
 		projects: collection({ label: "Projects", slugField: "title", path: "src/content/projects/*", format: { data: "json" }, schema: { ...common(), thumbnail: image("Project-list thumbnail"), sort_order: fields.integer({ label: "Display order", defaultValue: 0 }), date: fields.text({ label: "Original publication date" }), types: fields.multiselect({ label: "Project types", options: options("project_type") }), layout: layout(60) } }),
-		posts: collection({ label: "Articles", slugField: "title", path: "src/content/posts/*", format: { data: "json" }, schema: { ...common(), date: fields.text({ label: "Publication date (ISO format)" }), categories: fields.multiselect({ label: "Categories", options: options("category") }), excerpt: fields.text({ label: "Excerpt", multiline: true }), content: richText("Article body") } }),
+		posts: collection({ label: "Articles", slugField: "title", path: "src/content/posts/*", format: { data: "json" }, schema: { ...common(), date: fields.text({ label: "Publication date (ISO format)" }), categories: fields.multiselect({ label: "Categories", options: options("category") }), excerpt: fields.text({ label: "Excerpt", multiline: true }), content: articleBody } }),
 	},
 	singletons: {
 		settings: singleton({ label: "Site settings", path: "src/content/settings", format: { data: "json" }, schema: {

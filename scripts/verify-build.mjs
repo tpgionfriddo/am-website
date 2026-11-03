@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import * as cheerio from "cheerio";
+import Markdoc from "@markdoc/markdoc";
 
 const directory = path.resolve("dist");
 const base = (process.env.BASE_PATH || "").replace(/\/$/, "");
@@ -33,7 +34,7 @@ function checkUrl(url, file) {
 
 function checkContentAssets(value, slug, file) {
 	if (typeof value === "string") {
-		for (const match of value.matchAll(/\/src\/assets\/media\/[^)\s]+/g)) {
+		for (const match of value.matchAll(/\/src\/assets\/media\/[^)"'\s]+/g)) {
 			if (!match[0].startsWith(`/src/assets/media/${slug}/`)) errors.push(`${file}: image path is not scoped to its Keystatic entry: ${match[0]}`);
 			if (!fs.existsSync(match[0].slice(1))) errors.push(`${file}: missing editable image ${match[0]}`);
 		}
@@ -53,7 +54,7 @@ for (const file of pages) {
 	const document = cheerio.load(html);
 	if (!html.includes("</html>") || !html.includes("</body>")) errors.push(`${file}: incomplete HTML`);
 	if (html.includes("/_emdash/") || /<astro-island\b/.test(html)) errors.push(`${file}: unexpected runtime CMS or hydrated island`);
-	if (/\{%\s*\/?regular\s*%\}/.test(html)) errors.push(`${file}: unrendered typography markup`);
+	if (/\{%\s*\/?(?:regular|wideImage)\b/.test(html)) errors.push(`${file}: unrendered rich-text markup`);
 	document("a[href],link[href],script[src],img[src],source[src]").each((_index, element) => {
 		const node = document(element);
 		checkUrl(node.attr("href") || node.attr("src"), file);
@@ -68,6 +69,18 @@ for (const file of fs.readdirSync("src/content/posts")) {
 	const entry = JSON.parse(fs.readFileSync(path.join("src/content/posts", file), "utf8"));
 	if (entry.status !== "published" && fs.existsSync(path.join(directory, file.replace(/\.json$/, ""), "index.html"))) errors.push(`Draft article was published: ${file}`);
 	if (entry.status === "published" && !fs.existsSync(path.join(directory, file.replace(/\.json$/, ""), "index.html"))) errors.push(`Published article is missing: ${file}`);
+	if (entry.status === "published") {
+		const destination = path.join(directory, file.replace(/\.json$/, ""), "index.html");
+		if (!fs.existsSync(destination)) continue;
+		const document = cheerio.load(fs.readFileSync(destination, "utf8"));
+		const nodes = Markdoc.parse(entry.content).children;
+		const wideImages = nodes.filter((node) => node.type === "tag" && node.tag === "wideImage");
+		const images = nodes.filter((node) => node.type === "paragraph" && node.children.length === 1 && node.children[0].type === "inline" && node.children[0].children.length === 1 && node.children[0].children[0].type === "image");
+		const quotes = nodes.filter((node) => node.type === "blockquote");
+		if (document(".single-post__content > .news-image").length !== images.length + wideImages.length) errors.push(`${file}: article image sections were lost`);
+		if (document(".single-post__content > .news-image--offset").length !== wideImages.length) errors.push(`${file}: article image widths were lost`);
+		if (document(".single-post__content > .news-block-quote > blockquote").length !== quotes.length) errors.push(`${file}: article quote styling was lost`);
+	}
 }
 
 if (errors.length) {

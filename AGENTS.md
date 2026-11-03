@@ -17,7 +17,7 @@ This is a fully static Astro website with a local Keystatic editor.
 - Use the shared image component for local CMS images and the shared URL helper for internal links.
 - Respect `BASE_PATH` for GitHub project Pages; do not hardcode root-relative asset URLs.
 - Keep unpublished articles as drafts until explicitly approved for publication.
-- GitHub Pages previews are approved in the new public repository; keep deployment manual-only and do not change the client's DNS or custom domain without approval.
+- Production uses GitHub Pages at architecturematters.com.au. Keep deployment manual-only and do not change DNS, the custom domain, or hosting without approval.
 - The `backup/emdash-2026-11-03` branch preserves the prior deployment. Do not redeploy or delete that Worker.
 - Never commit secrets, `.env` files, local databases, or CMS tokens.
 
