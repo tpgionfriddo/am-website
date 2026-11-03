@@ -58,9 +58,10 @@ root domain. The build output is dist/, not public/.
 
 Repository: https://github.com/tpgionfriddo/am-website
 
-The GitHub Pages workflow is **manual-only**. Pushing a commit does not deploy it. Run the
-Deploy static website to GitHub Pages workflow when an update is ready to publish. It uses
-the repository's Pages origin/base path, checks types, builds, validates and deploys dist/.
+The GitHub Pages workflow **automatically deploys every push to main**, including commits
+saved through the hosted Keystatic editor. Pushes to other branches do not deploy. The
+Deploy static website to GitHub Pages workflow can also be run manually. It uses the
+repository's Pages origin/base path, checks types, builds, validates and deploys dist/.
 The repository is public because the current GitHub plan does not support Pages for a
 private repository. The Pages custom domain is architecturematters.com.au, with HTTPS
 enforced and www redirecting to the apex domain. The existing GitHub Pages DNS records
