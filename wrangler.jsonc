@@ -7,10 +7,20 @@
 	"compatibility_date": "2026-02-24",
 	"compatibility_flags": ["nodejs_compat"],
 	"workers_dev": true,
+	// Previews would share the production database; EmDash advises against it.
+	"preview_urls": false,
 	"d1_databases": [
 		{
 			"binding": "DB",
 			"database_name": "architecturematters-site",
+			"database_id": "b86b8244-089f-477a-b549-206c9dfae07f",
+		},
+	],
+	// Astro session storage
+	"kv_namespaces": [
+		{
+			"binding": "SESSION",
+			"id": "54d2293a93c4412fa625888b62c10d4e",
 		},
 	],
 	"r2_buckets": [

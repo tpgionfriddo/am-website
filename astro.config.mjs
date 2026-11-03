@@ -24,6 +24,9 @@ export default defineConfig({
 			database: d1({ binding: "DB", session: "auto", coalesce: true }),
 			storage: r2({ binding: "MEDIA" }),
 			plugins: [formsPlugin({ defaultSpamProtection: "honeypot" })],
+			// Core migrations are applied from the deploy machine (`pnpm emdash migrate`, see
+			// README). The free Workers plan's per-request limits can't finish them in a request.
+			migrations: { runtime: "check", dev: "auto" },
 		}),
 	],
 	devToolbar: { enabled: false },
