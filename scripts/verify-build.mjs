@@ -73,6 +73,9 @@ for (const file of fs.readdirSync("src/content/posts")) {
 		const destination = path.join(directory, file.replace(/\.json$/, ""), "index.html");
 		if (!fs.existsSync(destination)) continue;
 		const document = cheerio.load(fs.readFileSync(destination, "utf8"));
+		if (document(".entry-header > .single-post__reading .share-post").length !== 1) errors.push(`${file}: article header is missing its centred layout or sharing links`);
+		if (document(".single-post__reading > .single-post__content").length !== 1) errors.push(`${file}: article reading column is missing`);
+		if (document(".single-post__back > .btn-back").length !== 1 || document(".single-post__sidebar").length) errors.push(`${file}: article navigation still uses the old sidebar layout`);
 		const nodes = Markdoc.parse(entry.content).children;
 		const wideImages = nodes.filter((node) => node.type === "tag" && node.tag === "wideImage");
 		const images = nodes.filter((node) => node.type === "paragraph" && node.children.length === 1 && node.children[0].type === "inline" && node.children[0].children.length === 1 && node.children[0].children[0].type === "image");

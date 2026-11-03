@@ -134,5 +134,7 @@ a blanket body-weight override: contact details and unmarked text intentionally 
 
 Article bodies retain the theme's separate text, image and pull-quote sections. Use the
 standard quote control for pull quotes and the Wide image content component for the
-desktop image bleed; normal images stay within the text column. Wide images collapse
-to the content width on mobile. The original asymmetric article/sidebar layout is retained.
+desktop image bleed; normal images stay within the text column. Article titles and body
+text share a centred, left-aligned reading column capped at 640px. Wide images and pull
+quotes extend equally on both sides on desktop and return to the content width on mobile.
+Sharing links sit below the title, with a single back link after the article body.

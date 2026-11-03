@@ -72,6 +72,35 @@ html { scrollbar-gutter: stable; }
 
 .single-post__content .news-image img { width: 100%; height: auto; display: block; }
 
+.single-post .single-post__reading {
+	width: 100%;
+	max-width: 42.5rem;
+	margin-inline: auto;
+	padding-inline: 1.25rem;
+}
+
+.single-post .entry-header .entry-title { max-width: none; padding-right: 0; }
+.single-post .entry-header .share-post { padding: 0; }
+.single-post .entry-header .share-post__wrapper {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+.single-post .entry-header .share-post__title { margin: 0; }
+.single-post .entry-header .share-post img { width: 1.5rem; height: 1.5rem; object-fit: contain; }
+.single-post__content.block-wrapper > .block:first-child { padding-top: 2.5rem; }
+.single-post__back { display: flex; padding-bottom: 3.125rem; }
+
+@media (min-width: 992px) {
+	.single-post__content .news-image--offset,
+	.single-post__content .news-block-quote--offset { margin-inline: -5rem; }
+}
+
+@media (max-width: 767.98px) {
+	.single-post__content.block-wrapper > .block:first-child { padding-top: 1.25rem; }
+}
+
 /* Acknowledgement modal: hidden once dismissed this session (set before paint) */
 html.ack-dismissed .modal { display: none; }
 

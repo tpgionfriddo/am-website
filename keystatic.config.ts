@@ -21,7 +21,7 @@ const articleBody = fields.markdoc.inline({ label: "Article body", options: { im
 	regular,
 	wideImage: block({
 		label: "Wide image",
-		description: "An article image extending to the left of the text column on desktop.",
+		description: "An article image extending beyond both sides of the centred text column on desktop.",
 		schema: { src: fields.image({ label: "Image", ...mediaDirectory }), alt: fields.text({ label: "Alternative text" }) },
 	}),
 } });

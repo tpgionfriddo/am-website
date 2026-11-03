@@ -14,11 +14,10 @@ const banner = post.data.featured_image;
 <Base title={post.data.title} description={seo.description} canonical={seo.canonical} image={seo.ogImage} pageType="article" bodyClass={"single single-post" + (banner?.src ? "" : " no-thumbnail")}>
  <main id="primary" class="site-main"><article class="post type-post">
   {banner?.src && <div class="entry-thumbnail"><Image image={banner} class="attachment-full size-full wp-post-image" sizes="100vw" priority /></div>}
-  <header class="block-animate entry-header"><div class="container entry-header__container"><h1 class="entry-title">{post.data.title}</h1></div></header>
-  <div class="entry-content"><div class="container single-post__grid">
-   <div class="single-post__sidebar"><SharePost title={post.data.title} /><BackLink href="/architectural-news/" /></div>
+  <header class="block-animate entry-header"><div class="entry-header__container single-post__reading"><h1 class="entry-title">{post.data.title}</h1><SharePost title={post.data.title} /></div></header>
+  <div class="entry-content"><div class="single-post__reading">
    <div class="single-post__content block-wrapper"><ArticleBody value={post.data.content} /></div>
-   <BackLink href="/architectural-news/" />
+   <div class="single-post__back"><BackLink href="/architectural-news/" /></div>
   </div><div class="container block-animate"><RelatedPosts heading="Practice News" count={2} exclude={post.id} /></div></div>
  </article></main>
 </Base>
