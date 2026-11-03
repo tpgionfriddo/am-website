@@ -14,6 +14,9 @@ export default defineConfig({
 	image: {
 		layout: "constrained",
 		responsiveStyles: true,
+		// Few srcset widths per image: every unique size is a Cloudflare Images
+		// transformation (5,000/month free). ~530 images x 4 sizes stays under that.
+		breakpoints: [640, 1080, 1600, 2048],
 	},
 	integrations: [
 		react(),
