@@ -108,7 +108,8 @@ are unchanged. The domain was transferred from the maintenance repository on Nov
 The workflow reads the domain from the repository's Pages settings, building production
 links and assets at the root path. It does not require a CNAME file for workflow-based
 deployment. Production pages are indexable; builds for a github.io preview origin carry
-a noindex directive. No analytics tag is currently loaded on either.
+a noindex directive. Google Analytics loads only on the approved production domain;
+development, preview origins and the separate editor do not send analytics.
 
 Fixed legacy URLs have complete HTML redirect pages with working base-aware links.
 These are browser/meta-refresh redirects, not HTTP 301 responses. Arbitrary wildcard
@@ -136,12 +137,18 @@ form endpoint and spam protection are needed before adding a submission form to 
 static site; no nonfunctional form is presented to visitors.
 
 The archived homepage used Google Analytics 4 measurement ID **G-MWM3VQ47GW**, installed
-through MonsterInsights. The same GA4 property can be retained using Google's standard
-client-side tag, on either GitHub Pages or Workers; the WordPress plugin is not needed.
-**No analytics is currently loaded**, so testing does not pollute client reports. Before
-enabling tracking on the approved domain, confirm property ownership, consent/opt-out
-requirements and any desired custom events (downloads, outbound links, phone/email clicks).
-MonsterInsights-specific events are not automatically reproduced by a basic pageview tag.
+through MonsterInsights. The public site now uses Google's standard client-side tag with
+that same ID; the WordPress plugin is not needed. Tracking is enabled only in production
+builds configured for `architecturematters.com.au` or `www.architecturematters.com.au`,
+and the browser must also be on one of those HTTPS hosts. Local development, local build
+previews, github.io previews and the separate editor do not load the tag. Setting
+`window['ga-disable-G-MWM3VQ47GW'] = true` before initialization prevents tracking.
+
+The tag sends standard GA4 pageviews. Existing GA4 stream settings determine any enhanced
+measurement; MonsterInsights-specific events are not automatically reproduced. Property
+ownership and incoming reports must be checked in Google Analytics; a measurement ID alone
+does not establish account ownership. Consent requirements and any additional custom events
+remain separate configuration decisions.
 
 ## EmDash backup and recovery sources
 

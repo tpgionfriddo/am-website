@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import vm from "node:vm";
 import * as cheerio from "cheerio";
 import Markdoc from "@markdoc/markdoc";
 
@@ -7,6 +8,35 @@ const directory = path.resolve("dist");
 const base = (process.env.BASE_PATH || "").replace(/\/$/, "");
 const errors = [];
 const pages = [];
+const measurementId = "G-MWM3VQ47GW";
+const analyticsEnabled = ["architecturematters.com.au", "www.architecturematters.com.au"].includes(new URL(process.env.SITE_URL || "https://architecturematters.com.au").hostname);
+let analyticsVerified = false;
+
+function checkAnalytics(script, file) {
+	for (const [hostname, protocol, disabled, expected] of [
+		["architecturematters.com.au", "https:", false, true],
+		["www.architecturematters.com.au", "https:", false, true],
+		["localhost", "http:", false, false],
+		["tpgionfriddo.github.io", "https:", false, false],
+		["architecturematters-editor.architecturematters-site.workers.dev", "https:", false, false],
+		["architecturematters.com.au.example.com", "https:", false, false],
+		["architecturematters.com.au", "http:", false, false],
+		["architecturematters.com.au", "https:", true, false],
+	]) {
+		const requests = [];
+		const window = { location: { hostname, protocol }, [`ga-disable-${measurementId}`]: disabled };
+		const document = { createElement: () => ({}), head: { append: (element) => requests.push(element) } };
+		try {
+			vm.runInNewContext(script, { window, document }, { timeout: 1000 });
+			const configurations = (window.dataLayer || []).filter((event) => event[0] === "config");
+			if (expected) {
+				if (requests.length !== 1 || requests[0].src !== `https://www.googletagmanager.com/gtag/js?id=${measurementId}` || requests[0].async !== true || configurations.length !== 1 || configurations[0][1] !== measurementId) errors.push(`${file}: analytics destination or initialization is incorrect on ${hostname}`);
+			} else if (requests.length || configurations.length) errors.push(`${file}: analytics unexpectedly enabled on ${protocol}//${hostname} (opt-out: ${disabled})`);
+		} catch (error) {
+			errors.push(`${file}: analytics initialization failed: ${error.message}`);
+		}
+	}
+}
 
 function walk(folder) {
 	for (const entry of fs.readdirSync(folder, { withFileTypes: true })) {
@@ -52,6 +82,16 @@ walk(directory);
 for (const file of pages) {
 	const html = fs.readFileSync(file, "utf8");
 	const document = cheerio.load(html);
+	const analytics = document("script[data-google-analytics]");
+	const expectedAnalyticsCount = analyticsEnabled && document("#page").length ? 1 : 0;
+	if (analytics.length !== expectedAnalyticsCount) errors.push(`${file}: expected ${expectedAnalyticsCount} analytics tags, found ${analytics.length}`);
+	if (analytics.length === 1) {
+		if (analytics.attr("data-google-analytics") !== measurementId) errors.push(`${file}: incorrect analytics measurement ID`);
+		if (!analyticsVerified) {
+			checkAnalytics(analytics.text(), file);
+			analyticsVerified = true;
+		}
+	}
 	if (!html.includes("</html>") || !html.includes("</body>")) errors.push(`${file}: incomplete HTML`);
 	if (html.includes("/_emdash/") || /<astro-island\b/.test(html)) errors.push(`${file}: unexpected runtime CMS or hydrated island`);
 	if (/\{%\s*\/?(?:regular|wideImage)\b/.test(html)) errors.push(`${file}: unrendered rich-text markup`);
@@ -89,4 +129,4 @@ for (const file of fs.readdirSync("src/content/posts")) {
 if (errors.length) {
 	console.error(errors.join("\n"));
 	process.exitCode = 1;
-} else console.log(`Verified ${pages.length} complete static HTML pages, local links/srcsets, base path, draft exclusion, and absence of server/admin output.`);
+} else console.log(`Verified ${pages.length} complete static HTML pages, local links/srcsets, base path, draft exclusion, analytics safeguards, and absence of server/admin output.`);

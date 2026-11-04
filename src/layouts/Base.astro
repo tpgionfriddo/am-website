@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import SocialMedia from "../components/SocialMedia.astro";
+import GoogleAnalytics from "../components/GoogleAnalytics.astro";
 import { site } from "../site.config";
 import { withBase } from "../lib/urls";
 
@@ -32,6 +33,7 @@ const year = new Date().getFullYear();
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<GoogleAnalytics />
 		{Astro.site?.hostname.endsWith(".github.io") && <meta name="robots" content="noindex, follow" />}
 		<title>{fullTitle}</title>
 		<meta name="description" content={description || site.tagline} />

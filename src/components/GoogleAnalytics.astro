@@ -1,0 +1,22 @@
+---
+const measurementId = "G-MWM3VQ47GW";
+const productionHosts = ["architecturematters.com.au", "www.architecturematters.com.au"];
+const enabled = import.meta.env.PROD && productionHosts.includes(Astro.site?.hostname || "");
+---
+
+{enabled && (
+	<script is:inline define:vars={{ measurementId, productionHosts }} data-google-analytics={measurementId}>
+		if (window.location.protocol === "https:" && productionHosts.includes(window.location.hostname) && !window[`ga-disable-${measurementId}`]) {
+			window.dataLayer = window.dataLayer || [];
+			window.gtag = function () {
+				window.dataLayer.push(arguments);
+			};
+			window.gtag("js", new Date());
+			window.gtag("config", measurementId);
+			const googleTag = document.createElement("script");
+			googleTag.async = true;
+			googleTag.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+			document.head.append(googleTag);
+		}
+	</script>
+)}
