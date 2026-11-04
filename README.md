@@ -15,9 +15,46 @@ pnpm dev
 ```
 
 Open http://localhost:4321 for the site and http://localhost:4321/keystatic for the editor.
-Keystatic reads and writes local, version-controlled files. Saving an edit does not publish
-it: review the change, commit it and rebuild. The editor/API is deliberately excluded from
-production; GitHub Pages cannot run it. Hosted editing would require a separate service.
+Keystatic reads and writes local, version-controlled files. Saving a local edit does not
+publish it: review the change, commit it and push to main to trigger deployment.
+The editor/API is deliberately excluded from
+production; GitHub Pages cannot run it. Remote editing uses a separate static editor Worker
+with Keystatic Cloud authentication, configured as described below.
+
+### Remote editing with Keystatic Cloud
+
+The hosted editor is at
+`https://architecturematters-editor.architecturematters-site.workers.dev/keystatic`.
+It is connected to the `architecture-matters/am-website` Cloud project and the
+`tpgionfriddo/am-website` GitHub repository. Sign in with Keystatic Cloud to edit.
+
+The public site and hosted editor are separate builds. `pnpm build` still generates only
+the static public website in `dist/`. The editor build outputs to `dist-editor/` and never
+deploys public website changes.
+
+1. Sign in to Keystatic Cloud, create a team/project and connect only the
+   `tpgionfriddo/am-website` GitHub repository. Use the free plan unless more access is needed.
+2. Copy the exact `team/project` identifier from that project's settings into `.env`:
+   `PUBLIC_KEYSTATIC_CLOUD_PROJECT=your-team/your-project`. This identifier is public, not a token.
+3. Run `pnpm deploy:editor`. This deploys only `architecturematters-editor` to the
+   Architecture Matters Cloudflare account. Its `workers.dev` URL is printed by Wrangler;
+   no production DNS or custom domain changes are needed.
+4. Set the editor's HTTPS origin as the project's Primary URL in Keystatic Cloud and save
+   settings. Open `/keystatic` on that origin and sign in. The OAuth callback
+   returns to `/keystatic/cloud/oauth/callback` on that origin. Add other editors
+   through the Cloud team; team membership gives access to all projects in that team.
+
+The editor reads and saves content and images through Keystatic Cloud to GitHub, not the
+local filesystem. Select the intended branch before saving; saves are Git commits.
+Saving to **main automatically builds and deploys the public site** through GitHub Actions.
+Use another branch for work that is not ready to go live; merging it into main publishes it.
+New articles should stay Draft until approved. A failed build leaves the existing site live.
+Run `git pull --ff-only` before resuming local edits so remote changes are not overwritten.
+
+Local editing remains unchanged: `pnpm dev` uses local storage at `/keystatic` even when
+the Cloud project identifier is configured. The public build-time reader also continues
+to read local repository content, with no Cloud API or authentication dependency.
+The hosted editor intentionally has `noindex` headers; public-page indexing is unchanged.
 
 - **Pages:** 10 published pages, with structured sections.
 - **Projects:** 30 published projects, images, project types and display order.

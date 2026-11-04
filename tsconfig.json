@@ -3,5 +3,5 @@
 	"compilerOptions": {
 		"types": ["node"]
 	},
-	"include": ["src", "keystatic.config.ts", ".astro/types.d.ts"]
+	"include": ["src", "editor/src", "keystatic.config.ts", ".astro/types.d.ts"]
 }

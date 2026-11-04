@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "architecturematters-editor",
+  "account_id": "a2bcaec6c865d7951e765fc7611d87e8",
+  "compatibility_date": "2026-11-03",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./dist-editor",
+    "html_handling": "none",
+    "not_found_handling": "single-page-application"
+  }
+}
